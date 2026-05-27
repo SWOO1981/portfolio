@@ -82,7 +82,7 @@ const caseStudyData = {
                     <p>I coached another UX Designer through activities that explored naming conventions with design workflows in mind. Informative naming added purpose and intention to each color style and improved consistency across design deliverables.</p>
 
                     <h3>Where We Landed</h3>
-                    <p>We established a more consistent and intentional approach to color across UX. With two systems governing styles, we had the beginnings of a recognizable product language that functioned as a powerful alignment tool.</p>
+                    <p>We established a more consistent and intentional approach to color across UX. Two systems governing styles gave us the beginnings of a recognizable product language that functioned as a powerful alignment tool.</p>
                 </div>
 
                 <div class="showcase bento">
