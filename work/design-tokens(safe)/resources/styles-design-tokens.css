@@ -1,0 +1,182 @@
+/* ----------------------------- */
+/* COLOR VARIABLES               */
+/* ----------------------------- */
+
+:root {
+
+    --red-100: hsl(10, 30%, 97%);
+    --red-200: hsl(10, 79%, 81%);
+    --red-500: hsl(10, 60%, 55%);
+    --red-600: hsl(10, 72%, 45%);
+    --red-800: hsl(10, 60%, 17%);
+    --red-900: hsl(10, 20%, 12%);
+
+    --orange-100: hsl(29, 72%, 96%);
+    --orange-150: hsl(20, 30%, 93%);
+    --orange-200: hsl(29, 72%, 86%);
+
+    --neutral-100: hsl(10, 100%, 100%);
+
+    
+
+    /* Typographic Colors */
+    --content-standard: var(--red-800);
+    --content-prominent: var(--red-900);
+    --content-highlight: var(--red-600);
+    --content-strong: var(--neutral-100);
+
+    /* Surface Colors */
+    --surface-bg: var(--red-100);
+    --surface-bg-alt: var(--red-600);
+    --surface-bg-alt-strong: var(--red-800);
+    --surface-highlight: var(--neutral-100);
+
+    /* Borders */
+    --stroke-highlight: var(--orange-150);
+
+    /* Border Radius */
+    --radius-sm: 0.5rem;
+    --radius-md: 1.5rem;
+    --radius-lg: 2.5rem;
+
+    --image-radius: var(--radius-lg);
+}
+
+/* Design Token Case Study Hero Color */
+.cs-design-tokens .hero-cs,
+.cs-design-tokens .overview,
+.cs-design-tokens .body-content-color-carry-over {
+    background: var(--surface-bg-alt);
+    color: var(--content-strong);
+}
+
+.cs-design-tokens .callout,
+.cs-design-tokens .figure img {
+    border-radius: var(--radius-md);
+}
+
+.overview-item {
+    background-color: var(--surface-bg-alt-strong);
+    color: var(--content-strong);
+}
+
+.body-content {
+    color: var(--content-standard);
+}
+
+.body-content-bg {
+    background-color: var(--surface-bg);
+}
+
+.body-content h2,
+.body-content h3 {
+    color: var(--red-900);
+}
+
+.body-content ul,
+.body-content ol {
+    padding-left: 0;
+}
+
+.body-content .callout h4 {
+    color: var(--content-highlight);
+}
+
+.body-content .img-cap {
+    border-left: var(--content-highlight) solid 6px;
+}
+
+.body-content .graphic {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 1rem 5rem;
+}
+
+.illustration {
+    max-width: 100%;
+}
+
+.highlight-box {
+    background-color: var(--surface-highlight);
+}
+
+.callout {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1.5rem;
+}
+
+.callout h3 {
+    font-size: 1.625rem;
+    font-weight: 600;
+}
+
+.callout-standard {
+    background-color: var(--surface-highlight);
+    border: 1px solid var(--stroke-highlight);
+}
+
+.callout-bold {
+    background-color: var(--surface-highlight);
+}
+
+.callout-bold h3 {
+    text-align: center;
+    padding: 2rem;
+    color: var(--meetups-content-900);
+}
+
+.callout .icon {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.5rem 2.5rem 0;
+}
+
+.custom-list li::before {
+    background-color: var(--content-prominent);
+    color: var(--orange-100);
+}
+
+.custom-list-bullet li {
+    background-image: url(images/list-bullet.svg);
+    background-size: 1rem 1rem;
+    background-position: 0rem 0.5rem;
+}
+
+/* ----------------------------------------------------------------- */
+/* ///// ///// ///// MEDIA QUERIES (enhancements)  ///// ///// ///// */
+/* ----------------------------------------------------------------- */
+
+/* Tablet & up (≥ 760px) */
+@media (min-width: 760px) {
+
+
+:root {
+    --image-radius: var(--radius-lg);
+}
+
+.callout {
+    gap: 1.5rem;
+    padding: 2.5rem;
+}
+
+.callout h3 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.body-content .graphic {
+    padding: 0 2.5rem 5rem;
+}
+
+.illustration {
+    width: 100%;
+    max-width: 37.5rem;
+}
+
+
+
+}

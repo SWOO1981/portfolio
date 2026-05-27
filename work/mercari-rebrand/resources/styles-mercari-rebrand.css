@@ -1,0 +1,71 @@
+/* ----------------------------- */
+/* COLOR VARIABLES               */
+/* ----------------------------- */
+
+:root {
+    --mercari-yellow: hsl(60, 100%, 75%);
+    --mercari-green: hsl(145, 80%, 65%);
+    --mercari-highlight: hsl(103, 100%, 92%);
+
+    /* Border Radius */
+    --radius-sm: 0.5rem;
+    --radius-md: 1.5rem;
+    --radius-lg: 2.5rem;
+
+    --image-radius: var(--radius-lg);
+}
+
+/* Design Token Case Study Hero Color */
+.cs-mercari-rebrand .hero-cs,
+.cs-mercari-rebrand .overview,
+.cs-mercari-rebrand .body-content-color-carry-over {
+    background: var(--mercari-green);
+    color: var(--gray-900);
+}
+
+.cs-mercari-rebrand .callout,
+.cs-mercari-rebrand .figure img {
+    border-radius: var(--radius-md);
+}
+
+.overview-item {
+    background-color: var(--mercari-yellow);
+    color: var(--gray-900);
+}
+
+.overview-item h3 {
+    color: var(--gray-900);
+}
+
+.body-content .img-cap {
+    border-left: var(--primary-cyan) solid 4px;
+}
+
+.highlight-box {
+    background-color: var(--mercari-highlight);
+}
+
+.callout {
+    background-color: var(--mercari-highlight);
+}
+
+.custom-list li::before {
+    background-color: var(--gray-900);
+    color: var(--mercari-highlight);
+}
+
+/* ----------------------------------------------------------------- */
+/* ///// ///// ///// MEDIA QUERIES (enhancements)  ///// ///// ///// */
+/* ----------------------------------------------------------------- */
+
+/* Tablet & up (≥ 760px) */
+@media (min-width: 760px) {
+
+
+:root {
+    --image-radius: var(--radius-lg);
+}
+
+
+
+}

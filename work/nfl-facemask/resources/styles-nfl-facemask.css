@@ -1,0 +1,123 @@
+/* ----------------------------- */
+/* COLOR VARIABLES               */
+/* ----------------------------- */
+
+:root {
+    --nfl-red: hsl(0, 100%, 60%);
+    --nfl-blue: hsl(225, 78%, 50%);
+    --nfl-navy: hsl(225, 48%, 16%);
+
+    /* Border Radius */
+    --radius-sm: 0.5rem;
+    --radius-md: 1.5rem;
+    --radius-lg: 2.5rem;
+
+    --image-radius: var(--radius-lg);
+}
+
+/* Design Token Case Study Hero Color */
+.cs-nfl-facemask .hero-cs,
+.cs-nfl-facemask .overview,
+.cs-nfl-facemask .body-content-color-carry-over {
+    background: var(--nfl-blue);
+    color: var(--gray-100);
+}
+
+.cs-nfl-facemask .callout,
+.cs-nfl-facemask .figure img {
+    border-radius: var(--radius-md);
+}
+
+.overview-item {
+    background-color: var(--nfl-navy);
+    color: var(--gray-100);
+}
+
+.overview-item h3 {
+    color: var(--gray-100);
+}
+
+.overview-item p {
+    color: var(--gray-100)
+}
+
+.overview-item li {
+    color: var(--gray-100);
+}
+
+.body-content .img-cap {
+    border-left: var(--nfl-red) solid 6px;
+}
+
+.highlight-box {
+    background-color: var(--gray-150);
+}
+
+.callout {
+    background-color: var(--gray-150);
+}
+
+/* ----------------------------- */
+/* FROM WOO V5.0                 */
+/* ----------------------------- */
+
+.grid-components {
+	display: grid;
+	grid-template-columns: 1fr;
+    grid-column-gap: 1.25rem;
+}
+
+.ma-components {
+	margin-bottom: 1rem;
+}
+
+.grid-components img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.grid-components > * {
+    min-width: 0;  /* absolutely necessary in CSS Grid */
+}
+
+/*/////  ELEVATION  /////*/
+/* offset-x , offset-y, blur, spread/scale */
+
+.el1 {
+	box-shadow: 0rem .875rem 2rem -.5rem hsla(254,60%,13%,.25);
+}
+
+.round1 {
+	border-radius: .25rem;
+}
+
+
+
+
+/* ----------------------------------------------------------------- */
+/* BREAKPOINT                                                        */
+/* ----------------------------------------------------------------- */
+/* ///// ///// ///// MEDIA QUERIES (enhancements)  ///// ///// ///// */
+/* ----------------------------------------------------------------- */
+
+/* Tablet & up (≥ 760px) */
+@media (min-width: 760px) {
+
+:root {
+    --image-radius: var(--radius-lg);
+}
+
+.grid-components {
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 2.5rem;
+    max-width: 800px;
+}
+
+
+
+.ma-components {
+	margin-bottom: 2rem;
+}
+
+}

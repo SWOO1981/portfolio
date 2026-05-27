@@ -1,0 +1,167 @@
+/* ----------------------------- */
+/* COLOR VARIABLES               */
+/* ----------------------------- */
+
+:root {
+    --meetups-pink: hsl(345, 100%, 75%);
+    --meetups-yellow: hsl(70, 100%, 80%);
+    --meetups-orange: hsl(30, 100%, 65%);
+    --meetups-blue: hsl(185, 100%, 65%);
+    --meetups-lavender: hsl(235, 80%,90%);
+    --meetups-bg-900: hsl(255,50%, 50%);
+    --meetups-bg-800:hsl(285, 20%, 20%);
+    --meetups-bg-600: hsl(45, 90%, 55%);
+    --meetups-bg-500: hsl(285, 20%, 85%);
+    --meetups-bg-200: hsl(255, 30%, 98%);
+    --meetups-bg-100: hsl(0, 0%, 100%);
+    --meetups-content-100: hsl(255, 100%, 100%);
+    --meetups-content-200: hsl(135, 70%, 75%);
+    --meetups-content-300: hsl(135, 20%, 60%);
+    --meetups-content-500: hsl(255, 85%, 60%);
+    --meetups-content-800: hsl(255, 10%, 30%);
+    --meetups-content-900: hsl(255, 30%, 10%);
+    --meetups-border: hsl(255, 40%, 93%);
+
+    --meetups-yellow-400: hsl(45, 100%, 75%);
+    --meetups-yellow-500: hsl(45, 100%, 65%);
+    --meetups-yellow-600: hsl(45, 93%, 60%);
+
+    --meetups-neutral-100: hsl(0, 100%, 100%);
+    --meetups-neutral-150: hsl(45, 30%, 97%);
+    --meetups-neutral-700: hsl(45, 10%, 30%);
+    --meetups-neutral-900: hsl(45, 30%, 10%);
+
+    /* Semantic Colors */
+    --background-primary: var(--meetups-neutral-100);
+    --background-alt: var(--meetups-yellow-600);
+    --background-highlight: var(--meetups-yellow-500);
+    --background-highlight-alt: var(--meetups-yellow-400);
+
+    --content-standard: var(--meetups-neutral-700);
+    --content-strong: var(--meetups-neutral-900);
+    --content-inverse: var(--meetups-neutral-100);
+
+    /* Border Radius */
+    --radius-sm: 0.5rem;
+    --radius-md: 1.5rem;
+    --radius-lg: 2.5rem;
+
+    --image-radius: var(--radius-lg);
+}
+
+/* Design Token Case Study Hero Color */
+.cs-meetups .hero-cs,
+.cs-meetups .overview,
+.cs-meetups .body-content-color-carry-over {
+    background: var(--background-alt);
+    color: var(--content-strong);
+}
+
+.band {
+    background-image: linear-gradient(to bottom, var(--meetups-neutral-100), var(--meetups-neutral-150));
+}
+
+.cs-meetups .callout,
+.cs-meetups .figure img {
+    border-radius: var(--radius-md);
+}
+
+.overview-item {
+    background-color: var(--background-highlight-alt);
+    color: var(--content-strong);
+}
+
+.overview-item p,
+.overview-item li {
+    color: var(--content-strong);
+}
+
+.overview-item h3 {
+    color: var(--content-strong);
+}
+
+.cs-meetups .body-content-bg {
+    background-color: var(--background-primary);
+}
+
+.cs-meetups .body-content {
+    color: var(--content-standard);
+}
+
+.body-content .img-cap {
+    border-left: var(--background-highlight) solid 6px;
+}
+
+.body-content h2 {
+    color: var(--content-strong)
+}
+
+.body-content h3 {
+    color: var(--content-strong);
+}
+
+.body-content strong {
+    color: var(--content-strong);
+}
+
+.body-content .graphic {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 1rem 5rem;
+}
+
+.callout {
+    color: var(--content-strong);
+}
+
+.highlight-box {
+    background-color: var(--background-highlight);
+}
+
+.callout-standard {
+    background-color: var(--background-highlight);
+}
+
+.callout-bold {
+    background-color: var(--background-primary);
+}
+
+.custom-list li::before {
+    background-color: var(--content-strong);
+    color: var(--content-inverse);
+}
+
+.callout-border {
+    background-color: var(--background-highlight);
+    width: 100%;
+    height: 1px;
+}
+
+.img-research {
+    width: 100%;
+    max-width: 500px;
+}
+
+/* ----------------------------------------------------------------- */
+/* ///// ///// ///// MEDIA QUERIES (enhancements)  ///// ///// ///// */
+/* ----------------------------------------------------------------- */
+
+/* Tablet & up (≥ 760px) */
+@media (min-width: 760px) {
+
+
+:root {
+    --image-radius: var(--radius-lg);
+}
+
+.body-content .graphic {
+    padding: 0;
+}
+
+
+
+}
+
+
+ 

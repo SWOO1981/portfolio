@@ -1,0 +1,821 @@
+/* ----------------------------- */
+/* RESET & BASE STYLES          */
+/* ----------------------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: "Bricolage Grotesque", sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* ----------------------------- */
+/* COLOR VARIABLES               */
+/* ----------------------------- */
+
+:root {
+  /* Primary Colors */
+  --primary-yellow: hsl(55, 100%, 60%);
+  --primary-magenta: hsl(330, 100%, 85%);
+  --primary-cyan: hsl(195, 90%, 50%);
+  --primary-cyan-alt: hsl(200, 95%, 45%);
+
+  /* Secondary Colors */
+  --secondary-magenta: hsl(330, 100%, 75%);
+  --secondary-yellow: hsl(45, 100%, 60%);
+  --secondary-green: hsl(95, 90%, 35%);
+  --secondary-cyan: hsl(220, 70%, 50%);
+
+  /* Tertiary Colors */
+  --tertiary-orange: hsl(40, 100%, 50%);
+  --tertiary-green: hsl(120, 90%, 25%);
+  --tertiary-violet: hsl(275, 50%, 50%);
+
+  /* Neutral Colors */
+  --gray-100: hsl(0, 0%, 100%);
+  --gray-150: hsl(0, 0%, 90%);
+  --gray-350: hsl(0, 0%, 85%);
+  --gray-650: hsl(0, 0%, 40%);
+  --gray-900: hsl(0, 0%, 15%);
+
+  /* Semantic Colors */
+  --text-primary: var(--gray-900);
+
+  /* Units */
+
+  --unit-standard: 2rem; /* 32 px */
+  --unit-large: 4rem; /* 64 px */
+  --unit-huge: 8rem; /* 128 px */
+  --unit-massive: 16rem; /* 256 px */
+
+
+
+/* Border Radius */
+  --radius-sm: 0.5rem;
+  --radius-md: 1.5rem;
+  --radius-lg: 2.5rem;
+  
+  --radius-mob: var(--radius-md);
+  --radius-dsk: var(--radius-lg);
+
+  --radius-standard: 1.5rem;          /* 24 px */
+  --radius-prominent: 2.5rem;         /* 40 px */
+
+  --image-radius: var(--radius-standard);
+
+  --gap-standard: 1.5rem; /* 24 px */
+  --gap-tight: var(--radius-sm);
+}
+
+
+
+
+
+/* ----------------------------- */
+/* TYPOGRAPHY                    */
+/* ----------------------------- */
+
+a:link {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:visited {
+  color: inherit;
+}
+
+.bricolage-grotesque-display {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 3.25rem; /* 52px */
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  line-height: 3rem;
+}
+
+.bricolage-grotesque-display-sub {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.section-head {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 2.25rem;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.title {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 1.875rem;
+    line-height: 1.875rem;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.bricolage-grotesque-body-lrg {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 1.125rem; /* 18px */
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bricolage-grotesque-body-standard {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: .875rem; /* 14px */
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bricolage-grotesque-tag {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: .875rem; /* 14px */
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+/* ------ */
+/* BORDERS */
+/* ------ */
+
+.border {
+    width: 100%;
+    height: 2px;
+    border-radius: 1rem;
+    background-color: var(--gray-900);
+}
+
+/* ----------------------------------- */
+/* ///// NEUE CONTENT CONTAINERS ///// */
+/* ----------------------------------- */
+.wrapper-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 2rem 8rem 2rem;
+    
+  }
+
+.band {
+  border-radius: var(--radius-prominent) var(--radius-prominent) 0 0;
+  margin-top: calc(var(--radius-prominent) * -1);
+}
+
+.project {
+  display: grid;
+  gap: var(--gap-standard);
+  padding-top: 1.5rem;
+}
+
+.project-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: var(--gap-standard);
+}
+
+.pill-group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-tight);
+  padding: 1.25rem 0 2rem 0;
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-standard);
+}
+
+.bg-creative-services {
+  background-color: var(--primary-magenta);
+}
+
+.bg-design-tokens {
+    background-color: #D9F2F2;
+    color: var(--gray-900)
+}
+
+.bg-meetups {
+    background-color: #BFE3C9;
+    color: var(--gray-900)
+    
+}
+
+.bg-rebrand {
+  background-color: #C2C2F4;
+  color: var(--gray-900)
+}
+
+.bg-facemask {
+  background-color: #F2F2F2;
+  color: var(--gray-900)
+}
+
+.bg-meet-steven {
+  background-color: var(--secondary-cyan);
+  color: var(--secondary-yellow);
+}
+
+.bg-values-principles {
+  background-color: var(--primary-yellow);
+}
+
+.bg-contact {
+  background-color: var(--primary-cyan);
+}
+
+footer {
+  display: flex;
+  background-color: var(--primary-cyan-alt);
+  color: var(--gray-900);
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  min-height: 12rem;
+  position: relative;
+  z-index: 1;
+}
+
+/* --------------------------------------- */
+/* ///// END NEUE CONTENT CONTAINERS ///// */
+/* --------------------------------------- */
+
+
+
+/* ----------------------------- */
+/* Targets                    */
+/* ----------------------------- */
+
+/*.creative-services h3 {
+  color: var(--gray-100);  white 
+  align-self: center;
+}*/
+
+.work-tag-group,
+.work-tag {
+    display: none;
+}
+
+.page-bg-meet-steven h2 {
+    color: var(--primary-yellow);
+}
+
+.values-principles-color-carry-over .service {
+    background-color: var(--gray-100)
+}
+
+.values-principles-color-carry-over h3 {
+    color: var(--gray-900);
+}
+
+.page-bg-get-in-touch h2 {
+    color: var(--gray-100);
+}
+
+
+/* ---------------------------------- */
+/* BASE LAYOUT & COMPONENTS (mobile)  */
+/* ---------------------------------- */
+
+/* ----------------------------- */
+/* NAVIGATION MOBILE             */
+/* ----------------------------- */
+
+/* Structure */
+.site-header {
+  background-color: var(--gray-100);
+  color: var(--gray-900);
+  padding: 0 1.25rem;
+}
+
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+/* Menu toggle (mobile only) */
+.menu-toggle {
+  background: none;
+  border: none;
+  color: var(--gray-900);
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+/* Navigation links */
+.nav-links {
+  display: none; /* hidden on mobile by default */
+  flex-direction: column;
+  gap: 1rem;
+  background-color: var(--gray-100);
+  position: absolute;
+  top: 67px; /* below header */
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  padding: 1.5rem 1.5rem;
+  transition: all 0.3s ease;
+  transform: translateY(-20px);
+  opacity: 0;
+  pointer-events: none;
+  text-align: center;
+}
+
+.nav-links.open {
+  display: flex;
+  transform: translateY(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.nav-links a {
+  color: var(--gray-900);
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.nav-links a:hover {
+  color: var(--primary-cyan);
+}
+
+
+/* ----------------------------- */
+/* NAVIGATION                    */
+/* ----------------------------- */
+
+.logo-woo {
+    width: auto;
+    height: 2rem;
+}
+
+.content-wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;                /* 24px vertical gap */
+    /* padding-block: 2.5rem;      /* 40px top/bottom *
+    padding-inline: 1.25rem; */
+    padding: 4rem 2rem 10rem 2rem;
+}
+
+.content-center {
+    align-items: center;
+    text-align: center;
+}
+
+.hero {
+  background-color: var(--primary-yellow);
+  color: var(--text-primary);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+  padding: 3.5rem 2rem 3.5rem 2rem;
+  border-radius: var(--radius-standard);
+}
+
+/* Stack hero text vertically */
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Hide image on mobile by default */
+.hero-img {
+  display: none;
+}
+
+/* BUTTONS */
+button {
+  font-family: "Bricolage Grotesque", sans-serif;
+  background-color: var(--gray-900);
+  border: none;
+  color: var(--primary-yellow);
+  padding: 0.875rem 1.5rem;
+  font-size: 1.125rem;
+  border-radius: 100px;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+.bg-contact button {
+    background-color: var(--primary-yellow);
+    color: var(--gray-900);
+    align-self: center;
+}
+
+.chip-email button {
+  background-color: var(--primary-magenta);
+}
+
+/* Container Background & Carry-overs */
+
+.page-bg-creative-services {
+    background-color: var(--primary-magenta);
+    border-radius: var(--radius-standard) var(--radius-standard) 0 0;
+}
+
+.page-bg-work {
+    background-color: var(--gray-150);
+    border-radius: var(--radius-standard) var(--radius-standard) 0 0;
+}
+
+.page-bg-values-principles {
+    background-color: var(--primary-yellow);
+    border-radius: var(--radius-standard) var(--radius-standard) 0 0;
+}
+
+.page-bg-get-in-touch {
+    background-color: var(--primary-cyan);
+    border-radius: var(--radius-standard) var(--radius-standard) 0 0;
+    padding-top: 5rem;
+    padding-bottom: 15rem;
+}
+
+.work-color-carry-over {
+    background-color: var(--primary-magenta);
+}
+
+.meet-steven-color-carry-over {
+    background-color: var(--gray-150);
+}
+
+.values-principles-color-carry-over {
+    background-color: var(--secondary-cyan);
+}
+
+.get-in-touch-color-carry-over {
+    background-color: var(--primary-yellow);
+}
+
+.card-collection {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    flex: none;
+    align-items: center;
+}
+
+.creative-services .card-item {
+  background-color: var(--primary-cyan);
+}
+
+.card-item {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--gray-100);
+  color: var(--gray-900);
+  gap: 1rem;
+  padding: 2.5rem 2rem 2.5rem 2rem;
+  border-radius: var(--radius-standard);
+  max-width: 21rem;
+}
+
+.card-item img {
+  width: 5rem;
+  aspect-ratio: 1 / 1;
+  margin-bottom: 3rem;
+}
+
+.card-item .title {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 1.75rem;
+    line-height: 2rem;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.card-bg-service {
+  background-color: var(--primary-cyan);
+}
+
+/* ------------------- */
+/* START NEW WORK CARD */
+/* ------------------- */
+
+.work-card {
+  display: grid;
+  grid-template-columns: 1fr;
+  border-radius: var(--radius-standard);
+  overflow: hidden;
+  background-color: var(--gray-100);
+}
+
+.work-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  min-height: 18rem;
+}
+
+.work-content {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--gray-100);
+  padding: 1.5rem 2rem 1.5rem 2rem;
+  gap: 1.5rem;
+}
+
+.work-content h3 {
+  font-size: 1.75rem;
+}
+
+.work-content p {
+  font-size: .875rem;
+  color: var(--gray-650);
+}
+
+.work-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+
+.work-details div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px solid;
+    border-color: var(--gray-150);
+    padding: .75rem 0 .75rem 0;
+}
+
+/* ----------------- */
+/* END NEW WORK CARD */
+/* ----------------- */
+
+.meet-steven-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.card-meet-steven-message {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-magenta);
+    color: var(--secondary-cyan);
+    border-radius: var(--radius-standard);
+    padding: 2.5rem;
+    gap: 1.25rem;
+    min-height: 18.75rem;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.pill {
+    background-color: var(--gray-100);
+    color: var(--gray-900);
+    padding: 8px 12px 8px 12px;
+    border-radius: 24px;
+}
+
+.meet-steven-img {
+    background-image: url("images/img-meet-steven.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 20rem;
+    border-radius: var(--radius-standard);
+}
+
+.img-meet-steven {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-meet-steven img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.chip-email {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: var(--secondary-cyan);
+  color: var(--gray-100);
+  align-items: center;
+  border-radius: 24rem;
+  padding: .5rem .5rem .5rem 2rem;
+  gap: 1.5rem;
+  margin: 2rem 0 4rem 0;
+  align-self: center;
+}
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* ///// ///// ///// ///// ///// ///// ///// MEDIA QUERIES (enhancements)  ///// ///// ///// ///// ///// ///// ///// */
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+/* Tablet & up (≥ 760px) */
+@media (min-width: 760px) {
+  
+:root {
+    --radius-standard: 2.5rem;   /* 40 px */
+    --radius-prominent: 4rem;    /* 64 px */
+    --gap-standard: 2rem;
+}
+
+  /* ---------------------------------------------------- */
+ /* ///// ///// ///// NEUE CONTAINERS  ///// ///// ///// */
+/* ---------------------------------------------------- */
+
+.wrapper-hero {
+  margin: var(--unit-standard) var(--unit-large) 12rem var(--unit-large);
+}
+
+.project {
+  grid-template-columns: 2fr 1fr;
+  padding-top: 5rem;
+  gap: 3rem;
+}
+
+
+
+  /* -------------------------------------------------------- */
+ /* ///// ///// ///// END NEUE CONTAINERS  ///// ///// ///// */
+/* -------------------------------------------------------- */
+
+.logo-woo {
+  height: 2.5rem;
+}
+
+.logo-woo img {
+    height: 2.5rem;
+  }  
+
+.bricolage-grotesque-display {
+  font-size: 5.125rem; /* 82px */
+  line-height: 4.5rem;
+  }
+
+.bricolage-grotesque-display-sub {
+  font-size: 2rem; /* 32px */
+  }
+
+.section-head {
+  font-size: 3rem;
+  }
+
+.title {
+  font-size: 2.75rem;
+  line-height: 3rem;
+  }
+
+/* ----------------------------- */
+/* NAVIGATION DESKTOP             */
+/* ----------------------------- */
+
+.menu-toggle {
+    display: none;
+  }
+
+  .nav-links {
+    position: static;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+    background: none;
+    transform: none;
+    opacity: 1;
+    pointer-events: auto;
+    padding: 2rem;
+    height: auto;
+  }
+
+  .nav-links a {
+    font-size: 1.125rem;
+  }
+
+/* ----------------------------- */
+/* NAVIGATION                    */
+/* ----------------------------- */
+
+  .card-title {
+    font-size: 2rem; /* 32px */
+  }
+
+  .content-wrapper {
+    margin: 0 auto;
+    padding-top: 10rem;
+    padding-bottom: 20rem;
+    gap: 2.625rem;
+  }
+
+
+
+  .hero {
+    flex-direction: row; /* side-by-side layout */
+    align-items: center;
+    padding: 4rem;
+    gap: 40px;
+    max-width: 72rem;
+  }
+
+  
+
+  .hero-img {
+    display: block; /* now visible */
+    background-image: url("images/img-hero-steven.png");
+    background-position: center;
+    background-size: cover;
+    background-color: var(--secondary-yellow);
+    width: 17.5rem;
+    height: 17.5rem;
+    border-radius: 100%;
+    aspect-ratio: 1 / 1;
+    flex-shrink: 0;
+  }
+
+  .card-collection {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--gap-standard);
+}
+
+.service {
+    flex:1 1 calc(50% - 1.5rem);
+    max-width: calc (50% - 1.5rem);
+    padding: 2.5rem;
+}
+
+.service-img {
+    width: 100%;
+    height: 5rem;
+}
+
+
+/* ------------------- */
+/* START NEW WORK CARD */
+/* ------------------- */
+.work-card {
+  grid-template-columns: 2fr 1fr;
+  align-items: stretch;
+}
+
+.work-content {
+  justify-content: space-between;
+}
+
+/* ------------------- */
+/* END NEW WORK CARD */
+/* ------------------- */
+
+.meet-steven-content {
+    flex-direction: row-reverse;
+    align-items: stretch;
+    gap: 2rem;
+}
+
+.card-meet-steven-message,
+.meet-steven-img {
+    flex: 1 1 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.card-meet-steven-message {
+    flex-direction: column;
+    padding: 2.5rem;
+}
+
+.meet-steven-img {
+    height: 400px;
+    min-height: 300px;
+}
+
+  .color-grid {
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  }
+
+.pill {
+    padding: .5rem 1rem .5rem 1rem;
+    border-radius: 1.5rem;
+}
+
+}

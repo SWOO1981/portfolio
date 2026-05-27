@@ -1,0 +1,340 @@
+/* ----------------------------- */
+/* COLOR VARIABLES               */
+/* ----------------------------- */
+
+:root {
+
+    /* System Colors */
+    --indigo-100: hsl(240, 50%, 95%);
+    --indigo-200: hsl(240, 52%, 74%);
+    --indigo-400: hsl(240, 100%, 80%);
+    --indigo-500: hsl(240, 82%, 63%);
+    --indigo-600: hsl(240, 50%, 53%);
+    --indigo-700: hsl(240,50%, 43%);
+    --indigo-800: hsl(240, 50%, 30%);
+    --indigo-900: hsl(240, 50%, 23%);
+
+    --aqua-100: hsl(180, 50%, 90%);
+    --aqua-400: hsl(180, 64%, 80%);
+    --aqua-500: hsl(180, 84%, 70%);
+    --aqua-700: hsl(180, 50%, 60%);
+    --aqua-800: hsl(180, 50%, 40%);
+    --aqua-900: hsl(200, 69%, 25%);
+
+    --magenta-200: hsl(300, 50%, 85%);
+    --magenta-500: hsl(300, 84%, 70%);
+    --magenta-600: hsl(300, 64%, 45%);
+    --magenta-900: hsl(300, 50%, 20%);
+
+    --neutral-100: hsl(10, 100%, 100%);
+    --neutral-101: hsl(240, 31%, 95%);
+    --neutral-900: hsl(240, 25%, 20%);
+
+    /* Typographic Colors */
+    --content-standard: var(--neutral-900);
+    --content-prominent: var(--red-900);
+    --content-highlight: var(--red-600);
+    --content-strong: var(--neutral-100);
+
+    /* Surface Colors */
+    --surface-bg: var(--red-100);
+    --surface-bg-alt: var(--indigo-900);
+    --surface-bg-alt-strong: var(--indigo-600);
+    --surface-highlight: var(--neutral-100);
+
+    /* Borders */
+
+
+   
+}
+
+/* Design Token Case Study Hero Color */
+.cs-design-tokens .overview,
+.cs-design-tokens .body-content-color-carry-over {
+    background: var(--surface-bg-alt);
+    color: var(--content-strong);
+}
+
+.cs-design-tokens .callout,
+.cs-design-tokens .figure img {
+    border-radius: var(--radius-standard);
+}
+
+.overview-item {
+    background-color: var(--surface-bg-alt-strong);
+    color: var(--content-strong);
+}
+
+.body-content {
+    color: var(--content-standard);
+}
+
+/* ----------------------------------- */
+/* ///// NEUE CONTENT CONTAINERS ///// */
+/* ----------------------------------- */
+
+.hero-cs {
+    background-image: url("images/img-hero.avif");
+    background-color: var(--indigo-900);
+    color: var(--indigo-100);
+    height: 460px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.project-info {
+    background-color: var(--indigo-500);
+    color: var(--indigo-100);
+}
+
+.canvas {
+    color: var(--content-standard);
+    background-color: var(--neutral-101);
+}
+
+.band {
+    background-image: linear-gradient(to bottom, var(--neutral-100), var(--neutral-101));
+}
+
+.flashcard {
+    background-color: var(--aqua-100);
+    color: var(--content-standard);
+}
+
+/* --------------------------------------- */
+/* ///// END NEUE CONTENT CONTAINERS ///// */
+/* --------------------------------------- */
+
+
+/* ---------------------------------------- */
+/* ///// /// START CONTENT LAYOUT /// ///// */
+/* ---------------------------------------- */
+
+.content img,
+.showcase img, 
+.bento img, 
+.triptic img,
+.duo img,
+.bento-4 img,
+.flashcard  {
+    width: 100%;
+    height: auto;
+    border-radius: var(--radius-standard);
+}
+
+.showcase {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 1.5rem;
+}
+
+.bento {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 1.5rem;
+    grid-template-areas: "box-1 box-1" "box-2 box-3";
+}
+
+.box {
+    justify-self: stretch;
+}
+
+.triptic {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.875rem;
+}
+
+.duo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.bento-4 {
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 2rem;
+    grid-template-areas: "box-1" "box-2" "box-3" "box-4";
+}
+
+.highlight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(56deg, var(--indigo-900), var(--aqua-700));
+    color: var(--aqua-400);
+    padding: 2rem;
+    border-radius: var(--radius-standard);
+}
+
+
+/*  object-fit: cover; /* Prevents distortion by cropping if necessary */
+
+
+
+
+/* ---------------------------------------- */
+/* ///// //// END CONTENT LAYOUT //// ///// */
+/* ---------------------------------------- */
+
+
+.body-content h2,
+.body-content h3 {
+    color: var(--red-900);
+}
+
+.body-content ul,
+.body-content ol {
+    padding-left: 0;
+}
+
+.body-content .callout h4 {
+    color: var(--content-highlight);
+}
+
+.body-content .img-cap {
+    border-left: var(--content-highlight) solid 6px;
+}
+
+.body-content .graphic {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 1rem 5rem;
+}
+
+.illustration {
+    max-width: 100%;
+}
+
+.highlight-box {
+    background-color: var(--surface-highlight);
+}
+
+.callout {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1.5rem;
+}
+
+.callout h3 {
+    font-size: 1.625rem;
+    font-weight: 600;
+}
+
+.callout-standard {
+    background-color: var(--surface-highlight);
+    border: 1px solid var(--stroke-highlight);
+}
+
+.callout-bold {
+    background-color: var(--surface-highlight);
+}
+
+.callout-bold h3 {
+    text-align: center;
+    padding: 2rem;
+    color: var(--meetups-content-900);
+}
+
+.callout .icon {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.5rem 2.5rem 0;
+}
+
+.custom-list li::before {
+    background-color: var(--neutral-900);
+    color: var(--neutral-101);
+}
+
+.custom-list-bullet li {
+    background-image: url(images/list-bullet.svg);
+    background-size: 1rem 1rem;
+    background-position: 0rem 0.5rem;
+}
+
+
+/* ----------------------------------------------------------------- */
+/* ///// ///// ///// MEDIA QUERIES (enhancements)  ///// ///// ///// */
+/* ----------------------------------------------------------------- */
+
+/* Tablet & up (≥ 760px) */
+@media (min-width: 760px) {
+
+
+
+
+/* ---------------------------------------- */
+/* ///// /// START CONTENT LAYOUT /// ///// */
+/* ---------------------------------------- */
+
+.hero-cs {
+    height: 700px;
+    background-size: contain;
+}
+
+
+.showcase {
+    gap: 2rem;
+}
+
+.bento {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2rem;
+    grid-template-areas: "box-1 box-1 box-2" "box-1 box-1 box-3";
+}
+
+.triptic {
+    gap: 1.5rem;
+}
+
+.duo {
+    gap: 2rem;
+}
+
+.bento-4 {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    padding-top: 2rem;
+    grid-template-areas: "box-1 box-1 box-1" "box-2 box-2 box-3" "box-2 box-2 box4" "box-2 box-2 box-4";
+}
+
+/* ---------------------------------------- */
+/* ///// //// END CONTENT LAYOUT //// ///// */
+/* ---------------------------------------- */
+
+.callout {
+    gap: 1.5rem;
+    padding: 2.5rem;
+}
+
+.callout h3 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.body-content .graphic {
+    padding: 0 2.5rem 5rem;
+}
+
+.illustration {
+    width: 100%;
+    max-width: 37.5rem;
+}
+
+
+
+}

@@ -1,0 +1,36 @@
+/* ----------------------------- */
+/* COLOR VARIABLES               */
+/* ----------------------------- */
+
+:root {
+    --meetups-pink: hsl(345, 100%, 75%);
+    --meetups-yellow: hsl(70, 100%, 80%);
+    --meetups-orange: hsl(30, 100%, 65%);
+    --meetups-blue: hsl(185, 100%, 65%);
+    --meetups-lavender: hsl(235, 80%,90%);
+}
+
+/* Design Token Case Study Hero Color */
+.cs-meetups .hero-cs,
+.cs-meetups .overview,
+.cs-meetups .body-content-color-carry-over {
+    background: var(--meetups-pink);
+    color: var(--gray-900);
+}
+
+.overview-item {
+    background-color: var(--meetups-yellow);
+    color: var(--gray-900);
+}
+
+.overview-item h3 {
+    color: var(--gray-900);
+}
+
+.body-content .img-cap {
+    border-left: var(--meetups-lavender) solid 6px;
+}
+
+.highlight-box {
+    background-color: var(--meetups-lavender);
+}

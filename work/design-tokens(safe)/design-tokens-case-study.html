@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Tokens Case Study - Steven Woo</title>
+    <link rel="icon" type="image/x-icon" href="../../resources/ico/favicon.ico">
+    <link rel="stylesheet" href="../resources/case-study-styles.css">
+    <link rel="stylesheet" href="../../resources/styles.css">
+    <link rel="stylesheet" href="resources/styles-design-tokens.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,200..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="cs-design-tokens">
+
+    <!---------------------------------->
+    <!-- ///// NAVIGATION ///// -->
+    <!--------------------------------->
+
+    <header id="top" class="site-header">
+        <div class="nav-wrapper">
+            <a href="../../index.html"><img class="logo-woo" src="../../resources/images/img-logo-woo.svg"></a>
+
+            <!-- Mobile menu button -->
+            <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle menu">
+                ☰
+            </button>
+
+            <!-- Navigation links -->
+            <nav id="primary-nav" class="nav-links">
+                <a href="../../index.html#services">Services</a>
+                <a href="../../index.html#work">Work</a>
+                <a href="../../index.html#meet-steven">Meet Steven</a>
+                <a href="../../index.html#get-in-touch">Get in Touch</a>
+            </nav>
+        </div>
+    </header>
+
+    <!------------------------------------->
+    <!-- ///// CASE STUDY TEMPLATE ///// -->
+    <!------------------------------------->
+
+    <div id="case-study-container"></div>
+    <script id="case-study-template" type="text/template">
+
+    <!---------------------->
+    <!-- ///// HERO ///// -->
+    <!---------------------->
+    <section class="hero-cs">
+        <div class="container">
+            <h1>{{title}}</h1>
+            <p class="subtitle">{{subtitle}}</p>
+        </div>
+    </section>
+
+    <!-------------------------->
+    <!-- ///// OVERVIEW ///// -->
+    <!-------------------------->
+
+    <section class="overview">
+        <div class="container">
+            <div class="overview-group">
+                <div class="overview-item">
+                    <h3>Company</h3>
+                    <p>{{company}}</p>
+                </div>
+                <div class="overview-item">
+                    <h3>Role</h3>
+                    <p>{{role}}</p>
+                </div>
+                <div class="overview-item">
+                    <h3>Scope</h3>
+                    <p>{{platforms}}</p>
+                </div>
+                <div class="overview-item">
+                    <h3>Timeline</h3>
+                    <p>{{timeline}}</p>
+                </div>
+                <div class="overview-item">
+                    <h3>Highlights</h3>
+                    <p>{{achievements}}</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------------------------------>
+    <!-- ///// BODY CONTENT ///// -->
+    <!------------------------------>
+
+    <div class="body-content-color-carry-over">
+        <div class="body-content-bg">
+            <section class="body-content">
+
+                {{bodyContent}}
+
+            </section>
+
+            <div class="bottom-nav content-center">
+                <a href="#top"><button type="button">Back to top</button></a>
+                <a href="../../index.html#work"><button type="button">Back to Work</button></a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer-color-carry-over">
+    <footer>
+        <div class="content-wrapper content-center">
+            <p>&copy; Copyright – Steven WOO! All rights reserved. Version 6.0
+            </p>
+        </div>
+    </footer>
+    </div>
+
+
+    </script>
+
+
+    <!--------------------->
+    <!-- ///// END ///// -->
+    <!--------------------->
+
+    <script src="resources/data-design-tokens.js"></script>
+    <script src="../resources/case-study-renderer.js"></script>
+    <script src="../../resources/navigation.js"></script>
+</body>
+
+</html>

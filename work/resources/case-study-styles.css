@@ -1,0 +1,773 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ----------------------------- */
+/* COLOR VARIABLES               */
+/* ----------------------------- */
+
+:root {
+  /* Primary Colors */
+  --primary-yellow: hsl(55, 100%, 60%);
+  --primary-magenta: hsl(330, 100%, 85%);
+  --primary-cyan: hsl(195, 90%, 50%);
+
+  /* Secondary Colors */
+  --secondary-magenta: hsl(330, 100%, 75%);
+  --secondary-yellow: hsl(45, 100%, 60%);
+  --secondary-green: hsl(95, 90%, 35%);
+  --secondary-cyan: hsl(220, 70%, 50%);
+
+  /* Tertiary Colors */
+  --tertiary-orange: hsl(40, 100%, 50%);
+  --tertiary-green: hsl(120, 90%, 25%);
+  --tertiary-violet: hsl(275, 50%, 50%);
+
+  /* Neutral Colors */
+  --gray-100: hsl(0, 0%, 100%);
+  --gray-150: hsl(0, 0%, 90%);
+  --gray-350: hsl(0, 0%, 85%);
+  --gray-650: hsl(0, 0%, 40%);
+  --gray-900: hsl(0, 0%, 15%);
+
+  /* Semantic Colors */
+  --text-primary: var(--gray-900);
+  --background-primary: var(--gray-100);
+}
+
+body {
+    font-size: 1rem;
+    font-family: "Bricolage Grotesque", sans-serif;
+    line-height: 1.5rem;
+    color: var(--text-primary);
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2.25rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.25rem;
+}
+
+/* Hero Section */
+.hero-cs {
+    padding: 2.5rem 0;
+    text-align: left;
+    border-radius: var(--radius-prominent) var(--radius-prominent) 0 0;
+}
+
+.cs-mercari-rebrand .hero-cs,
+.cs-mercari-rebrand .overview,
+.cs-mercari-rebrand .body-content-color-carry-over {
+    background-color: var(--tertiary-violet);
+    color: var(--gray-100);
+}
+
+.hero-cs h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 2.6875rem;
+    max-width: 800px;
+    letter-spacing: .5pt;
+}
+
+.hero-cs .subtitle {
+    font-size: 1.125rem;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Overview Section */
+.overview {
+    padding: 0 0 16rem 0;
+    background:var(--primary-yellow);
+}
+
+.overview h2 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--gray-900);
+    margin-bottom: 3rem;
+}
+
+.overview-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.overview-group {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex: none;
+    align-items: center;
+}
+
+.overview-item {
+    background-color: var(--primary-cyan);
+    color: var(--gray-900);
+    max-width: 21rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    padding: 1.5rem;
+    border-radius: var(--radius-standard);
+}
+
+.overview-item h3 {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--gray-100);
+}
+
+.overview-item p {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.overview-item li {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+    list-style-position: inside;
+    margin: 0 0;
+}
+
+.overview-item:has(ul) {
+  gap: .5rem;
+}
+
+/* Body Content */
+
+/* ----------------------------------- */
+/* ///// NEUE CONTENT CONTAINERS ///// */
+/* ----------------------------------- */
+
+.project-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    padding: 2rem 2.5rem calc(var(--radius-standard) * 3.5) 2rem;
+    border-radius: var(--radius-prominent) var(--radius-prominent) 0 0;
+    margin-top: calc(var(--radius-prominent) * -1);
+}
+
+.project-details {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    width: 100%;
+    max-width: 1440px;
+    padding: 2rem 0 5rem 0;
+    align-self: center;
+    align-items: center;
+}
+
+/* -- Use to wrapp entire case study body --*/
+.canvas {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin-top: calc(var(--radius-standard) * -1);
+    border-radius: var(--radius-standard) var(--radius-standard) 0 0;
+}
+
+/* -- Use for edge-to-edge background color --*/
+.canvas .band {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+    align-items: center;
+    padding-bottom: 3.5rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 72rem;
+    padding: 4rem 2rem;
+    gap: 4rem;
+}
+
+.content .choke {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    max-width: 45rem; /* 720 px */
+    gap: 1rem;
+}
+
+/* --------------------------------------- */
+/* ///// END NEUE CONTENT CONTAINERS ///// */
+/* --------------------------------------- */
+
+.flashcard {
+    display: grid;
+    grid-template-rows: auto auto auto 1fr;
+    gap: 1.5rem;
+    background-color: var(--gray-150);
+    padding: 2rem 1.5rem;
+    max-width: 20.625rem;
+}
+
+.flashcard h3 {
+    font-size: 1.5rem;
+    line-height: 1.875rem;
+}
+
+
+
+.deck {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    width: 100%;
+    align-items: stretch;
+}
+
+.body-content-color-carry-over {
+    background-color: var(--primary-yellow);
+}
+
+.body-content-bg {
+    background-color: var(--gray-100);
+    width: 100%;
+    border-radius: var(--radius-standard) var(--radius-standard) 0 0;
+}
+
+.body-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding-inline: 1.25rem;
+    gap: 3.875rem;                /* 24px vertical gap */
+    padding: 4rem 2rem 8rem 2rem;
+    color: var(--text-primary);
+}
+
+.section-block {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.body-content h2 {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 2.875rem;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 110%;
+    /*margin: 1rem 0 1rem 0;*/
+}
+
+.body-content h2:first-child {
+    margin-top: 0;
+}
+
+.body-content h3 {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    margin-top: 1rem; /*<-- Corrected spacing above callout title*/
+}
+
+/* --------------------------------------- */
+/* ///// ///// NEUE TYPOGRAPHY ///// ///// */
+/* --------------------------------------- */
+
+.project-details p,
+.project-details li {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.project-details h4 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 2.125rem;
+}
+
+/* XXX - Depricate ".body-content h2" */
+.canvas .band h2 {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 2.75rem;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 2.75rem;
+    /*margin: 1rem 0 1rem 0;*/
+}
+
+/* XXX - Depricate ".body-content h3" */
+.canvas .band h3 {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 650;
+    font-style: normal;
+    margin-top: 1rem; /*<-- Used for rhythmic separation from previous paragraph */
+}
+
+/* XXX - Depricate ".body-content p" */
+.canvas .band p {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 300;
+    line-height: 1.8rem;
+}
+
+.canvas .band li {
+    font-size: 1.125rem;
+    font-weight: 300;
+    line-height: 1.8rem;
+}
+
+/* XXX - Depricate ".body-content p.intro" */
+.canvas p.intro {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+}
+
+.band .choke h3 + p,
+.band .choke h3+ ul,
+.band .choke h3+ ol {
+    margin-top: 0rem;
+}
+
+
+/* ------------------------------------------- */
+/* ///// ///// END NEUE TYPOGRAPHY ///// ///// */
+/* ------------------------------------------- */
+
+
+.highlight-box h3 {
+    margin: 1rem 0 1rem 0;
+}
+
+.body-content p {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+}
+
+
+.body-content li {
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    /*margin-bottom: 0.75rem;*/
+}
+
+.body-content p.intro {
+    font-size: 1.3rem;
+    line-height: 2.08rem;
+}
+
+ol {
+    list-style: none;
+}
+
+.body-content ol {
+    padding-left: .25rem;
+}
+
+.custom-list {
+  counter-reset: item;
+  list-style: none;
+  padding-left: 0;
+}
+
+.custom-list li {
+  counter-increment: item;
+  display: grid;
+  grid-template-columns: 2rem 1fr;
+  gap: .5rem;
+  align-items: start;
+  margin-bottom: .875rem;
+}
+
+.custom-list li::before {
+  content: counter(item);
+  display: grid;
+  place-items: center;
+
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  transform: translateY(0.125em);
+  font-size: .875rem;
+}
+
+.custom-list-bullet {
+    list-style-type: none;
+    padding-left: 0rem;
+}
+
+.custom-list-bullet li {
+    background-image: url(../resources/images/list-bullet.svg);
+    background-repeat: no-repeat;
+    background-position: 0 .15rem;
+    background-size: 1.5rem 1.5rem;
+    padding-left: 1.625rem;
+    margin-bottom: .75rem;
+}
+
+.body-content .img-cap {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    font-style: italic;
+    color: var(--gray-650);
+    border-left: var(--gray-150) solid 4px;
+    padding-left: 1rem;
+}
+
+.figure {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    /*margin: 1.5rem 0;*/
+}
+
+.ol-alpha {
+    list-style-type: lower-alpha;
+}
+
+.highlight-box {
+    background-color: var(--gray-150);
+    padding: 2rem;
+    margin: 2rem 0;
+    border-radius: var(--radius-standard);
+}
+
+.highlight-box h4 {
+    color: var(--gray-900);
+    font-weight: 800;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.highlight-box + .highlight-box {
+  margin-top: 0;
+}
+
+.callout {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1.5rem;
+}
+
+.callout h3:first-child {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+.callout h4 {
+    font-size: 1.25rem;
+}
+
+.content-group {  /* Displays divs vertically on mobile, horizontally desktop */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+    flex: none;
+    align-items: stretch;
+}
+
+.content-item {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: var(--radius-standard);
+}
+
+.outcome-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 3rem 0;
+}
+
+.outcome-item {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid #e0e0e0;
+}
+
+.outcome-item h4 {
+    color: #2A5C8B;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.bottom-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    background-color: var(--primary-cyan);
+    border-radius: var(--radius-prominent) var(--radius-prominent) 0 0;
+    margin-top: calc(var(--radius-prominent) * -1);
+    padding: 3rem 0;
+}
+
+.title-end {
+    font-size: 1.875rem;
+    line-height: 1.875rem;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.bottom-nav button {
+    background-color: var(--primary-yellow);
+    color: var(--gray-900)
+}
+
+.poop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer {
+    background-color: var(--primary-cyan-alt);
+    border-radius: var(--radius-prominent) var(--radius-prominent) 0 0;
+    margin-top: calc(var(--radius-prominent) * -1);
+    position: relative;
+    z-index: 1;
+    padding-bottom: 0;
+}
+
+/* ----------------------------------------------------------------- */
+/* ///// ///// ///// MEDIA QUERIES (enhancements)  ///// ///// ///// */
+/* ----------------------------------------------------------------- */
+
+/* Tablet & up (≥ 760px) */
+@media (min-width: 760px) {
+
+
+
+/* ----------------------------------- */
+/* ///// NEUE CONTENT CONTAINERS ///// */
+/* ----------------------------------- */
+
+
+.project-details {
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 2.25rem 2rem 4.75rem 2rem;
+    align-items: baseline;
+    justify-items: center;
+}
+
+.canvas .band {
+    padding-bottom: 8rem;
+}
+
+.content {
+    gap: 10rem;
+    padding: calc(var(--unit-huge) + var(--radius-prominent)) 2rem;
+}
+
+.content .choke {
+    gap: 2.5rem;
+}
+
+/* --------------------------------------- */
+/* ///// END NEUE CONTENT CONTAINERS ///// */
+/* --------------------------------------- */
+
+
+.overview-group {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 1rem;
+}
+
+.overview-item {
+    flex:1 1 calc(50% - 1.5rem);
+    padding: 2.5rem;
+    gap: 1.5rem;
+}
+
+.overview-item h3 {
+    font-size: 2rem;
+}
+
+.hero-cs {
+    padding: 5rem 2.5rem;
+}
+
+.hero-cs h1 {
+    font-size: 3.75rem;
+    line-height: 3.9375rem;
+}
+
+.hero-cs .subtitle {
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: 400;
+}
+
+.body-content {
+    gap: 5rem;
+    padding: calc(var(--unit-huge) + var(--radius-prominent)) 2rem;
+}
+
+.body-content p {
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+
+.body-content li {
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+
+.body-content p.intro {
+    font-size: 1.5rem;
+}
+
+.section-block {
+    gap: 2.5rem;
+
+}
+
+.body-content h2 {
+    /*margin: 3.25rem 0 1.75rem 0;*/
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+}
+
+.body-content h3 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+/* --------------------------------------- */
+/* ///// ///// NEUE TYPOGRAPHY ///// ///// */
+/* --------------------------------------- */
+
+.project-details p,
+.project-details li {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+}
+
+.project-details h4 {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 2rem;
+    letter-spacing: .15em;
+}
+
+/* XXX Depricate ".body-content h2" */
+.canvas .band h2 {
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+}
+
+/* XXX Depricate ".body-content h3" */
+.canvas .band h3 {
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+/* XXX - Depricate ".body-content p" */
+.canvas .band p {
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+
+.canvas .band .flashcard h3 {
+    font-size: 1.5rem;
+    line-height: 1.875rem;
+}
+
+.canvas .band li, .project-details li {
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1.8rem;
+}
+
+.canvas .band p.intro {
+    font-size: 1.875rem;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+}
+
+
+
+/* ------------------------------------------- */
+/* ///// ///// END NEUE TYPOGRAPHY ///// ///// */
+/* ------------------------------------------- */
+
+.custom-list li {
+    gap: 1rem;
+}
+
+.custom-list li::before {
+  width: 2rem;
+  height: 2rem;
+  transform: translateY(0.15em);
+  font-size: 1rem;
+}
+
+.figure {
+    gap: 2rem;
+    margin: 0 0 3rem 0;
+    width: 100%;
+    max-width: 100%;
+}
+
+.highlight-box {
+    padding: 2.5rem;
+}
+
+.content-group {
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.callout {
+    gap: 2rem;
+    padding: 2.5rem;
+}
+
+.band .choke h3 + p,
+.band .choke h3+ ul,
+.band .choke h3+ ol {
+    margin-top: -1.0125rem;
+}
+
+}
