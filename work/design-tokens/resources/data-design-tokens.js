@@ -50,7 +50,7 @@ const caseStudyData = {
                     <p>I coached a Junior UX Designer through a structured design journey. We progressed from an exhaustive survey of product type styles to the development of a naming system that enabled strong alignment across UX practices.</p>
 
                     <h3>Where We Landed</h3>
-                    <p>A clear naming convention led to consistent type style alignment across design deliverables. With deeper understanding backed by practical experience, my UX team became strong advocates for design token adoption.</p>
+                    <p>A clear naming convention led to consistent type style alignment across design deliverables. Deeper understanding backed by practical experience turned my UX team into strong advocates for design token adoption.</p>
                 </div>
 
                 <div class="showcase">
