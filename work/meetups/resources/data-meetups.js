@@ -14,7 +14,7 @@ const caseStudyData = {
                 <div class="choke">
 
                     <h2>Overview</h2>
-                    <p class="intro">At Mercari, I led a project that introduced in-person transactions to a marketplace built entirely around contact-free buying and selling. When shifting business priorities compressed our UX timeline, I led my team from skepticism to action aligning them around an execution strategy that turned our feature launch into a valuable learning experiment.</p>
+                    <p class="intro">At Mercari, I led a project that introduced in-person transactions to a marketplace built entirely around contact-free buying and selling. When shifting business priorities compressed our UX timeline, I led my team from skepticism to action, aligning them around an execution strategy that turned our feature launch into a valuable learning experiment.</p>
 
 
                     <h3>The Challenge</h3>
