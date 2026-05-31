@@ -156,14 +156,14 @@ const caseStudyData = {
                             <h4>01</h4>
                             <h3>To solve a tough problem, reframe it</h3>
                             <div class="border"></div>
-                            <p>How we define a problem influences how we solve it. Different angles and perspectives might reveal innovative solutions that hadn’t been considered. For us, reframing the problem turned Meetups into a valuable research experiment that provided a direct way to learn from users in real scenarios. Our original framing would have missed this.</p>
+                            <p>How we define a problem influences how we solve it. Different angles and perspectives might reveal innovative solutions that hadn’t been considered. For us, reframing the problem turned Meetups into a valuable research experiment that provided a direct way to learn from users in real scenarios. Our original framing would have missed that.</p>
                         </div>
 
                         <div class="flashcard">
                             <h4>02</h4>
                             <h3>Know the right way, and the wrong time for it</h3>
                             <div class="border"></div>
-                            <p>Knowing the right way to achieve something is great, but knowing when the right way becomes a liability is better. For us, adhering to our rigorous UX process would have caused us to miss faster, cheaper and more adaptable opportunities to learn from existing user behavior.</p>
+                            <p>Knowing the right way to achieve something is admirable, but knowing when the right way becomes a liability is better. For us, adhering to our rigorous UX process would have caused us to miss faster, cheaper and more adaptable opportunities to learn from existing user behavior.</p>
                         </div>
 
                     </div>
