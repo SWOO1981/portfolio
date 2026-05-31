@@ -143,6 +143,37 @@
     max-width: 500px;
 }
 
+.content img,
+.showcase img, 
+.bento img, 
+.triptic img,
+.duo img,
+.bento-4 img,
+.flashcard  {
+    width: 100%;
+    height: auto;
+    border-radius: var(--radius-standard);
+}
+
+.showcase {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 1.5rem;
+}
+
+.bento {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 1.5rem;
+    grid-template-areas: "box-1 box-1" "box-2 box-3";
+}
+
+.box {
+    justify-self: stretch;
+}
+
 /* ----------------------------------------------------------------- */
 /* ///// ///// ///// MEDIA QUERIES (enhancements)  ///// ///// ///// */
 /* ----------------------------------------------------------------- */
@@ -157,6 +188,17 @@
 
 .body-content .graphic {
     padding: 0;
+}
+
+.showcase {
+    gap: 2rem;
+}
+
+.bento {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2rem;
+    grid-template-areas: "box-1 box-1 box-2" "box-1 box-1 box-3";
 }
 
 

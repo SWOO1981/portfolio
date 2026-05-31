@@ -106,7 +106,16 @@ const caseStudyData = {
                     <h3>Where We Landed</h3>
                     <p>We handed off designs in 5 weeks providing runway for development and performance evaluation. My team embraced guidance to leverage design system components and product infrastructure, and it paid off in development. Repurposed components, product features, and core infrastructure enabled us to ship fast and keep costs low.</p>
 
-                </div>    
+                </div>  
+
+                <h3>Nearby Item Integration</h3>
+                
+                <div class="showcase bento">
+                    
+                        <div class="box" style="grid-area: box-1"><img src="resources/images/img-nearby.avif"></div>
+                        <div class="box" style="grid-area: box-2"><img src="resources/images/img-nearby-filter.avif"></div>
+                        <div class="box" style="grid-area: box-3"><img src="resources/images/img-nearby-bottomsheet.avif"></div>
+                </div>
             </div>
         </div>
 
