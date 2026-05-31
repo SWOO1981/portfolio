@@ -14,182 +14,100 @@ const caseStudyData = {
                 <div class="choke">
 
                     <h2>Overview</h2>
-                    <p class="intro">At Mercari, I led a project that enabled in-person transactions on a marketplace built entirely around contact-free buying and selling. When shifting business priorities compressed the project timeline, I led my UX team from skepticism to action, aligning them around an execution strategy that turned our feature launch into a valuable learning experiment.</p>
+                    <p class="intro">At Mercari, I led a project that enabled in-person transactions on a marketplace built for contact-free buying and selling. When  business priorities compressed the project timeline, I led my UX team from skepticism to action, aligning them around an execution strategy that turned a feature launch into a valuable research experiment.</p>
 
 
                     <h3>The Challenge</h3>
-                    <p>A compressed project timeline forced a shift away from our standard research-driven UX process. Tension between a business mandate to test demand quickly and my team’s hesitation to proceed without data to inform their decisions led to an execution impasse.</p>
+                    <p>We had to rethink our default research-driven UX process when allotted only five of our estimated thirteen weeks for delivery. The disconnect between a business mandate to test demand quickly and a team hesitant to proceed without data to inform decisions left us stuck in indecision with a deadline fast approaching.</p>
 
                     <h3>What I Did</h3>
-                    <p>I aligned my team around a build-to-learn execution strategy by reframing risk and grounding design decisions in the project’s OKR. I strengthened commitment by establishing clear principles to guide rapid execution. Together, we leveraged existing systems, lightweight testing, and safe assumptions that transformed a feature launch into a valuable learning experiment.</p>
-                    
+                    <p>I drove consensus for a build-to-learn execution strategy by reframing our view of the problem and grounding decisions in the project’s Organizational Key Result (OKR). That clarified scope and enabled us to ship on time without sacrificing quality or personal time.</p>
+
                     <h3>Where We Landed</h3>
                     <ul class="custom-list-bullet">
-                        <li>Exceeded OKR by ~20% → secured continued product investment</li>
-                        <li>Delivered < 5 weeks → reduced timeline by 38% without sacrificing quality</li>
-                        <li>Avoided premature infrastructure investment → reduced risk + protected product integrity</li>
-                        <li>Validated build-to-learn execution strategy → expanded UX strategic toolkit + accelerated learning</li>
+                        <li>In five weeks, we delivered a feature that exceeded our OKR by ~20%.</li>
+                        <li>Inventory increased ~13% in related item categories.</li>
+                        <li>We emerged from the process with a new design methodology in our UX toolkit.</li>
                     </ul>
 
                 </div>
 
-                <div class="figure">
+                <!-- <div class="figure">
                     <img src="resources/images/img-meetups-lede.png">
-                </div>
+                </div> -->
 
             </div>
-        </div>    
-
-        
-        <div class="band">
-            <div class="content">
-    
-                <h2>Project Contribution</h2>
-                
-                <div class="content-group">
-                    <div class="callout callout-standard">
-                        <div class="content-item">
-                            <h3>Role</h3>
-                            <p>UX Design Manager</p>
-                        </div>
-                    </div>
-                        
-                    <div class="callout callout-standard">
-                        <div class="content-item">
-                            <h3>Cross-functional Team</h3>
-                            <p>UX Designer, UX Content Designer, UX Researcher, Product Manager, Lead Engineer</p>
-                        </div>
-                    </div>
-                </div>
-                
-                
-                <h3>Leadership Highlights</h3>
-                
-                <div class="callout callout-standard">
-                    <div class="content-group">
-                        <div class="content-item">
-                            <h3>Led end-to-end UX process</h3>
-                            <ul class="custom-list-bullet">
-                                <li>Translated an ambiguous goal into a clear product vision</li>
-                                <li>Scoped through consensus on problem and strategy</li>
-                                <li>Facilitated information gathering to drive decisions</li>
-                            </ul>
-                        </div>
-                
-                        <div class="content-item">
-                            <h3>Delivered on time</h3>
-                            <ul class="custom-list-bullet">
-                                <li>Adapted UX process to fit timeline constraints</li>
-                                <li>Established principles to guide execution strategy</li>
-                                <li>Negotiated UX roadmap and delivery milestones</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
+        </div>   
         
         <div class="band">
             <div class="content">
                 <div class="choke">
                     
-                    <h2>Diving Deeper</h2>
-
-                    <h3>Business Priorities Forced Process Change</h3>
-                
-                    <p>Enabling in-person transactions marked a major shift in Mercari’s contact-free operating model. While our initial plan involved extensive research to guide design direction, a compressed timeline made that approach impractical.</p>
-                
-                </div>
-                
-                <div class="callout callout-standard">
-
-                    <div class="figure">
-                        <img src="resources/images/img-double-diamond.svg">
-                    </div>
-
-                </div>
-
-                <div class="choke">
-            
-                    <h3>Build-to-Learn Execution Strategy</h3>
-                
-                    <p>I aligned with my UX Director on shifting toward a build-to-learn execution strategy to reduce scope and ensure on-time delivery under our tight time constraint.</p>
-                </div>
-
-                    <div class="callout callout-standard">
-                        <h3>Build-to-learn strategic rationale</h3>
-                        <ol class="custom-list">
-                            <li>Narrows the gap between planning and action</li>
-                            <li>Significantly reduces scope → makes delivery target feasible</li>
-                            <li>Demonstrates meaningful progress toward delivery → reduces stakeholder pressure</li>
-                        </ol>
-                    </div>
-                
-                <div class="choke">
-
-                    <h3>Build-to-Learn Skepticism</h3>
-
-                    <p>While stakeholders pushed to test demand quickly, my team was hesitant to proceed on this high-stakes project without the rigor that typically informs our design decisions. Tension led to an impasse, and I weighed my options to drive the project forward.</p>
-            
-                    <h3>Options to Press Forward</h3>
-                </div>
-
-                <div class="callout callout-standard">
-                    <h4>Option A</h4>
-                        <div>
-                            <h3>Exercise Authority</h3>
-                            <p>Leverage leadership backing → drive immediate execution</p>
-                        </div>
-                        
-                        <h4>Benefits</h4>
-                            <ul class="custom-list-bullet">
-                                <li>Maintains momentum and works with the aggressive timeline</li>
-                                <li>Reduces stakeholder pressure by showing immediate progress</li>
-                                <li>Promotes early learning through action</li>
-                            </ul>
-
-                        <h4>Tradeoffs</h4>
-                            <ul class="custom-list-bullet">
-                                <li>Sidelines team autonomy and professional expertise</li>
-                                <li>Risks damaging trust and morale → low commitment</li>
-                                <li>Weak collaboration → increased oversight to sustain execution</li>
-                            </ul>
-                </div>
-
-                <div class="callout callout-standard">
-                    <h4>Option B</h4>
+                    <h3>How We Got There</h3>
                     
-                    <div>
-                        <h3>Work Toward Alignment</h3>
-                        <p>Invest time and energy to align the team around a build-to-learn execution strategy.</p>
-                    </div>
+                    <h2>Background</h2>
+                    <p class="intro">Trends in the competitive landscape shifted company attitudes toward in-person transactions.</p>
+
+                    <h3>Where It Started</h3>
+                    <p>To ensure buyer and seller protections, transactions needed to go through our shipping system. Selling off-app with cash was restricted because it cut Mercari out of the transaction entirely, meaning lost revenue.</p>
                     
-                    <h4>Benefits</h4>
+                    <h3>What Changed</h3>
+                    <p>Transactions increased despite sellers cross-posting on competitors like OfferUp and Facebook Marketplace where in-person cash transactions are commonplace. The trend continued. Integrating in-person exchanges while ensuring fee collection through our payment system made business sense.</p>
+               
+                    <h3>Why Now</h3>
+                    <p>Investors were hungry for a win and Meetups seemed like a strong bet. A board meeting on the horizon left a short runway to design, develop and ship in time to report meaningful performance data — about 5 weeks for UX.</p>
 
-                    <ul class="custom-list-bullet">
-                        <li>Demonstrates respect for professional expertise → builds trust and lasting buy-in</li>
-                        <li>Autonomy drives stronger thinking → higher-quality design execution</li>
-                        <li>Shared process ownership → self-sustaining project execution</li>
-                    </ul>
-                    
-                    <h4>Tradeoffs</h4>
-
-                    <ul class="custom-list-bullet">
-                        <li>Slows initial progress → increases short-term stakeholder pressure</li>
-                        <li>Alignment not guaranteed → forced to revert to option A</li>
-                    </ul>
-                    
-                </div>
-
-                <div class="choke">
-
-                    <h3>Decision</h3>
-                    <p>I chose to work toward alignment rather than forcing execution. Authority drives compliance, but rarely commitment. While exercising authority may relieve short-term pressure, it introduces long-term risk to trust, morale, and execution quality. Teams that understand and believe in the direction generally produce better work and move faster without constant oversight. </p>
-                </div>
-            
+                </div>    
             </div>
         </div>
+
+        <div class="band">
+            <div class="content">
+                <div class="choke">
+                    
+                    <h3>Subhead</h3>
+                    
+                    <h2>Section Header</h2>
+                    <p class="intro"></p>
+
+                    <h3>Situation</h3>
+                    <p>Paragraph</p>
+                    
+                    <h3>What I Did</h3>
+                    <p>Paragraph</p>
+               
+                    <h3>Where We Landed</h3>
+                    <p>Paragraph</p>
+
+                </div>    
+            </div>
+        </div>
+
+<!-- Start TEMPLATE -->
+
+        <div class="band">
+            <div class="content">
+                <div class="choke">
+                    
+                    <h3>Subhead</h3>
+                    
+                    <h2>Section Header</h2>
+                    <p class="intro"></p>
+
+                    <h3>Situation</h3>
+                    <p>Paragraph</p>
+                    
+                    <h3>What I Did</h3>
+                    <p>Paragraph</p>
+               
+                    <h3>Where We Landed</h3>
+                    <p>Paragraph</p>
+
+                </div>    
+            </div>
+        </div>
+
+<!-- END TEMPLATE -->
 
 
         <div class="band">
