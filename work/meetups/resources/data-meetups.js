@@ -110,12 +110,56 @@ const caseStudyData = {
 
                 <h3>Nearby Item Integration</h3>
                 
-                <div class="showcase bento">
-                    
+                <div class="layout showcase bento">
                         <div class="box" style="grid-area: box-1"><img src="resources/images/img-nearby.avif"></div>
                         <div class="box" style="grid-area: box-2"><img src="resources/images/img-nearby-filter.avif"></div>
                         <div class="box" style="grid-area: box-3"><img src="resources/images/img-nearby-bottomsheet.avif"></div>
                 </div>
+
+                <h3>Design Validatoin</h3>
+
+                <div class="layout duo">
+                    <div>
+                        <img src="resources/images/img-validation-screen.avif">
+                    </div>
+                    <div>
+                        <img src="resources/images/img-validation-map.avif">
+                    </div>
+                </div>
+
+                <h3>Repurposed Moderation</h3>
+
+                <div class="layout layout-moderation">
+                    <div class="item-1">
+                        <img src="resources/images/img-moderation-screens.avif">
+                    </div>
+                    <div class="item-2">
+                        <img src="resources/images/img-moderation-banner.avif">
+                    </div>
+                    <div class="item-3">
+                        <img src="resources/images/img-moderation-message.avif">
+                    </div>
+                </div>
+
+                <h3>Product Integration</h3>
+                <div class="layout layout-integration">
+                    <div class="item-1">
+                        <img src="resources/images/img-integration-form.avif">
+                    </div>
+                    <div class="item-2">
+                        <img src="resources/images/img-integration-rating-screen.avif">
+                    </div class="item-3">
+                    <div>
+                        <img src="resources/images/img-integration-rating-select.avif">
+                    </div>
+                    <div class="item-4">
+                        <img src="resources/images/img-integration-message.avif">
+                    </div>
+                    <div class="item-5">
+                        <img src="resources/images/img-integration-complete.avif">
+                    </div>
+                </div>
+            
             </div>
         </div>
 
@@ -145,7 +189,7 @@ const caseStudyData = {
                     </ul>
                
                     <h3>Leadership And Team</h3>
-                    <p>We validated a build-to-learn UX approach as way to keep exploration costs and development risks low. Shifting perspective on the problem expanded our strategic UX tool kit and fast-tracked insight into the people who use Mercari.</p>
+                    <p>We validated a build-to-learn UX approach as way to keep exploration costs and development risks low. Shifting perspective on the problem expanded our strategic UX tool kit and fast-tracked insight into the people we design for.</p>
 
                 </div>    
             </div>
@@ -165,14 +209,14 @@ const caseStudyData = {
                             <h4>01</h4>
                             <h3>To solve a tough problem, reframe it</h3>
                             <div class="border"></div>
-                            <p>How we define a problem influences how we solve it. Different angles and perspectives might reveal innovative solutions that hadn’t been considered. For us, reframing the problem turned Meetups into a valuable research experiment that provided a direct way to learn from users in real scenarios. Our original framing would have missed this.</p>
+                            <p>How we define a problem influences how we solve it. Different angles and perspectives might reveal innovative solutions that hadn’t been considered. For us, reframing the problem turned Meetups into a valuable research experiment that provided a direct way to learn from users in real scenarios. Our original framing would have missed that.</p>
                         </div>
 
                         <div class="flashcard">
                             <h4>02</h4>
                             <h3>Know the right way, and the wrong time for it</h3>
                             <div class="border"></div>
-                            <p>Knowing the right way to achieve something is great, but knowing when the right way becomes a liability is better. For us, adhering to our rigorous UX process would have caused us to miss faster, cheaper and more adaptable opportunities to learn from existing user behavior.</p>
+                            <p>Knowing the right way to achieve something is admirable, but knowing when the right way becomes a liability is better. For us, adhering to our rigorous UX process would have caused us to miss faster, cheaper and more adaptable opportunities to learn from existing user behavior.</p>
                         </div>
 
                     </div>
