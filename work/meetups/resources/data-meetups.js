@@ -110,27 +110,64 @@ const caseStudyData = {
             </div>
         </div>
 
-<!-- Start TEMPLATE -->
-
         <div class="band">
             <div class="content">
                 <div class="choke">
                     
-                    <h3>Subhead</h3>
+                    <!-- <h3>Subhead</h3> -->
                     
-                    <h2>Section Header</h2>
-                    <p class="intro"></p>
+                    <h2>Where We Landed</h2>
+                    <p class="intro">Early results validated user demand and secured commitment for further investment.
+</p>
 
-                    <h3>Situation</h3>
-                    <p>Paragraph</p>
+                    <h3>Performance</h3>
+                    <ul class="custom-list-bullet">
+                        <li>Exceeded OKR engagement goal by +20%.</li>
+                        <li>Increased test market item inventory by +13.</li>
+                        <li>Increased sell-through rate for large bulky items ~33%.</li>
+                        <li>12% increase in Gross Merchandise Volume (GMV) forecasted.</li>
+                    </ul>
                     
-                    <h3>What I Did</h3>
-                    <p>Paragraph</p>
+                    <h3>Guardrails</h3>
+                    <ul class="custom-list-bullet">
+                        <li>Maintained positive user feedback on the core listing/purchase flow.</li>
+                        <li>Strong in-app engagement through messaging to coordinate Meetups.</li>
+                        <li>No increase in scam reports or safety incidents related to Meetups.</li>
+                    </ul>
                
-                    <h3>Where We Landed</h3>
-                    <p>Paragraph</p>
+                    <h3>Leadership And Team</h3>
+                    <p>We validated a build-to-learn UX approach as way to keep exploration costs and development risks low. Shifting perspective on the problem expanded our strategic UX tool kit and fast-tracked insight into the people who use Mercari.</p>
 
                 </div>    
+            </div>
+        </div>
+
+<!-- Start TEMPLATE -->
+
+        <div class="band">
+            <div class="content">
+                    
+                    <!-- <h3>Subhead</h3> -->
+                    
+                    <h2>Takeaways</h2>
+                    
+                    <div class="deck">
+                        <div class="flashcard">
+                            <h4>01</h4>
+                            <h3>To solve a tough problem, reframe it</h3>
+                            <div class="border"></div>
+                            <p>How we define a problem influences how we solve it. Different angles and perspectives might reveal innovative solutions that hadn’t been considered. For us, reframing the problem turned Meetups into a valuable research experiment that provided a direct way to learn from users in real scenarios. Our original framing would have missed this.</p>
+                        </div>
+
+                        <div class="flashcard">
+                            <h4>02</h4>
+                            <h3>Know the right way, and the wrong time for it</h3>
+                            <div class="border"></div>
+                            <p>Knowing the right way to achieve something is great, but knowing when the right way becomes a liability is better. For us, adhering to our rigorous UX process would have caused us to miss faster, cheaper and more adaptable opportunities to learn from existing user behavior.</p>
+                        </div>
+
+                    </div>
+   
             </div>
         </div>
 
