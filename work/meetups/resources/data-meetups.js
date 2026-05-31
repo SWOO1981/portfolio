@@ -65,19 +65,19 @@ const caseStudyData = {
             <div class="content">
                 <div class="choke">
                     
-                    <h3>Subhead</h3>
+                    <h3>Challenge</h3>
                     
-                    <h2>Section Header</h2>
-                    <p class="intro"></p>
+                    <h2>UX Planning</h2>
+                    <p class="intro">We estimated thirteen weeks to research, validate and deliver. We were allotted five. Research wasn’t feasible. I proposed taking a build-to-learn approach to fit design into the strict timeframe and reduce the scope of our end state.</p>
 
-                    <h3>Situation</h3>
-                    <p>Paragraph</p>
+                    <h3>Roadblock</h3>
+                    <p>My team was skeptical about building to learn. The potential revenue impact made them hesitant to proceed without the rigor that typically informs our decisions. Weak commitment risked weak results and given the stakes, alignment was key.</p>
                     
                     <h3>What I Did</h3>
-                    <p>Paragraph</p>
+                    <p>I met with my team to highlight the risks of delayed learning until after research and design costs had been sunk, then reframed our goal — measure existing demand for in-person item exchanges, not drive behavior. I proposed injecting research into design execution using regular checkpoints to gather insights and validate decisions.</p>
                
                     <h3>Where We Landed</h3>
-                    <p>Paragraph</p>
+                    <p>Universal support for a build-to-learn approach. Before, UX was hesitant to start without research. Transforming our project into the research vehicle itself meant learning from real user behavior as we go. Shared understanding of the investment risk and a design validation plan unlocked alignment.</p>
 
                 </div>    
             </div>
