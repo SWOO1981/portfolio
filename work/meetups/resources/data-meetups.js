@@ -83,6 +83,33 @@ const caseStudyData = {
             </div>
         </div>
 
+        <div class="band">
+            <div class="content">
+                <div class="choke">
+                    
+                    <!-- <h3>Subhead</h3> -->
+                    
+                    <h2>Execution</h2>
+                    <p class="intro">I established principles and guardrails to guide our build-to-learn strategy.</p>
+
+                    <h3>The Principles</h3>
+                    <ol class="custom-list">
+                        <li>Initiate design with safe assumptions that must be true for the project to succeed.</li>
+                        <li>Prioritize existing design system components and patterns over net new.</li>
+                        <li>Keep designs simple and light-weight to avoid sweeping infrastructure changes.</li>
+                        <li>Gather early insights to validate ideas, bolster confidence and inform next steps.</li>
+                    </ol>
+
+                    <h3>The Guardrails</h3>
+                    <p>I ran research alongside design to keep us focused and avoid distractions. Evaluative research capped each week’s design milestone. Feedback from user interviews validated design decisions and that channeled caution into confidence.</p>
+               
+                    <h3>Where We Landed</h3>
+                    <p>We handed off designs in 5 weeks providing runway for development and performance evaluation. My team embraced guidance to leverage design system components and product infrastructure, and it paid off in development. Repurposed components, product features, and core infrastructure enabled us to ship fast and keep costs low.</p>
+
+                </div>    
+            </div>
+        </div>
+
 <!-- Start TEMPLATE -->
 
         <div class="band">
