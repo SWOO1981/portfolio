@@ -79,7 +79,18 @@ const caseStudyData = {
                     <h3>Where We Landed</h3>
                     <p>Universal support for a build-to-learn approach. Before, UX was hesitant to start without research. Transforming our project into the research vehicle itself meant learning from real user behavior as we go. Shared understanding of the investment risk and a design validation plan unlocked alignment.</p>
 
-                </div>    
+                </div>
+                
+                <h3>Build-to-Learn Risk Management</h3>
+                <div class="layout">
+                    <img src="resources/images/img-chart-risk.avif">
+                </div>
+
+                <h3>Organizational Key Result</h3>
+                
+                <div class="layout">
+                    <img src="resources/images/img-chart-okr.avif">
+                </div>
             </div>
         </div>
 
@@ -191,7 +202,12 @@ const caseStudyData = {
                     <h3>Leadership And Team</h3>
                     <p>We validated a build-to-learn UX approach as way to keep exploration costs and development risks low. Shifting perspective on the problem expanded our strategic UX tool kit and fast-tracked insight into the people we design for.</p>
 
-                </div>    
+                </div>
+                
+                <h3>Performance Results</h3>
+                <div class="layout">
+                    <img src="resources/images/img-chart-result.avif">
+                </div>
             </div>
         </div>
 
