@@ -48,6 +48,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 2.25rem;
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 1.25rem;
@@ -55,6 +56,10 @@ body {
 
 /* Hero Section */
 .hero-cs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 6rem;
     padding: 2.5rem 0;
     text-align: left;
     border-radius: var(--radius-prominent) var(--radius-prominent) 0 0;
@@ -84,7 +89,7 @@ body {
 
 /* Overview Section */
 .overview {
-    padding: 0 0 16rem 0;
+    padding: 0 0 6rem 0;
     background:var(--primary-yellow);
 }
 
@@ -625,6 +630,7 @@ footer {
 
 .hero-cs {
     padding: 5rem 2.5rem;
+    gap: 8rem;
 }
 
 .hero-cs h1 {
