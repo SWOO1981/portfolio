@@ -25,9 +25,9 @@ const caseStudyData = {
 
                     <h3>Where We Landed</h3>
                     <ul class="custom-list-bullet">
-                        <li>In five weeks, we delivered a feature that exceeded our OKR by ~20%.</li>
+                        <li>In five weeks, we delivered a feature outperformed by ~20%.</li>
                         <li>Inventory increased ~13% in related item categories.</li>
-                        <li>We emerged from the process with a new design methodology in our UX toolkit.</li>
+                        <li>New design methodology in our UX toolkit.</li>
                     </ul>
 
                 </div>
@@ -127,6 +127,7 @@ const caseStudyData = {
                         <div class="box" style="grid-area: box-3"><img src="resources/images/img-nearby-bottomsheet.avif"></div>
                 </div>
 
+
                 <h3>Design Validatoin</h3>
 
                 <div class="layout duo">
@@ -159,8 +160,8 @@ const caseStudyData = {
                     </div>
                     <div class="item-2">
                         <img src="resources/images/img-integration-rating-screen.avif">
-                    </div class="item-3">
-                    <div>
+                    </div>
+                    <div class="item-3">
                         <img src="resources/images/img-integration-rating-select.avif">
                     </div>
                     <div class="item-4">

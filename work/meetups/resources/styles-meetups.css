@@ -166,7 +166,6 @@
 }
 
 .bento {
-    display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     align-items: center;
@@ -175,7 +174,13 @@
 }
 
 .box {
-    justify-self: stretch;
+    display: flex;
+    justify-content: center;
+}
+
+.sample {
+    max-width: 300px;
+    height: auto;
 }
 
 .duo {
@@ -191,6 +196,12 @@
 .layout-integration {
     display: grid;
     gap: 1.5rem;
+}
+
+.grid-container {
+    display: flex;
+    background-color: goldenrod;
+    padding: 1rem;
 }
 
 
@@ -250,7 +261,7 @@
 
 .layout-moderation .item-3 {
     grid-column: 4 / span 2;
-}
+} 
 
 .layout-integration {
     grid-template-columns: repeat(3, 1fr);
