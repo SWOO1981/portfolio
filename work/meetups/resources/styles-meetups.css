@@ -63,7 +63,7 @@
     background-image: url("images/img-hero.avif");
     background-color: var(--meetups-magenta);
     color: #000000;
-    height: auto;
+    height: 22rem;
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -76,6 +76,11 @@
 .cs-meetups .callout,
 .cs-meetups .figure img {
     border-radius: var(--radius-md);
+}
+
+.project-info {
+    background-color: var(--meetups-chrome-yellow);
+    color: var(--content-strong);
 }
 
 .overview-group {
@@ -235,6 +240,10 @@
 
 :root {
     --image-radius: var(--radius-lg);
+}
+
+.hero-cs {
+    height: 32rem;
 }
 
 .body-content .graphic {
