@@ -63,7 +63,7 @@
     background-image: url("images/img-hero-mobile.avif");
     background-color: var(--meetups-magenta);
     color: #000000;
-    height: 42rem;
+    height: 38rem;
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -244,7 +244,8 @@
 
 .hero-cs {
     background-image: url("images/img-hero.avif");
-    height: 62rem;
+    background-size: auto;
+    height: 54rem;
 }
 
 .body-content .graphic {
