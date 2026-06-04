@@ -119,7 +119,28 @@ const caseStudyData = {
 
                 </div>  
 
-                <h3>Nearby Item Integration</h3>
+                <div class="stack">
+                
+                    <h3>Initiating Design With Safe Assumptions</h3>
+                    <p class="intro">Integrating location into the product experience was key to success. Design system components, patterns and architecture enabled discovery of locally available inventory, quickly.</p>
+                
+
+                    <div class="comparison">
+                        <div class="style">
+                        <h4>Approach</h4>
+                            <ol class="custom-list">
+                                <li>Adding a "Nearby" item category was influenced by established architectural patterns.</li>
+                                <li>Search logic was extended to support local item discovery.</li>
+                                <li>Control over search radius was enabled using design system components like bottom sheets, chips and buttons.</li>
+                            </ol>
+                        </div>
+                        
+                        <div class="style-alt">
+                            <h4>Why It Mattered</h4>
+                            <p>Speed. This was a fast way to enable discovery backed by historical context to drive confidence in design decisions.</p>
+                        </div>
+                    </div>
+                </div>
                 
                 <div class="layout showcase bento">
                         <div class="box" style="grid-area: box-1"><img src="resources/images/img-nearby.avif"></div>
@@ -127,8 +148,23 @@ const caseStudyData = {
                         <div class="box" style="grid-area: box-3"><img src="resources/images/img-nearby-bottomsheet.avif"></div>
                 </div>
 
+                <div class="stack">
+                    <h3>Research Guardrails</h3>
+                    <p class="intro">Debate over map functionality split the team. Functional maps introduced time-consuming complexity.</p>
+                
 
-                <h3>Design Validatoin</h3>
+                    <div class="comparison">
+                        <div class="style">
+                            <h4>Approach</h4>
+                            <p>We tested low-fidelity concepts with users and learned map functionality was a low priority for our context.</p>
+                        </div>
+
+                        <div class="style-alt">
+                            <h4>Why It Mattered</h4>
+                            <p>Regular user feedback validated desgin decisions and helped everyone distinguish between high-value design solutions and low-value distractons.</p>
+                        </div>
+                    </div>
+                </div>
 
                 <div class="layout duo">
                     <div>
@@ -138,8 +174,24 @@ const caseStudyData = {
                         <img src="resources/images/img-validation-map.avif">
                     </div>
                 </div>
-
-                <h3>Repurposed Moderation</h3>
+                
+                <div>
+                    <h3>Leveraging Product Systems</h3>
+                    <h4>Example</h4>
+                    <p class="intro">Leveraging existing chat moderation flows enabled onboarding and coordination of in-person item exchanges.</p>
+                </div>
+                
+                <div class="comparison">
+                    <div class="style">
+                        <h4>Approach</h4>
+                        <p>We redesigned chat moderation flows and logic to encourage engagement and facilitate meetup coordination.</p>
+                    </div>
+                    
+                    <div class="style-alt">
+                        <h4>Why It Mattered</h4>
+                        <p>Chat provided insight into how users coordinate meetups in real life scenarios. Insights informed what to build next.</p>
+                    </div>
+                </div>
 
                 <div class="layout layout-moderation">
                     <div class="item-1">
@@ -153,7 +205,24 @@ const caseStudyData = {
                     </div>
                 </div>
 
-                <h3>Product Integration</h3>
+                <div>
+                    <h3>Balancing Speed With Product Integrity</h3>
+                    <h4>Example</h4>
+                    <p class="intro">We layered payment into the existing transaction flow to avoid sweeping changes to the core experience.</p>
+                </div>
+
+                <div class="comparison">
+                    <div class="style">
+                        <h4>Approach</h4>
+                        <p>Designed a simple two-step form to funnel users though our trusted transaction flow after a meetup.</p>
+                    </div>
+
+                    <div class="style-alt">
+                        <h4>Why It Mattered</h4>
+                        <p>Ensured fee collection. Payment though our system, using buyer and seller protections as incentives, maintained the core experience regardless of item delivery method.</p>
+                    </div>
+                </div>
+                
                 <div class="layout layout-integration">
                     <div class="item-1">
                         <img src="resources/images/img-integration-form.avif">

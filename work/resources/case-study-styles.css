@@ -221,6 +221,19 @@ body {
     gap: 1rem;
 }
 
+.content .stack{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 1.5rem;
+}
+
+.comparison {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
 /* --------------------------------------- */
 /* ///// END NEUE CONTENT CONTAINERS ///// */
 /* --------------------------------------- */
@@ -357,6 +370,15 @@ body {
 .band .choke h3+ ul,
 .band .choke h3+ ol {
     margin-top: 0rem;
+}
+
+.band .content h4 {
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+}
+
+.comparison h4 {
+    margin-bottom: .5rem;
 }
 
 
@@ -605,6 +627,18 @@ footer {
     gap: 2.5rem;
 }
 
+.comparison {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}
+
+.content .stack {
+    gap: 1.5rem;
+}
+
+
+
 /* --------------------------------------- */
 /* ///// END NEUE CONTENT CONTAINERS ///// */
 /* --------------------------------------- */
@@ -730,6 +764,10 @@ footer {
     font-size: 1.875rem;
     line-height: 2.75rem;
     margin-bottom: 1rem;
+}
+
+.content h3 + .intro {
+    margin-bottom: 1.5rem;
 }
 
 
