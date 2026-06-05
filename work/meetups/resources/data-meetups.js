@@ -14,20 +14,20 @@ const caseStudyData = {
                 <div class="choke">
 
                     <h2>Overview</h2>
-                    <p class="intro">At Mercari, I led a project that enabled in-person transactions on a marketplace built for contact-free buying and selling. When  business priorities compressed the project timeline, I led my UX team from skepticism to action, aligning them around an execution strategy that turned a feature launch into a valuable research experiment.</p>
+                    <p class="intro">When business priorities compressed our project timeline, I led my UX team from indecision to action, driving consensus for an execution strategy that turned a feature launch into a valuable product experiment.</p>
 
 
                     <h3>The Challenge</h3>
-                    <p>We had to rethink our default research-driven UX process when allotted only five of our estimated thirteen weeks for delivery. The disconnect between a business mandate to test demand quickly and a team hesitant to proceed without data to inform decisions left us stuck in indecision with a deadline fast approaching.</p>
+                    <p>We estimated 13 weeks to research, design, validate and deliver. We were alotted five. Starting was critical, but where to begin was unclear without research to inform scope and guide direction. Delay risked delivering on time.</p>
 
                     <h3>What I Did</h3>
-                    <p>I drove consensus for a build-to-learn execution strategy by reframing our view of the problem and grounding decisions in the project’s Organizational Key Result (OKR). That clarified scope and enabled us to ship on time without sacrificing quality or personal time.</p>
+                    <p>I rallied my team behind a build-to-learn execution strategy supported by evaluative research that tested assumptions, validated decisions, and drove confidence in the project direction. To avoid expensive time-consuming builds, I guided the use of design system components, patterns and product infrastructure to problem solve.</p>
 
                     <h3>Where We Landed</h3>
                     <ul class="custom-list-bullet">
-                        <li>In five weeks, we delivered a feature outperformed by ~20%.</li>
-                        <li>Inventory increased ~13% in related item categories.</li>
-                        <li>New design methodology in our UX toolkit.</li>
+                        <li>Delivered a feature in five weeks that outperformed by ~20%.</li>
+                        <li>Expanded our UX toolkit with a methodology that fast tracked learning.</li>
+                        <li>Validated a design strategy for keeping exploration costs and investment risk low.</li>
                     </ul>
 
                 </div>
@@ -43,17 +43,12 @@ const caseStudyData = {
             <div class="content">
                 <div class="choke">
                     
-                    <h3>How We Got There</h3>
-                    
-                    <h2>Background</h2>
-                    <p class="intro">Trends in the competitive landscape shifted company attitudes toward in-person transactions.</p>
+                    <h2>How We Got There</h2>
+                    <p class="intro">Mercari was built for contact-free buying and selling. Items needed to go through our shipping system to protect transactions and ensure fee collection. Selling off-app was restricted because it cut Mercari out of the transaction entirely, meaning lost revenue.</p>
 
-                    <h3>Where It Started</h3>
-                    <p>To ensure buyer and seller protections, transactions needed to go through our shipping system. Selling off-app with cash was restricted because it cut Mercari out of the transaction entirely, meaning lost revenue.</p>
-                    
                     <h3>What Changed</h3>
-                    <p>Transactions increased despite sellers cross-posting on competitors like OfferUp and Facebook Marketplace where in-person cash transactions are commonplace. The trend continued. Integrating in-person exchanges while ensuring fee collection through our payment system made business sense.</p>
-               
+                    <p>Transactions trended upward despite sellers cross-posting items on OfferUp and Facebook Marketplace where in-person cash sales were encouraged. Mercari lifted restrictions on face-to-face exchanges to compete, and our payment system ensured fee collection.</p>
+                
                     <h3>Why Now</h3>
                     <p>Investors were hungry for a win and Meetups seemed like a strong bet. A board meeting on the horizon left a short runway to design, develop and ship in time to report meaningful performance data — about 5 weeks for UX.</p>
 
