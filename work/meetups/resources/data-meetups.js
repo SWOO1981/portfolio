@@ -60,32 +60,65 @@ const caseStudyData = {
             <div class="content">
                 <div class="choke">
                     
-                    <h3>Challenge</h3>
-                    
-                    <h2>UX Planning</h2>
-                    <p class="intro">We estimated thirteen weeks to research, validate and deliver. We were allotted five. Research wasn’t feasible. I proposed taking a build-to-learn approach to fit design into the strict timeframe and reduce the scope of our end state.</p>
+                    <h2>The Challenge</h2>
+                    <p class="intro">I proposed a build-to-learn execution strategy to fit the project scope into the short timeframe, but my team was skeptical to proceed without the rigor that typically informs UX decisions.</p>
 
-                    <h3>Roadblock</h3>
-                    <p>My team was skeptical about building to learn. The potential revenue impact made them hesitant to proceed without the rigor that typically informs our decisions. Weak commitment risked weak results and given the stakes, alignment was key.</p>
-                    
                     <h3>What I Did</h3>
-                    <p>I met with my team to highlight the risks of delayed learning until after research and design costs had been sunk, then reframed our goal — measure existing demand for in-person item exchanges, not drive behavior. I proposed injecting research into design execution using regular checkpoints to gather insights and validate decisions.</p>
-               
+                    <ol class="custom-list">
+                        <li>Revisited the OKR to reframe our understanding of the project goal.</li>
+                        <li>Clarified how building-to-learn reduces investment risk.</li>
+                        <li>Capped delivery milestones with user interviews to test design solutions and validate assumptions.</li>
+                        <li>Established principles and guardrails to drive execution.</li>
+                    </ol>
+            
                     <h3>Where We Landed</h3>
-                    <p>Universal support for a build-to-learn approach. Before, UX was hesitant to start without research. Transforming our project into the research vehicle itself meant learning from real user behavior as we go. Shared understanding of the investment risk and a design validation plan unlocked alignment.</p>
+                    <ul class="custom-list-bullet">
+                        <li>Reframing the project goal reduced scope and pressure to deliver a fully-realized end state.</li>
+                        <li>Insight into the business risk helped see things from a business perspective.</li>
+                        <li>Feedback from user interviews accellerated learning from real-life scenarios.</li>
+                        <li>Guiding principles encouraged reuse which kept exploration costs low and avoided overdevelopment of an untested product feature.</li>
+                    </ul>
 
                 </div>
-                
-                <h3>Build-to-Learn Risk Management</h3>
-                <div class="layout">
-                    <img src="resources/images/img-chart-risk.avif">
-                </div>
 
-                <h3>Organizational Key Result</h3>
+                <div class="stack">
+                <h3>Reframing The Goal</h3>
+
+                <h4>Organizational Key Result</h4>
+                <p class="intro">At least 50% of daily active users view one meetup-eligible item per session</p>
                 
                 <div class="layout">
                     <img src="resources/images/img-chart-okr.avif">
                 </div>
+                
+
+                <div class="comparison">
+                    <div class="style">
+                        <h4>Project Goal</h4>
+                        <p>Design a Meetups experience that results in a 50% DAU engagement rate.</p>
+                        <p>Indexes on an end state that drives demand.</p>
+
+                    </div>
+
+                    <div class="style-alt">
+                        <h4>Goal Reframed</h4>
+                        <p>Enable in-person transactions to evaluate existing demand against a 50% DAU engagement rate.</p>
+                        <p>Enables existing behavior to measure demand.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="stack">
+                <h3>Build-to-Learn Risk Management</h3>
+                <p>I ran research alongside design to keep us focused and avoid distractions. Evaluative research capped each week’s design milestone. Feedback from user interviews validated design decisions and that channeled caution into confidence.</p>
+                
+                <div class="layout">
+                    <img src="resources/images/img-chart-risk.avif">
+                </div>
+                </div>
+
+                
+
             </div>
         </div>
 
@@ -93,10 +126,8 @@ const caseStudyData = {
             <div class="content">
                 <div class="choke">
                     
-                    <!-- <h3>Subhead</h3> -->
-                    
                     <h2>Execution</h2>
-                    <p class="intro">I established principles and guardrails to guide our build-to-learn strategy.</p>
+                    <p class="intro">I established principles to guide our build-to-learn strategy.</p>
 
                     <h3>The Principles</h3>
                     <ol class="custom-list">
@@ -106,11 +137,11 @@ const caseStudyData = {
                         <li>Gather early insights to validate ideas, bolster confidence and inform next steps.</li>
                     </ol>
 
-                    <h3>The Guardrails</h3>
-                    <p>I ran research alongside design to keep us focused and avoid distractions. Evaluative research capped each week’s design milestone. Feedback from user interviews validated design decisions and that channeled caution into confidence.</p>
+                    <!-- <h3>The Guardrails</h3>
+                    
                
                     <h3>Where We Landed</h3>
-                    <p>We handed off designs in 5 weeks providing runway for development and performance evaluation. My team embraced guidance to leverage design system components and product infrastructure, and it paid off in development. Repurposed components, product features, and core infrastructure enabled us to ship fast and keep costs low.</p>
+                    <p>We handed off designs in 5 weeks providing runway for development and performance evaluation. My team embraced guidance to leverage design system components and product infrastructure, and it paid off in development. Repurposed components, product features, and core infrastructure enabled us to ship fast and keep costs low.</p> -->
 
                 </div>  
 
