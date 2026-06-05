@@ -21,7 +21,7 @@ const caseStudyData = {
                     <p>We estimated 13 weeks to research, design, validate and deliver. We were alotted five. Starting was critical, but where to begin was unclear without research to inform scope and guide direction. Delay risked delivering on time.</p>
 
                     <h3>What I Did</h3>
-                    <p>I rallied my team behind a build-to-learn execution strategy supported by evaluative research that tested assumptions, validated decisions, and drove confidence in the project direction. To avoid expensive time-consuming builds, I guided the use of design system components, patterns and product infrastructure to problem solve.</p>
+                    <p>I rallied my team behind a build-to-learn execution strategy. Evaluative research tested assumptions, validated decisions, and drove confidence in our direction. Design system components, patterns and product infrastructure avoided expensive time-consuming builds.</p>
 
                     <h3>Where We Landed</h3>
                     <ul class="custom-list-bullet">
@@ -47,7 +47,7 @@ const caseStudyData = {
                     <p class="intro">Mercari was built for contact-free buying and selling. Items needed to go through our shipping system to protect transactions and ensure fee collection. Selling off-app was restricted because it cut Mercari out of the transaction entirely, meaning lost revenue.</p>
 
                     <h3>What Changed</h3>
-                    <p>Transactions trended upward despite sellers cross-posting items on OfferUp and Facebook Marketplace where in-person cash sales were encouraged. Mercari lifted restrictions on face-to-face exchanges to compete, and our payment system ensured fee collection.</p>
+                    <p>Transactions trended upward despite cross-posting on OfferUp and Facebook Marketplace where in-person cash sales were encouraged. Mercari lifted restrictions on face-to-face exchanges to compete. Protection incentives through our payment system ensured fee collection.</p>
                 
                     <h3>Why Now</h3>
                     <p>Investors were hungry for a win and Meetups seemed like a strong bet. A board meeting on the horizon left a short runway to design, develop and ship in time to report meaningful performance data — about 5 weeks for UX.</p>
@@ -61,31 +61,23 @@ const caseStudyData = {
                 <div class="choke">
                     
                     <h2>The Challenge</h2>
-                    <p class="intro">I proposed a build-to-learn execution strategy to fit the project scope into the short timeframe, but my team was skeptical to proceed without the rigor that typically informs UX decisions.</p>
+                    <p class="intro">I proposed a build-to-learn execution strategy, but faced weak buy-in. My team was hesitant to proceed without the rigor that typically informs UX decisions.</p>
 
                     <h3>What I Did</h3>
                     <ol class="custom-list">
-                        <li>Revisited the OKR to reframe our understanding of the project goal.</li>
+                        <li>Reframed the OKR to reshape our understanding of the project goal.</li>
                         <li>Clarified how building-to-learn reduces investment risk.</li>
-                        <li>Capped delivery milestones with user interviews to test design solutions and validate assumptions.</li>
-                        <li>Established principles and guardrails to drive execution.</li>
+                        <li>Capped delivery milestones with user interviews to learn as we go.</li>
+                        <!-- <li>Established principles and guardrails to drive execution.</li> -->
                     </ol>
+
+                    <h3>Reframing The Goal</h3>
             
-                    <h3>Where We Landed</h3>
-                    <ul class="custom-list-bullet">
-                        <li>Reframing the project goal reduced scope and pressure to deliver a fully-realized end state.</li>
-                        <li>Insight into the business risk helped see things from a business perspective.</li>
-                        <li>Feedback from user interviews accellerated learning from real-life scenarios.</li>
-                        <li>Guiding principles encouraged reuse which kept exploration costs low and avoided overdevelopment of an untested product feature.</li>
-                    </ul>
-
+                    <p>Organizational Key Result</p>
+                    <p class="intro">At least 50% of daily active users view one meetup-eligible item per session</p>
                 </div>
-
-                <div class="stack">
-                <h3>Reframing The Goal</h3>
-
-                <h4>Organizational Key Result</h4>
-                <p class="intro">At least 50% of daily active users view one meetup-eligible item per session</p>
+                
+            <div class="stack">
                 
                 <div class="layout">
                     <img src="resources/images/img-chart-okr.avif">
@@ -108,14 +100,27 @@ const caseStudyData = {
                 </div>
             </div>
             
-            <div class="stack">
+            <div class="choke">
                 <h3>Build-to-Learn Risk Management</h3>
                 <p>I ran research alongside design to keep us focused and avoid distractions. Evaluative research capped each week’s design milestone. Feedback from user interviews validated design decisions and that channeled caution into confidence.</p>
-                
+            </div>
+
+            <div class="stack">
                 <div class="layout">
                     <img src="resources/images/img-chart-risk.avif">
                 </div>
-                </div>
+            </div>
+
+            <div class="choke">
+                <h3>Where We Landed</h3>
+                    <p>Strong team support for a build-to-learn appraoch.</p>
+                    <ul class="custom-list-bullet">
+                        <li>Reframing the goal transformed the project from a feature delivery into a research vehicle. That relieved pressure to deliver a fully-realized end state.</li>
+                        <li>Team recognized building-to-learn as a strategic way to avoid over investment in untested product features.</li>
+                        <li>Research guardrails provided predictible checkpoints to evaluate progress and plot next steps.</li>
+                        <!-- <li>Guiding principles encouraged reuse which kept exploration costs low and avoided overdevelopment of an untested product feature.</li> -->
+                    </ul>
+            </div>
 
                 
 
@@ -145,25 +150,26 @@ const caseStudyData = {
 
                 </div>  
 
-                <div class="stack">
-                
+               
+                <div class="choke">
                     <h3>Initiating Design With Safe Assumptions</h3>
                     <p class="intro">Integrating location into the product experience was key to success. Design system components, patterns and architecture enabled discovery of locally available inventory, quickly.</p>
+                </div>
                 
-
+                <div class="stack">
                     <div class="comparison">
                         <div class="style">
                         <h4>Approach</h4>
                             <ol class="custom-list">
-                                <li>Adding a "Nearby" item category was influenced by established architectural patterns.</li>
+                                <li>Adding a "Nearby" item category was influenced by established product architecture.</li>
                                 <li>Search logic was extended to support local item discovery.</li>
-                                <li>Control over search radius was enabled using design system components like bottom sheets, chips and buttons.</li>
+                                <li>Design system components like buttons, chips and bottom sheets, enabled control over search radius.</li>
                             </ol>
                         </div>
                         
                         <div class="style-alt">
                             <h4>Why It Mattered</h4>
-                            <p>Speed. This was a fast way to enable discovery backed by historical context to drive confidence in design decisions.</p>
+                            <p>Speed. We enabled item discovery using existing components, patterns and infrastructure backed by product knowledge to drive confidence in design decisions.</p>
                         </div>
                     </div>
                 </div>
@@ -174,20 +180,21 @@ const caseStudyData = {
                         <div class="box" style="grid-area: box-3"><img src="resources/images/img-nearby-bottomsheet.avif"></div>
                 </div>
 
-                <div class="stack">
+                <div class="choke">
                     <h3>Research Guardrails</h3>
-                    <p class="intro">Debate over map functionality split the team. Functional maps introduced time-consuming complexity.</p>
-                
+                    <p class="intro">Debate over map functionality split the team. Validation checkpoints reunited us.</p>
+                </div>
 
+                <div class="stack">
                     <div class="comparison">
                         <div class="style">
                             <h4>Approach</h4>
-                            <p>We tested low-fidelity concepts with users and learned map functionality was a low priority for our context.</p>
+                            <p>Tested maps in low-fidelity layouts with users. We learned functionality was a low priority in this context, so we stuck with the simple static solution.</p>
                         </div>
 
                         <div class="style-alt">
                             <h4>Why It Mattered</h4>
-                            <p>Regular user feedback validated desgin decisions and helped everyone distinguish between high-value design solutions and low-value distractons.</p>
+                            <p>Regular user feedback provided early signal to distinguish between high-value design solutions and low-value distractons.</p>
                         </div>
                     </div>
                 </div>
@@ -201,21 +208,24 @@ const caseStudyData = {
                     </div>
                 </div>
                 
-                <div>
+                <div class="choke">
                     <h3>Leveraging Product Systems</h3>
-                    <h4>Example</h4>
-                    <p class="intro">Leveraging existing chat moderation flows enabled onboarding and coordination of in-person item exchanges.</p>
+                    <!-- <h4>Example</h4> -->
+                    <p class="intro">Onboarding and meetup coordination took place in chats. Repurposed moderation frameworks let us guide the experience.</p>
                 </div>
                 
-                <div class="comparison">
-                    <div class="style">
-                        <h4>Approach</h4>
-                        <p>We redesigned chat moderation flows and logic to encourage engagement and facilitate meetup coordination.</p>
-                    </div>
-                    
-                    <div class="style-alt">
-                        <h4>Why It Mattered</h4>
-                        <p>Chat provided insight into how users coordinate meetups in real life scenarios. Insights informed what to build next.</p>
+                <div class="stack">
+                    <div class="comparison">
+                        <div class="style">
+                            <h4>Approach</h4>
+                            <p>We redesigned moderation flows and introduced modular components into chats to learn from real life scenarios and close experience gaps.</p>
+                            <!-- <p>We redesigned chat moderation flows and logic to guide users.</p> -->
+                        </div>
+                        
+                        <div class="style-alt">
+                            <h4>Why It Mattered</h4>
+                            <p>Chat provided insight into how users coordinate meetups in real life scenarios. Insights helped us decide what to prioritize next.</p>
+                        </div>
                     </div>
                 </div>
 
@@ -231,9 +241,9 @@ const caseStudyData = {
                     </div>
                 </div>
 
-                <div>
+                <div class="choke">
                     <h3>Balancing Speed With Product Integrity</h3>
-                    <h4>Example</h4>
+                    <!-- <h4>Example</h4> -->
                     <p class="intro">We layered payment into the existing transaction flow to avoid sweeping changes to the core experience.</p>
                 </div>
 
