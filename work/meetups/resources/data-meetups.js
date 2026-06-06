@@ -18,16 +18,16 @@ const caseStudyData = {
 
 
                     <h3>The Challenge</h3>
-                    <p>We estimated 13 weeks to research, design, validate and deliver. We were alotted five. Starting was critical, but where to begin was unclear without research to inform scope and guide direction. Delay risked delivering on time.</p>
+                    <p>We estimated 13 weeks to research, design, validate and deliver. We were alotted five. Starting was critical, but where to begin was unclear without research to inform scope and guide direction. Delay risked on-time delivery.</p>
 
                     <h3>What I Did</h3>
-                    <p>I rallied my team behind a build-to-learn execution strategy. Evaluative research tested assumptions, validated decisions, and drove confidence in our direction. Design system components, patterns and product infrastructure avoided expensive time-consuming builds.</p>
+                    <p>I rallied my team behind a build-to-learn execution strategy. Evaluative research tested assumptions, validated decisions, and drove confidence in our direction. Design system components, patterns and product infrastructure kept us from expensive time-consuming builds.</p>
 
                     <h3>Where We Landed</h3>
                     <ul class="custom-list-bullet">
                         <li>Delivered a feature in five weeks that outperformed by ~20%.</li>
                         <li>Expanded our UX toolkit with a methodology that fast tracked learning.</li>
-                        <li>Validated a design strategy for keeping exploration costs and investment risk low.</li>
+                        <li>Validated a design strategy that keeps exploration costs and investment risk low.</li>
                     </ul>
 
                 </div>
@@ -71,84 +71,86 @@ const caseStudyData = {
                         <!-- <li>Established principles and guardrails to drive execution.</li> -->
                     </ol>
 
-                    <h3>Reframing The Goal</h3>
-            
-                    <p>Organizational Key Result</p>
-                    <p class="intro">At least 50% of daily active users view one meetup-eligible item per session</p>
+                    <h3>Where We Landed</h3>
+                    <p>Strong team support for a build-to-learn appraoch.</p>
                 </div>
+
+            <div class="stack">    
+                <div class="choke">    
+                    <h3>Reframing The Goal</h3>
                 
-            <div class="stack">
+                    <div class="pull-quote">
+                        <h4>Organizational Key Result (OKR)</h4>
+                        <p class="intro">At least 50% of daily active users view one meetup-eligible item per session</p>
+                    </div>
+                </div>
                 
                 <div class="layout">
                     <img src="resources/images/img-chart-okr.avif">
                 </div>
-                
 
                 <div class="comparison">
                     <div class="style">
-                        <h4>Project Goal</h4>
+                        <h4>Ambiguous Goal</h4>
                         <p>Design a Meetups experience that results in a 50% DAU engagement rate.</p>
-                        <p>Indexes on an end state that drives demand.</p>
-
+                        <p>Indexes on the end state to drive demand.</p>
                     </div>
 
                     <div class="style-alt">
-                        <h4>Goal Reframed</h4>
-                        <p>Enable in-person transactions to evaluate existing demand against a 50% DAU engagement rate.</p>
-                        <p>Enables existing behavior to measure demand.</p>
+                        <h4>Focused Goal</h4>
+                        <p>Enable in-person transactions to evaluate demand against a 50% DAU engagement rate.</p>
+                        <p>Measures demand by enabling existing user behavior.</p>
                     </div>
+                </div>
+
+                <div class="choke">
+                    <p>Reframing the goal transformed the project from a feature delivery into a research vehicle. That tightened scope and relieved pressure to deliver a fully-realized end state.</p>
                 </div>
             </div>
             
-            <div class="choke">
-                <h3>Build-to-Learn Risk Management</h3>
-                <p>I ran research alongside design to keep us focused and avoid distractions. Evaluative research capped each week’s design milestone. Feedback from user interviews validated design decisions and that channeled caution into confidence.</p>
-            </div>
-
             <div class="stack">
+                <div class="choke">
+                    <h3>Build-to-Learn Risk Management</h3>
+                    <p>I ran research alongside design to keep us focused and avoid distractions. Evaluative research capped each week’s design milestone. Feedback from user interviews validated design decisions and that channeled caution into confidence.</p>
+                </div>
+
                 <div class="layout">
                     <img src="resources/images/img-chart-risk.avif">
                 </div>
-            </div>
 
-            <div class="choke">
-                <h3>Where We Landed</h3>
-                    <p>Strong team support for a build-to-learn appraoch.</p>
-                    <ul class="custom-list-bullet">
-                        <li>Reframing the goal transformed the project from a feature delivery into a research vehicle. That relieved pressure to deliver a fully-realized end state.</li>
-                        <li>Team recognized building-to-learn as a strategic way to avoid over investment in untested product features.</li>
-                        <li>Research guardrails provided predictible checkpoints to evaluate progress and plot next steps.</li>
-                        <!-- <li>Guiding principles encouraged reuse which kept exploration costs low and avoided overdevelopment of an untested product feature.</li> -->
-                    </ul>
-            </div>
+                <div class="comparison">
+                    <div class="style">
+                        <h4>Default UX Process (Research, Design, Test)</h4>
+                        <p>Front-loads research and design investment with learnings arriving after costs have been sunk.</p>
+                    </div>
 
-                
+                    <div class="style-alt">
+                        <h4>Build-to-Learn (Design, Test, Repeat)</h4>
+                        <p>Regular validation points fast track learning to inform next steps keeping risk levels manageable.</p>
+                    </div>
+                </div>
 
+                <div class="choke">
+                    <p>Team recognized building-to-learn as a strategic way to avoid over investment in untested product features. Research guardrails provided predictible checkpoints to evaluate progress and plot next steps.</p>
+                </div>
             </div>
         </div>
+    </div>
 
-        <div class="band">
-            <div class="content">
-                <div class="choke">
+    <div class="band">
+        <div class="content">
+            <div class="choke">
                     
-                    <h2>Execution</h2>
-                    <p class="intro">I established principles to guide our build-to-learn strategy.</p>
+                <h2>The Execution</h2>
 
-                    <h3>The Principles</h3>
-                    <ol class="custom-list">
-                        <li>Initiate design with safe assumptions that must be true for the project to succeed.</li>
-                        <li>Prioritize existing design system components and patterns over net new.</li>
-                        <li>Keep designs simple and light-weight to avoid sweeping infrastructure changes.</li>
-                        <li>Gather early insights to validate ideas, bolster confidence and inform next steps.</li>
-                    </ol>
-
-                    <!-- <h3>The Guardrails</h3>
-                    
-               
-                    <h3>Where We Landed</h3>
-                    <p>We handed off designs in 5 weeks providing runway for development and performance evaluation. My team embraced guidance to leverage design system components and product infrastructure, and it paid off in development. Repurposed components, product features, and core infrastructure enabled us to ship fast and keep costs low.</p> -->
-
-                </div>  
+                <h3>Build-to-Learn Guiding Principles</h3>
+                <ol class="custom-list">
+                    <li>Initiate design with safe assumptions that must be true for the project to succeed.</li>
+                    <li>Prioritize existing design system components and patterns over net new.</li>
+                    <li>Keep designs simple and light-weight to avoid sweeping infrastructure changes.</li>
+                    <li>Gather early insights to validate ideas, bolster confidence and inform next steps.</li>
+                </ol>
+            </div>  
 
                
                 <div class="choke">
@@ -284,11 +286,8 @@ const caseStudyData = {
             <div class="content">
                 <div class="choke">
                     
-                    <!-- <h3>Subhead</h3> -->
-                    
                     <h2>Where We Landed</h2>
-                    <p class="intro">Early results validated user demand and secured commitment for further investment.
-</p>
+                    <p class="intro">Early results validated user demand and secured commitment for further investment.</p>
 
                     <h3>Performance</h3>
                     <ul class="custom-list-bullet">
@@ -297,8 +296,13 @@ const caseStudyData = {
                         <li>Increased sell-through rate for large bulky items ~33%.</li>
                         <li>12% increase in Gross Merchandise Volume (GMV) forecasted.</li>
                     </ul>
+                </div>
+
+                <div class="layout">
+                    <img src="resources/images/img-chart-result.avif">
+                </div>
                     
-                    <h3>Guardrails</h3>
+                <div class="choke">             <h3>Guardrails</h3>
                     <ul class="custom-list-bullet">
                         <li>Maintained positive user feedback on the core listing/purchase flow.</li>
                         <li>Strong in-app engagement through messaging to coordinate Meetups.</li>
@@ -307,12 +311,6 @@ const caseStudyData = {
                
                     <h3>Leadership And Team</h3>
                     <p>We validated a build-to-learn UX approach as way to keep exploration costs and development risks low. Shifting perspective on the problem expanded our strategic UX tool kit and fast-tracked insight into the people we design for.</p>
-
-                </div>
-                
-                <h3>Performance Results</h3>
-                <div class="layout">
-                    <img src="resources/images/img-chart-result.avif">
                 </div>
             </div>
         </div>
@@ -321,10 +319,9 @@ const caseStudyData = {
 
         <div class="band">
             <div class="content">
-                    
-                    <!-- <h3>Subhead</h3> -->
-                    
+                <div class="choke">
                     <h2>Takeaways</h2>
+                </div>
                     
                     <div class="deck">
                         <div class="flashcard">

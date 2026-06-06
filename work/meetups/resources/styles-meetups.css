@@ -239,6 +239,10 @@
     background-color: var(--meetups-lavender);
 }
 
+.pull-quote {
+    border-left: 4px solid var(--meetups-magenta);
+}
+
 
 /* ----------------------------------------------------------------- */
 /* ///// ///// ///// MEDIA QUERIES (enhancements)  ///// ///// ///// */
