@@ -67,7 +67,7 @@ const caseStudyData = {
                     <ol class="custom-list">
                         <li>Reframed the OKR to reshape our understanding of the project goal.</li>
                         <li>Clarified how building-to-learn reduces investment risk.</li>
-                        <li>Capped delivery milestones with user interviews to learn as we go.</li>
+                        <li>Capped delivery milestones with user interviews to learn along the way.</li>
                     </ol>
 
                     <h3>Where We Landed</h3>
@@ -90,13 +90,13 @@ const caseStudyData = {
 
                 <div class="comparison">
                     <div class="style">
-                        <h4>Ambiguous Goal</h4>
+                        <h4>Goal Before</h4>
                         <p>Design a Meetups experience that results in a 50% DAU engagement rate.</p>
                         <!-- <p>Indexes on the end state to drive demand.</p> -->
                     </div>
 
                     <div class="style-alt">
-                        <h4>Focused Goal</h4>
+                        <h4>Goal Reframedonon</h4>
                         <p>Enable in-person transactions to evaluate demand against a 50% DAU engagement rate.</p>
                         <!-- <p>Measures demand by enabling existing user behavior.</p> -->
                     </div>
@@ -104,7 +104,7 @@ const caseStudyData = {
 
                 <div class="choke">
                     <h4>Why It Worked</h4>
-                    <p>Reframing the goal transformed the project from a feature delivery into a research vehicle. That tightened scope and relieved pressure to deliver a fully-realized end state.</p>
+                    <p>Our original goal was too broad for the five-week timeframe. Our new goal narrowed focus on enabling in-person transactions to measure demand. That transformed Meetups from a feature delivery into a research vehicle and relieved pressure to deliver a fully-polished end state.</p>
                 </div>
             </div>
             
@@ -121,18 +121,21 @@ const caseStudyData = {
                 <div class="comparison">
                     <div class="style">
                         <h4>Default UX Process (Research, Design, Test)</h4>
-                        <p>Front-loads research and design investment with learnings arriving after costs have been sunk.</p>
+                        <p>Front-loads research and design investment in an untested feature. Learnings arrive late, after costs have been sunk.</p>
                     </div>
 
                     <div class="style-alt">
                         <h4>Build-to-Learn (Design, Test, Repeat)</h4>
-                        <p>Regular validation points fast track learning to inform next steps keeping risk levels manageable.</p>
+                        <p>Regular validation points fast track learning to inform next steps. Signals arrive early, keeping direction flexible and risk low.</p>
                     </div>
                 </div>
 
                 <div class="choke">
                     <h4>Why It Worked</h4>
-                    <p>Team recognized building-to-learn as a strategic way to avoid over investment in untested product features. Research guardrails provided predictible checkpoints to evaluate progress and plot next steps.</p>
+                    <ol class="custom-list">
+                        <li>My team recognized the risk-reduction strategy behind building-to-learn.</li>
+                        <li>Predictable validation points meant strategic opportunities to learn directly from our users.</li>
+                    </ol>
                 </div>
             </div>
         </div>
@@ -156,7 +159,7 @@ const caseStudyData = {
             <div class="stack">   
                 <div class="choke">
                     <h3>Initiating Design With Safe Assumptions</h3>
-                    <p class="intro">Integrating location into the product experience was key to success. Design system components, patterns and architecture enabled discovery of locally available inventory, quickly.</p>
+                    <p class="intro">Integrating location into the product experience was a hard requirement for success.</p>
                 </div>
                 
                 <div class="comparison">
@@ -171,7 +174,7 @@ const caseStudyData = {
                         
                     <div class="style-alt">
                         <h4>Why It Mattered</h4>
-                        <p>Speed. We enabled item discovery using existing components, patterns and infrastructure backed by product knowledge to drive confidence in design decisions.</p>
+                        <p>Speed. We enabled item discovery quickly using off-the-shelf components, patterns and infrastructure grounded in product knowledge to solve low-risk problems.</p>
                     </div>
                 </div>
 
@@ -186,18 +189,18 @@ const caseStudyData = {
             <div class="stack">
                 <div class="choke">
                     <h3>Research Guardrails</h3>
-                    <p class="intro">Debate over map functionality split the team. Validation checkpoints reunited us.</p>
+                    <p class="intro">Debate over map functionality split the team. Insights brought us back together.</p>
                 </div>
 
                 <div class="comparison">
                     <div class="style">
                         <h4>Approach</h4>
-                        <p>Tested maps in low-fidelity layouts with users. We learned functionality was a low priority in this context, so we stuck with the simple static solution.</p>
+                        <p>We tested maps in low-fidelity layouts with users. We learned functionality was a low priority in this context, so we stuck with the simple static solution.</p>
                     </div>
 
                     <div class="style-alt">
                         <h4>Why It Mattered</h4>
-                        <p>Regular user feedback provided early signal to distinguish between high-value design solutions and low-value distractons.</p>
+                        <p>Regular user feedback provided early signals to distinguish between high-value design solutions and low-value distractions.</p>
                     </div>
                 </div>
 
@@ -256,7 +259,7 @@ const caseStudyData = {
 
                     <div class="style-alt">
                         <h4>Why It Mattered</h4>
-                        <p>Ensured fee collection. Payment though our system, using buyer and seller protections as incentives, maintained the core experience regardless of item delivery method.</p>
+                        <p>Ensured fee collection. Payment though our system, using buyer and seller protections as incentives, maintained the core experience regardless of shipping or delivery method.</p>
                     </div>
                 </div>
                 
