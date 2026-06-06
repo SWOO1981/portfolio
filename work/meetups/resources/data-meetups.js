@@ -68,7 +68,6 @@ const caseStudyData = {
                         <li>Reframed the OKR to reshape our understanding of the project goal.</li>
                         <li>Clarified how building-to-learn reduces investment risk.</li>
                         <li>Capped delivery milestones with user interviews to learn as we go.</li>
-                        <!-- <li>Established principles and guardrails to drive execution.</li> -->
                     </ol>
 
                     <h3>Where We Landed</h3>
@@ -93,17 +92,18 @@ const caseStudyData = {
                     <div class="style">
                         <h4>Ambiguous Goal</h4>
                         <p>Design a Meetups experience that results in a 50% DAU engagement rate.</p>
-                        <p>Indexes on the end state to drive demand.</p>
+                        <!-- <p>Indexes on the end state to drive demand.</p> -->
                     </div>
 
                     <div class="style-alt">
                         <h4>Focused Goal</h4>
                         <p>Enable in-person transactions to evaluate demand against a 50% DAU engagement rate.</p>
-                        <p>Measures demand by enabling existing user behavior.</p>
+                        <!-- <p>Measures demand by enabling existing user behavior.</p> -->
                     </div>
                 </div>
 
                 <div class="choke">
+                    <h4>Why It Worked</h4>
                     <p>Reframing the goal transformed the project from a feature delivery into a research vehicle. That tightened scope and relieved pressure to deliver a fully-realized end state.</p>
                 </div>
             </div>
@@ -111,7 +111,7 @@ const caseStudyData = {
             <div class="stack">
                 <div class="choke">
                     <h3>Build-to-Learn Risk Management</h3>
-                    <p>I ran research alongside design to keep us focused and avoid distractions. Evaluative research capped each week’s design milestone. Feedback from user interviews validated design decisions and that channeled caution into confidence.</p>
+                    <p class="intro">I contrasted the investment risks associated with our default research-driven UX process and a build-to-learn approach.</p>
                 </div>
 
                 <div class="layout">
@@ -131,6 +131,7 @@ const caseStudyData = {
                 </div>
 
                 <div class="choke">
+                    <h4>Why It Worked</h4>
                     <p>Team recognized building-to-learn as a strategic way to avoid over investment in untested product features. Research guardrails provided predictible checkpoints to evaluate progress and plot next steps.</p>
                 </div>
             </div>
@@ -152,52 +153,51 @@ const caseStudyData = {
                 </ol>
             </div>  
 
-               
+            <div class="stack">   
                 <div class="choke">
                     <h3>Initiating Design With Safe Assumptions</h3>
                     <p class="intro">Integrating location into the product experience was key to success. Design system components, patterns and architecture enabled discovery of locally available inventory, quickly.</p>
                 </div>
                 
-                <div class="stack">
-                    <div class="comparison">
-                        <div class="style">
+                <div class="comparison">
+                    <div class="style">
                         <h4>Approach</h4>
-                            <ol class="custom-list">
-                                <li>Adding a "Nearby" item category was influenced by established product architecture.</li>
-                                <li>Search logic was extended to support local item discovery.</li>
-                                <li>Design system components like buttons, chips and bottom sheets, enabled control over search radius.</li>
-                            </ol>
-                        </div>
+                        <ol class="custom-list">
+                            <li>Adding a "Nearby" item category was influenced by established product architecture.</li>
+                            <li>Search logic was extended to support local item discovery.</li>
+                            <li>Design system components like buttons, chips and bottom sheets, enabled control over search radius.</li>
+                        </ol>
+                    </div>
                         
-                        <div class="style-alt">
-                            <h4>Why It Mattered</h4>
-                            <p>Speed. We enabled item discovery using existing components, patterns and infrastructure backed by product knowledge to drive confidence in design decisions.</p>
-                        </div>
+                    <div class="style-alt">
+                        <h4>Why It Mattered</h4>
+                        <p>Speed. We enabled item discovery using existing components, patterns and infrastructure backed by product knowledge to drive confidence in design decisions.</p>
                     </div>
                 </div>
-                
+
                 <div class="layout showcase bento">
-                        <div class="box" style="grid-area: box-1"><img src="resources/images/img-nearby.avif"></div>
-                        <div class="box" style="grid-area: box-2"><img src="resources/images/img-nearby-filter.avif"></div>
-                        <div class="box" style="grid-area: box-3"><img src="resources/images/img-nearby-bottomsheet.avif"></div>
+                    <div class="box" style="grid-area: box-1"><img src="resources/images/img-nearby.avif"></div>
+                    <div class="box" style="grid-area: box-2"><img src="resources/images/img-nearby-filter.avif"></div>
+                    <div class="box" style="grid-area: box-3"><img src="resources/images/img-nearby-bottomsheet.avif"></div>
                 </div>
 
+            </div>
+
+            <div class="stack">
                 <div class="choke">
                     <h3>Research Guardrails</h3>
                     <p class="intro">Debate over map functionality split the team. Validation checkpoints reunited us.</p>
                 </div>
 
-                <div class="stack">
-                    <div class="comparison">
-                        <div class="style">
-                            <h4>Approach</h4>
-                            <p>Tested maps in low-fidelity layouts with users. We learned functionality was a low priority in this context, so we stuck with the simple static solution.</p>
-                        </div>
+                <div class="comparison">
+                    <div class="style">
+                        <h4>Approach</h4>
+                        <p>Tested maps in low-fidelity layouts with users. We learned functionality was a low priority in this context, so we stuck with the simple static solution.</p>
+                    </div>
 
-                        <div class="style-alt">
-                            <h4>Why It Mattered</h4>
-                            <p>Regular user feedback provided early signal to distinguish between high-value design solutions and low-value distractons.</p>
-                        </div>
+                    <div class="style-alt">
+                        <h4>Why It Mattered</h4>
+                        <p>Regular user feedback provided early signal to distinguish between high-value design solutions and low-value distractons.</p>
                     </div>
                 </div>
 
@@ -209,25 +209,23 @@ const caseStudyData = {
                         <img src="resources/images/img-validation-map.avif">
                     </div>
                 </div>
-                
+            </div>
+
+            <div class="stack">
                 <div class="choke">
                     <h3>Leveraging Product Systems</h3>
-                    <!-- <h4>Example</h4> -->
                     <p class="intro">Onboarding and meetup coordination took place in chats. Repurposed moderation frameworks let us guide the experience.</p>
                 </div>
                 
-                <div class="stack">
-                    <div class="comparison">
-                        <div class="style">
-                            <h4>Approach</h4>
-                            <p>We redesigned moderation flows and introduced modular components into chats to learn from real life scenarios and close experience gaps.</p>
-                            <!-- <p>We redesigned chat moderation flows and logic to guide users.</p> -->
-                        </div>
+                <div class="comparison">
+                    <div class="style">
+                        <h4>Approach</h4>
+                        <p>We redesigned moderation flows and introduced modular components into chats to learn from real life scenarios and close experience gaps.</p>
+                    </div>
                         
-                        <div class="style-alt">
-                            <h4>Why It Mattered</h4>
-                            <p>Chat provided insight into how users coordinate meetups in real life scenarios. Insights helped us decide what to prioritize next.</p>
-                        </div>
+                    <div class="style-alt">
+                        <h4>Why It Mattered</h4>
+                        <p>Chat provided insight into how users coordinate meetups in real life scenarios. Insights helped us decide what to prioritize next.</p>
                     </div>
                 </div>
 
@@ -242,10 +240,11 @@ const caseStudyData = {
                         <img src="resources/images/img-moderation-message.avif">
                     </div>
                 </div>
+            </div>
 
+            <div class="stack">    
                 <div class="choke">
                     <h3>Balancing Speed With Product Integrity</h3>
-                    <!-- <h4>Example</h4> -->
                     <p class="intro">We layered payment into the existing transaction flow to avoid sweeping changes to the core experience.</p>
                 </div>
 
@@ -278,14 +277,15 @@ const caseStudyData = {
                         <img src="resources/images/img-integration-complete.avif">
                     </div>
                 </div>
-            
             </div>
         </div>
+    </div>
 
-        <div class="band">
-            <div class="content">
+    <div class="band">
+        <div class="content">
+            <div class="stack">
                 <div class="choke">
-                    
+                        
                     <h2>Where We Landed</h2>
                     <p class="intro">Early results validated user demand and secured commitment for further investment.</p>
 
@@ -301,49 +301,47 @@ const caseStudyData = {
                 <div class="layout">
                     <img src="resources/images/img-chart-result.avif">
                 </div>
-                    
-                <div class="choke">             <h3>Guardrails</h3>
+                        
+                <div class="choke">             
+                    <h3>Guardrails</h3>
                     <ul class="custom-list-bullet">
                         <li>Maintained positive user feedback on the core listing/purchase flow.</li>
                         <li>Strong in-app engagement through messaging to coordinate Meetups.</li>
                         <li>No increase in scam reports or safety incidents related to Meetups.</li>
                     </ul>
-               
+                
                     <h3>Leadership And Team</h3>
                     <p>We validated a build-to-learn UX approach as way to keep exploration costs and development risks low. Shifting perspective on the problem expanded our strategic UX tool kit and fast-tracked insight into the people we design for.</p>
                 </div>
             </div>
         </div>
+    </div>
 
-<!-- Start TEMPLATE -->
-
-        <div class="band">
-            <div class="content">
-                <div class="choke">
-                    <h2>Takeaways</h2>
-                </div>
+    <div class="band">
+        <div class="content">
+            <div class="choke">
+                <h2>Takeaways</h2>
+            </div>
                     
-                    <div class="deck">
-                        <div class="flashcard">
-                            <h4>01</h4>
-                            <h3>To solve a tough problem, reframe it</h3>
-                            <div class="border"></div>
-                            <p>How we define a problem influences how we solve it. Different angles and perspectives might reveal innovative solutions that hadn’t been considered. For us, reframing the problem turned Meetups into a valuable research experiment that provided a direct way to learn from users in real scenarios. Our original framing would have missed that.</p>
-                        </div>
+            <div class="deck">
+                <div class="flashcard">
+                    <h4>01</h4>
+                    <h3>To solve a tough problem, reframe it</h3>
+                    <div class="border"></div>
+                    <p>How we define a problem influences how we solve it. Different angles and perspectives might reveal innovative solutions that hadn’t been considered. For us, reframing the problem turned Meetups into a valuable research experiment that provided a direct way to learn from users in real scenarios. Our original framing would have missed that.</p>
+                </div>
 
-                        <div class="flashcard">
-                            <h4>02</h4>
-                            <h3>Know the right way, and the wrong time for it</h3>
-                            <div class="border"></div>
-                            <p>Knowing the right way to achieve something is admirable, but knowing when the right way becomes a liability is better. For us, adhering to our rigorous UX process would have caused us to miss faster, cheaper and more adaptable opportunities to learn from existing user behavior.</p>
-                        </div>
-
-                    </div>
-   
+                <div class="flashcard">
+                    <h4>02</h4>
+                    <h3>Know the right way, and the wrong time for it</h3>
+                    <div class="border"></div>
+                    <p>Knowing the right way to achieve something is admirable, but knowing when the right way becomes a liability is better. For us, adhering to our rigorous UX process would have caused us to miss faster, cheaper and more adaptable opportunities to learn from existing user behavior.</p>
+                </div>
             </div>
         </div>
+    </div>
+</div>
 
-<!-- END TEMPLATE -->
 
 
        

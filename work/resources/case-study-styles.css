@@ -218,7 +218,8 @@ body {
     flex-direction: column;
     align-self: center;
     max-width: 45rem; /* 720 px */
-    gap: 1rem;
+    gap: 1rem;        /* 16 px */
+    
 }
 
 .content .stack{
