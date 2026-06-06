@@ -85,11 +85,10 @@ const caseStudyData = {
                     <p>We established a more consistent and intentional approach to color across UX. Two systems governing styles gave us the beginnings of a recognizable product language that functioned as a powerful alignment tool.</p>
                 </div>
 
-                <div class="showcase bento">
-                    
-                        <div class="box" style="grid-area: box-1"><img src="resources/images/img-pilot-color-screen.avif"></div>
-                        <div class="box" style="grid-area: box-2"><img src="resources/images/img-pilot-color-before.avif"></div>
-                        <div class="box" style="grid-area: box-3"><img src="resources/images/img-pilot-color-after.avif"></div>
+                <div class="showcase bento">    
+                    <div class="box" style="grid-area: box-1"><img src="resources/images/img-pilot-color-screen.avif"></div>
+                    <div class="box" style="grid-area: box-2"><img src="resources/images/img-pilot-color-before.avif"></div>
+                    <div class="box" style="grid-area: box-3"><img src="resources/images/img-pilot-color-after.avif"></div>
                 </div>
             </div>
         </div>
@@ -114,14 +113,12 @@ const caseStudyData = {
                     <p>Our hackathon prototype was a compelling proof-of-concept for a formal design token initiative and support for adoption increased company-wide.</p>
                 </div>
 
-                <div>
-                    <div class="triptic">
-                        <div class="box"><img src="resources/images/img-hack-daytime.avif"></div>
-                        <div class="box"><img src="resources/images/img-hack-evening.avif"></div>
-                        <div class="box"><img src="resources/images/img-hack-high-contrast.avif"></div>
-                    </div>
+                
+                <div class="triptic">
+                    <div class="box"><img src="resources/images/img-hack-daytime.avif"></div>
+                    <div class="box"><img src="resources/images/img-hack-evening.avif"></div>
+                    <div class="box"><img src="resources/images/img-hack-high-contrast.avif"></div>
                 </div>
-
             </div>
         </div>
 
