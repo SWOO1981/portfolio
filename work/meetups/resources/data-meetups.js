@@ -4,7 +4,7 @@ const caseStudyData = {
     company: "Mercari, Inc.",
     role: "UX Design Manager",
     platforms: "Mobile App + Web",
-    timeline: "5-week execution",
+    timeline: "Five-week execution",
     achievements: "<ul><li>Exceeded OKR by ~20%</li><li>+13% Inventory Growth</li></ul>",
     bodyContent: `
         
@@ -19,7 +19,7 @@ const caseStudyData = {
 
 
                         <h3>The Challenge</h3>
-                        <p>We estimated 13 weeks to research, design, validate and deliver. We were alotted five. Starting was critical, but where to begin was unclear without research to inform scope and guide direction. Delay risked on-time delivery.</p>
+                        <p>We estimated 13 weeks to research, design, validate and deliver. We were allotted five. Starting was critical, but where to begin was unclear without research to inform scope and guide direction. Delay risked on-time delivery.</p>
 
                         <h3>What I Did</h3>
                         <p>I rallied my team behind a build-to-learn execution strategy. Evaluative research tested assumptions, validated decisions, and drove confidence in our direction. Design system components, patterns and product infrastructure kept risk low.</p>
@@ -71,7 +71,7 @@ const caseStudyData = {
                         </ol>
 
                         <h3>Where We Landed</h3>
-                        <p>Strong team support for a build-to-learn appraoch.</p>
+                        <p>Strong team support for a build-to-learn approach.</p>
                     </div>
                 </div>
 
@@ -261,12 +261,12 @@ const caseStudyData = {
                 <div class="comparison">
                     <div class="style">
                         <h4>Approach</h4>
-                        <p>Designed a simple two-step form to funnel users though our trusted transaction flow after a meetup.</p>
+                        <p>Designed a simple two-step form to funnel users through our trusted transaction flow after a meetup.</p>
                     </div>
 
                     <div class="style-alt">
                         <h4>Why It Mattered</h4>
-                        <p>Ensured fee collection. Payment though our system, using buyer and seller protections as incentives, maintained the core experience regardless of shipping or delivery method.</p>
+                        <p>Ensured fee collection. Payment through our system, using buyer and seller protections as incentives, maintained the core experience regardless of shipping or delivery method.</p>
                     </div>
                 </div>
                 
@@ -302,7 +302,7 @@ const caseStudyData = {
                     <h3>Performance</h3>
                     <ul class="custom-list-bullet">
                         <li>Exceeded OKR engagement goal by +20%.</li>
-                        <li>Increased test market item inventory by +13.</li>
+                        <li>Increased test market inventory by +13.</li>
                         <li>Increased sell-through rate for large bulky items ~33%.</li>
                         <li>12% increase in Gross Merchandise Volume (GMV) forecasted.</li>
                     </ul>
