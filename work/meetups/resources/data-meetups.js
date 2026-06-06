@@ -97,15 +97,17 @@ const caseStudyData = {
                         </div>
 
                         <div class="style-alt">
-                            <h4>Goal Reframedonon</h4>
+                            <h4>Goal Reframed</h4>
                             <p>Enable in-person transactions to evaluate demand against a 50% DAU engagement rate.</p>
                             <!-- <p>Measures demand by enabling existing user behavior.</p> -->
                         </div>
                     </div>
 
                     <div class="choke">
-                        <h4>Why It Worked</h4>
-                        <p>Our original goal was too broad for the five-week timeframe. Our new goal narrowed focus on enabling in-person transactions to measure demand. That transformed Meetups from a feature delivery into a research vehicle and relieved pressure to deliver a fully-polished end state.</p>
+                        <div>
+                            <h4>Why It Worked</h4>
+                            <p>Our original goal was too broad for the five-week timeframe. Our new goal narrowed focus on enabling in-person transactions to measure demand. That transformed Meetups from a feature delivery into a research vehicle and relieved pressure to deliver a fully-polished end state.</p>
+                        </div>
                     </div>
                 </div>
             
@@ -132,11 +134,13 @@ const caseStudyData = {
                     </div>
 
                     <div class="choke">
-                        <h4>Why It Worked</h4>
-                        <ol class="custom-list">
-                            <li>My team recognized the risk-reduction strategy behind building-to-learn.</li>
-                            <li>Predictable validation points meant strategic opportunities to learn directly from our users.</li>
-                        </ol>
+                        <div>
+                            <h4>Why It Worked</h4>
+                            <ol class="custom-list">
+                                <li>My team recognized the risk-reduction strategy behind building-to-learn.</li>
+                                <li>Predictable validation points meant strategic opportunities to learn directly from our users.</li>
+                            </ol>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -325,23 +329,25 @@ const caseStudyData = {
 
     <div class="band">
         <div class="content">
-            <div class="choke">
-                <h2>Takeaways</h2>
-            </div>
-                    
-            <div class="deck">
-                <div class="flashcard">
-                    <h4>01</h4>
-                    <h3>To solve a tough problem, reframe it</h3>
-                    <div class="border"></div>
-                    <p>How we define a problem influences how we solve it. Different angles and perspectives might reveal innovative solutions that hadn’t been considered. For us, reframing the problem turned Meetups into a valuable research experiment that provided a direct way to learn from users in real scenarios. Our original framing would have missed that.</p>
+            <div class="stack">
+                <div class="choke">
+                    <h2>Takeaways</h2>
                 </div>
+                        
+                <div class="deck">
+                    <div class="flashcard">
+                        <h4>01</h4>
+                        <h3>To solve a tough problem, reframe it</h3>
+                        <div class="border"></div>
+                        <p>How we define a problem influences how we solve it. Different angles and perspectives might reveal innovative solutions that hadn’t been considered. For us, reframing the problem turned Meetups into a valuable research experiment that provided a direct way to learn from users in real scenarios. Our original framing would have missed that.</p>
+                    </div>
 
-                <div class="flashcard">
-                    <h4>02</h4>
-                    <h3>Know the right way, and the wrong time for it</h3>
-                    <div class="border"></div>
-                    <p>Knowing the right way to achieve something is admirable, but knowing when the right way becomes a liability is better. For us, adhering to our rigorous UX process would have caused us to miss faster, cheaper and more adaptable opportunities to learn from existing user behavior.</p>
+                    <div class="flashcard">
+                        <h4>02</h4>
+                        <h3>Know the right way, and the wrong time for it</h3>
+                        <div class="border"></div>
+                        <p>Knowing the right way to achieve something is admirable, but knowing when the right way becomes a liability is better. For us, adhering to our rigorous UX process would have caused us to miss faster, cheaper and more adaptable opportunities to learn from existing user behavior.</p>
+                    </div>
                 </div>
             </div>
         </div>

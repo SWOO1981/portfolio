@@ -196,35 +196,33 @@ const caseStudyData = {
                 <div class="stack">
                     <div class="choke">
                         <h2>Takeaways</h2>
-                    </div>
-                </div>    
+                    </div>   
 
-                <div class="deck">
-                    <div class="flashcard">
-                        <h4>01</h4>
-                        <h3>Scale Your Systems, Protect Your Value</h3>
-                        <div class="border"></div>
-                        <p>Design value lives in the systems that support it. When systems don’t scale, the rising cost to keep up with changing market demands eventually force decisions that prioritize spreadsheets over users. They’ll notice.</p>
-                    </div>
+                    <div class="deck">
+                        <div class="flashcard">
+                            <h4>01</h4>
+                            <h3>Scale Your Systems, Protect Your Value</h3>
+                            <div class="border"></div>
+                            <p>Design value lives in the systems that support it. When systems don’t scale, the rising cost to keep up with changing market demands eventually force decisions that prioritize spreadsheets over users. They’ll notice.</p>
+                        </div>
 
-                    <div class="flashcard">
-                        <h4>02</h4>
-                        <h3>Patience Readies You For Action</h3>
-                        <div class="border"></div>
-                        <p>Organizational change is slow. Momentum builds gradually through trust and proven value. Once you find the leverage point, things accelerate pretty fast. All the work and preparation pays off in the transition to action. That’s how we pulled off design tokens in six weeks.</p>
-                    </div>
+                        <div class="flashcard">
+                            <h4>02</h4>
+                            <h3>Patience Readies You For Action</h3>
+                            <div class="border"></div>
+                            <p>Organizational change is slow. Momentum builds gradually through trust and proven value. Once you find the leverage point, things accelerate pretty fast. All the work and preparation pays off in the transition to action. That’s how we pulled off design tokens in six weeks.</p>
+                        </div>
 
-                    <div class="flashcard">
-                        <h4>03</h4>
-                        <h3>Operations Might Be Your Hidden Gem</h3>
-                        <div class="border"></div>
-                        <p>Improving design capabilities with design tokens unlocked product exploration into collector communities, theming and personalization. Before, these opportunities to form a deeper connection with users  would have been cost-prohibitive. Not bad for a six-week investment.</p>
+                        <div class="flashcard">
+                            <h4>03</h4>
+                            <h3>Operations Might Be Your Hidden Gem</h3>
+                            <div class="border"></div>
+                            <p>Improving design capabilities with design tokens unlocked product exploration into collector communities, theming and personalization. Before, these opportunities to form a deeper connection with users  would have been cost-prohibitive. Not bad for a six-week investment.</p>
+                        </div>
                     </div>
                 </div>
             </div>    
-        </div>
-    
-    
+        </div>    
     </div>
 
     `
