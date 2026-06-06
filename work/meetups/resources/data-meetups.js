@@ -11,150 +11,153 @@ const caseStudyData = {
     <div class=canvas>
         <div class="band">
             <div class="content">
-                <div class="choke">
+                <div class="stack">
+                    <div class="choke">
 
-                    <h2>Overview</h2>
-                    <p class="intro">When business priorities compressed our project timeline, I led my UX team from indecision to action, driving consensus for an execution strategy that turned a feature launch into a valuable product experiment.</p>
+                        <h2>Overview</h2>
+                        <p class="intro">When business priorities compressed our project timeline, I led my UX team from indecision to action, driving consensus for an execution strategy that turned a feature launch into a valuable product experiment.</p>
 
 
-                    <h3>The Challenge</h3>
-                    <p>We estimated 13 weeks to research, design, validate and deliver. We were alotted five. Starting was critical, but where to begin was unclear without research to inform scope and guide direction. Delay risked on-time delivery.</p>
+                        <h3>The Challenge</h3>
+                        <p>We estimated 13 weeks to research, design, validate and deliver. We were alotted five. Starting was critical, but where to begin was unclear without research to inform scope and guide direction. Delay risked on-time delivery.</p>
 
-                    <h3>What I Did</h3>
-                    <p>I rallied my team behind a build-to-learn execution strategy. Evaluative research tested assumptions, validated decisions, and drove confidence in our direction. Design system components, patterns and product infrastructure kept us from expensive time-consuming builds.</p>
+                        <h3>What I Did</h3>
+                        <p>I rallied my team behind a build-to-learn execution strategy. Evaluative research tested assumptions, validated decisions, and drove confidence in our direction. Design system components, patterns and product infrastructure kept us from expensive time-consuming builds.</p>
 
-                    <h3>Where We Landed</h3>
-                    <ul class="custom-list-bullet">
-                        <li>Delivered a feature in five weeks that outperformed by ~20%.</li>
-                        <li>Expanded our UX toolkit with a methodology that fast tracked learning.</li>
-                        <li>Validated a design strategy that keeps exploration costs and investment risk low.</li>
-                    </ul>
+                        <h3>Where We Landed</h3>
+                        <ul class="custom-list-bullet">
+                            <li>Delivered a feature in five weeks that outperformed by ~20%.</li>
+                            <li>Expanded our UX toolkit with a methodology that fast tracked learning.</li>
+                            <li>Validated a design strategy that keeps exploration costs and investment risk low.</li>
+                        </ul>
 
+                    </div>
                 </div>
-
-                <!-- <div class="figure">
-                    <img src="resources/images/img-meetups-lede.png">
-                </div> -->
-
             </div>
         </div>   
         
         <div class="band">
             <div class="content">
-                <div class="choke">
+                <div class="stack">
+                    <div class="choke">
+                        
+                        <h2>How We Got There</h2>
+                        <p class="intro">Mercari was built for contact-free buying and selling. Items needed to go through our shipping system to protect transactions and ensure fee collection. Selling off-app was restricted because it cut Mercari out of the transaction entirely, meaning lost revenue.</p>
+
+                        <h3>What Changed</h3>
+                        <p>Transactions trended upward despite cross-posting on OfferUp and Facebook Marketplace where in-person cash sales were encouraged. Mercari lifted restrictions on face-to-face exchanges to compete. Protection incentives through our payment system ensured fee collection.</p>
                     
-                    <h2>How We Got There</h2>
-                    <p class="intro">Mercari was built for contact-free buying and selling. Items needed to go through our shipping system to protect transactions and ensure fee collection. Selling off-app was restricted because it cut Mercari out of the transaction entirely, meaning lost revenue.</p>
+                        <h3>Why Now</h3>
+                        <p>Investors were hungry for a win and Meetups seemed like a strong bet. A board meeting on the horizon left a short runway to design, develop and ship in time to report meaningful performance data — about 5 weeks for UX.</p>
 
-                    <h3>What Changed</h3>
-                    <p>Transactions trended upward despite cross-posting on OfferUp and Facebook Marketplace where in-person cash sales were encouraged. Mercari lifted restrictions on face-to-face exchanges to compete. Protection incentives through our payment system ensured fee collection.</p>
-                
-                    <h3>Why Now</h3>
-                    <p>Investors were hungry for a win and Meetups seemed like a strong bet. A board meeting on the horizon left a short runway to design, develop and ship in time to report meaningful performance data — about 5 weeks for UX.</p>
-
-                </div>    
+                    </div>   
+                </div> 
             </div>
         </div>
 
         <div class="band">
             <div class="content">
-                <div class="choke">
+                <div class="stack">
+                    <div class="choke">
+                        
+                        <h2>The Challenge</h2>
+                        <p class="intro">I proposed a build-to-learn execution strategy, but faced weak buy-in. My team was hesitant to proceed without the rigor that typically informs UX decisions.</p>
+
+                        <h3>What I Did</h3>
+                        <ol class="custom-list">
+                            <li>Reframed the OKR to reshape our understanding of the project goal.</li>
+                            <li>Clarified how building-to-learn reduces investment risk.</li>
+                            <li>Capped delivery milestones with user interviews to learn along the way.</li>
+                        </ol>
+
+                        <h3>Where We Landed</h3>
+                        <p>Strong team support for a build-to-learn appraoch.</p>
+                    </div>
+                </div>
+
+                <div class="stack">    
+                    <div class="choke">    
+                        <h3>Reframing The Goal</h3>
                     
-                    <h2>The Challenge</h2>
-                    <p class="intro">I proposed a build-to-learn execution strategy, but faced weak buy-in. My team was hesitant to proceed without the rigor that typically informs UX decisions.</p>
-
-                    <h3>What I Did</h3>
-                    <ol class="custom-list">
-                        <li>Reframed the OKR to reshape our understanding of the project goal.</li>
-                        <li>Clarified how building-to-learn reduces investment risk.</li>
-                        <li>Capped delivery milestones with user interviews to learn along the way.</li>
-                    </ol>
-
-                    <h3>Where We Landed</h3>
-                    <p>Strong team support for a build-to-learn appraoch.</p>
-                </div>
-
-            <div class="stack">    
-                <div class="choke">    
-                    <h3>Reframing The Goal</h3>
-                
-                    <div class="pull-quote">
-                        <h4>Organizational Key Result (OKR)</h4>
-                        <p class="intro">At least 50% of daily active users view one meetup-eligible item per session</p>
+                        <div class="pull-quote">
+                            <h4>Organizational Key Result (OKR)</h4>
+                            <p class="intro">At least 50% of daily active users view one meetup-eligible item per session</p>
+                        </div>
                     </div>
-                </div>
-                
-                <div class="layout">
-                    <img src="resources/images/img-chart-okr.avif">
-                </div>
-
-                <div class="comparison">
-                    <div class="style">
-                        <h4>Goal Before</h4>
-                        <p>Design a Meetups experience that results in a 50% DAU engagement rate.</p>
-                        <!-- <p>Indexes on the end state to drive demand.</p> -->
+                    
+                    <div class="layout">
+                        <img src="resources/images/img-chart-okr.avif">
                     </div>
 
-                    <div class="style-alt">
-                        <h4>Goal Reframedonon</h4>
-                        <p>Enable in-person transactions to evaluate demand against a 50% DAU engagement rate.</p>
-                        <!-- <p>Measures demand by enabling existing user behavior.</p> -->
+                    <div class="comparison">
+                        <div class="style">
+                            <h4>Goal Before</h4>
+                            <p>Design a Meetups experience that results in a 50% DAU engagement rate.</p>
+                            <!-- <p>Indexes on the end state to drive demand.</p> -->
+                        </div>
+
+                        <div class="style-alt">
+                            <h4>Goal Reframedonon</h4>
+                            <p>Enable in-person transactions to evaluate demand against a 50% DAU engagement rate.</p>
+                            <!-- <p>Measures demand by enabling existing user behavior.</p> -->
+                        </div>
+                    </div>
+
+                    <div class="choke">
+                        <h4>Why It Worked</h4>
+                        <p>Our original goal was too broad for the five-week timeframe. Our new goal narrowed focus on enabling in-person transactions to measure demand. That transformed Meetups from a feature delivery into a research vehicle and relieved pressure to deliver a fully-polished end state.</p>
                     </div>
                 </div>
-
-                <div class="choke">
-                    <h4>Why It Worked</h4>
-                    <p>Our original goal was too broad for the five-week timeframe. Our new goal narrowed focus on enabling in-person transactions to measure demand. That transformed Meetups from a feature delivery into a research vehicle and relieved pressure to deliver a fully-polished end state.</p>
-                </div>
-            </div>
             
-            <div class="stack">
-                <div class="choke">
-                    <h3>Build-to-Learn Risk Management</h3>
-                    <p class="intro">I contrasted the investment risks associated with our default research-driven UX process and a build-to-learn approach.</p>
-                </div>
-
-                <div class="layout">
-                    <img src="resources/images/img-chart-risk.avif">
-                </div>
-
-                <div class="comparison">
-                    <div class="style">
-                        <h4>Default UX Process (Research, Design, Test)</h4>
-                        <p>Front-loads research and design investment in an untested feature. Learnings arrive late, after costs have been sunk.</p>
+                <div class="stack">
+                    <div class="choke">
+                        <h3>Build-to-Learn Risk Management</h3>
+                        <p class="intro">I contrasted the investment risks associated with our default research-driven UX process and a build-to-learn approach.</p>
                     </div>
 
-                    <div class="style-alt">
-                        <h4>Build-to-Learn (Design, Test, Repeat)</h4>
-                        <p>Regular validation points fast track learning to inform next steps. Signals arrive early, keeping direction flexible and risk low.</p>
+                    <div class="layout">
+                        <img src="resources/images/img-chart-risk.avif">
                     </div>
-                </div>
 
-                <div class="choke">
-                    <h4>Why It Worked</h4>
-                    <ol class="custom-list">
-                        <li>My team recognized the risk-reduction strategy behind building-to-learn.</li>
-                        <li>Predictable validation points meant strategic opportunities to learn directly from our users.</li>
-                    </ol>
+                    <div class="comparison">
+                        <div class="style">
+                            <h4>Default UX Process (Research, Design, Test)</h4>
+                            <p>Front-loads research and design investment in an untested feature. Learnings arrive late, after costs have been sunk.</p>
+                        </div>
+
+                        <div class="style-alt">
+                            <h4>Build-to-Learn (Design, Test, Repeat)</h4>
+                            <p>Regular validation points fast track learning to inform next steps. Signals arrive early, keeping direction flexible and risk low.</p>
+                        </div>
+                    </div>
+
+                    <div class="choke">
+                        <h4>Why It Worked</h4>
+                        <ol class="custom-list">
+                            <li>My team recognized the risk-reduction strategy behind building-to-learn.</li>
+                            <li>Predictable validation points meant strategic opportunities to learn directly from our users.</li>
+                        </ol>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
     <div class="band">
         <div class="content">
-            <div class="choke">
-                    
-                <h2>The Execution</h2>
+            <div class="stack">
+                <div class="choke">
+                        
+                    <h2>The Execution</h2>
 
-                <h3>Build-to-Learn Guiding Principles</h3>
-                <ol class="custom-list">
-                    <li>Initiate design with safe assumptions that must be true for the project to succeed.</li>
-                    <li>Prioritize existing design system components and patterns over net new.</li>
-                    <li>Keep designs simple and light-weight to avoid sweeping infrastructure changes.</li>
-                    <li>Gather early insights to validate ideas, bolster confidence and inform next steps.</li>
-                </ol>
-            </div>  
+                    <h3>Build-to-Learn Guiding Principles</h3>
+                    <ol class="custom-list">
+                        <li>Initiate design with safe assumptions that must be true for the project to succeed.</li>
+                        <li>Prioritize existing design system components and patterns over net new.</li>
+                        <li>Keep designs simple and light-weight to avoid sweeping infrastructure changes.</li>
+                        <li>Gather early insights to validate ideas, bolster confidence and inform next steps.</li>
+                    </ol>
+                </div>  
+            </div>
 
             <div class="stack">   
                 <div class="choke">

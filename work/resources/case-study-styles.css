@@ -200,7 +200,9 @@ body {
     flex-wrap: nowrap;
     width: 100%;
     align-items: center;
-    padding-bottom: 3.5rem;
+    padding-top: 4rem;
+    padding-bottom: 8rem;
+    /* padding-bottom: 3.5rem; */
 }
 
 .content {
@@ -209,24 +211,30 @@ body {
     justify-content: center;
     width: 100%;
     max-width: 72rem;
-    padding: 4rem 2rem;
-    gap: 4rem;
+    gap: 8rem;
 }
+
+
 
 .content .choke {
     display: flex;
     flex-direction: column;
     align-self: center;
-    max-width: 45rem; /* 720 px */
-    gap: 1rem;        /* 16 px */
-    
+    max-width: 45rem;   /* 720 px */
 }
 
 .content .stack{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    gap: 1.5rem;
+    padding: 0 1.5rem;  /* 24 px Left and Right */
+    /* gap: 1.5rem; */
+}
+
+.content .choke,
+.content .stack {
+    gap: 1rem;          /* 16 px Between Sections */
+    
 }
 
 .comparison {
@@ -344,7 +352,7 @@ body {
     font-size: 1.5rem;
     font-weight: 650;
     font-style: normal;
-    margin-top: 1rem; /*<-- Used for rhythmic separation from previous paragraph */
+    /* margin-top: 1rem; /* <-- Used for rhythmic separation from previous paragraph */
 }
 
 /* XXX - Depricate ".body-content p" */
@@ -373,14 +381,14 @@ body {
     margin-top: 0rem;
 }
 
-.band .content h4 {
+/* .band .content h4 {
     margin-top: 2rem;
     margin-bottom: .5rem;
-}
+} */
 
-.comparison h4 {
+/* .comparison h4 {
     margin-bottom: .5rem;
-}
+} */
 
 
 /* ------------------------------------------- */
@@ -616,26 +624,24 @@ footer {
 }
 
 .canvas .band {
-    padding-bottom: 8rem;
+    padding-top: 10rem;
+    padding-bottom: 16rem;
 }
 
 .content {
-    gap: 10rem;
-    padding: calc(var(--unit-huge) + var(--radius-prominent)) 2rem;
+    gap: 16rem;
+    /* padding: calc(var(--unit-huge) + var(--radius-prominent)) 2rem; */
 }
 
-.content .choke {
-    gap: 2.5rem;
+.content .choke,
+.content .stack {
+    gap: 4rem;          /* 16 px Between Sections */
+    padding: 0 1.5rem;  /* 24 px Left and Right */
 }
 
 .comparison {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     gap: 4rem;
-}
-
-.content .stack {
-    gap: 1.5rem;
 }
 
 .pull-quote {
@@ -746,7 +752,7 @@ footer {
 /* XXX Depricate ".body-content h3" */
 .canvas .band h3 {
     font-size: 2rem;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
 }
 
 /* XXX - Depricate ".body-content p" */
@@ -817,7 +823,8 @@ footer {
 .band .choke h3 + p,
 .band .choke h3+ ul,
 .band .choke h3+ ol {
-    margin-top: -1.0125rem;
+    /* margin-top: -1.0125rem; */
 }
 
 }
+
