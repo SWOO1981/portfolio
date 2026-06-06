@@ -252,8 +252,8 @@ body {
     grid-template-rows: auto auto auto 1fr;
     gap: 1.5rem;
     background-color: var(--gray-150);
-    padding: 2rem 1.5rem;
-    max-width: 20.625rem;
+    padding: 2rem 2rem;
+    max-width: 24rem;
 }
 
 .flashcard h3 {
@@ -575,7 +575,7 @@ ol {
     background-color: var(--primary-cyan);
     border-radius: var(--radius-prominent) var(--radius-prominent) 0 0;
     margin-top: calc(var(--radius-prominent) * -1);
-    padding: 3rem 0;
+    padding: 4rem 0 8rem 0;
 }
 
 .title-end {
@@ -654,6 +654,11 @@ footer {
 .pull-quote {
     padding-left: 2rem;
     border-left: 4px solid var(--primary-magenta);
+}
+
+.bottom-nav {
+    gap: 1.5rem;
+    padding: 10rem 0 16rem 0;
 }
 
 

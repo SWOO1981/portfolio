@@ -93,7 +93,7 @@
     background-color: var(--neutral-101);
 }
 
-.band {
+.canvas .band {
     background-image: linear-gradient(to bottom, var(--neutral-100), var(--neutral-101));
 }
 
@@ -101,6 +101,8 @@
     background-color: var(--aqua-100);
     color: var(--content-standard);
 }
+
+
 
 /* --------------------------------------- */
 /* ///// END NEUE CONTENT CONTAINERS ///// */

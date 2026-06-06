@@ -5,6 +5,7 @@
 :root {
     --meetups-magenta: hsl(327, 70%, 65%);
     --meetups-chrome-yellow: hsl(35, 90%, 65%);
+    --meetups-aqua: hsl(175, 50%, 70%);
     --meetups-pink: hsl(345, 100%, 75%);
     --meetups-yellow: hsl(70, 100%, 80%);
     --meetups-orange: hsl(30, 100%, 65%);
@@ -69,7 +70,7 @@
     background-size: cover;
 }
 
-.band {
+.canvas .band {
     background-image: linear-gradient(to bottom, var(--meetups-neutral-100), var(--meetups-neutral-150));
 }
 
@@ -236,7 +237,7 @@
 }
 
 .flashcard {
-    background-color: var(--meetups-lavender);
+    background-color: var(--meetups-aqua);
 }
 
 .pull-quote {

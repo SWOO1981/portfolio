@@ -22,7 +22,7 @@ const caseStudyData = {
                         <p>We estimated 13 weeks to research, design, validate and deliver. We were alotted five. Starting was critical, but where to begin was unclear without research to inform scope and guide direction. Delay risked on-time delivery.</p>
 
                         <h3>What I Did</h3>
-                        <p>I rallied my team behind a build-to-learn execution strategy. Evaluative research tested assumptions, validated decisions, and drove confidence in our direction. Design system components, patterns and product infrastructure kept us from expensive time-consuming builds.</p>
+                        <p>I rallied my team behind a build-to-learn execution strategy. Evaluative research tested assumptions, validated decisions, and drove confidence in our direction. Design system components, patterns and product infrastructure kept risk low.</p>
 
                         <h3>Where We Landed</h3>
                         <ul class="custom-list-bullet">
@@ -346,8 +346,15 @@ const caseStudyData = {
                         <h4>02</h4>
                         <h3>Know the right way, and the wrong time for it</h3>
                         <div class="border"></div>
-                        <p>Knowing the right way to achieve something is admirable, but knowing when the right way becomes a liability is better. For us, adhering to our rigorous UX process would have caused us to miss faster, cheaper and more adaptable opportunities to learn from existing user behavior.</p>
+                        <p>Knowing the best practices to accomplish something is admirable, but knowing when that becomes a liability is better. For us, adhering to our rigorous UX process would have overlooked faster, cheaper and more adaptable opportunities to learn from existing user behavior.</p>
                     </div>
+
+                    <!-- <div class="flashcard">
+                        <h4>03</h4>
+                        <h3>Know the right way, and the wrong time for it</h3>
+                        <div class="border"></div>
+                        <p>Knowing the right way to achieve something is admirable, but knowing when the right way becomes a liability is better. For us, adhering to our rigorous UX process would have caused us to miss faster, cheaper and more adaptable opportunities to learn from existing user behavior.</p>
+                    </div> -->
                 </div>
             </div>
         </div>
