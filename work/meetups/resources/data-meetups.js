@@ -15,7 +15,7 @@ const caseStudyData = {
                     <div class="choke">
 
                         <h2>Overview</h2>
-                        <p class="intro">When business priorities compressed our project timeline, I led my UX team from indecision to action, driving consensus for an execution strategy that turned a feature launch into a valuable product experiment.</p>
+                        <p class="intro">When business priorities compressed our project timeline, I led my UX team from indecision to action, driving consensus for an execution strategy that turned our feature launch into a valuable product experiment.</p>
 
 
                         <h3>The Challenge</h3>
@@ -26,7 +26,7 @@ const caseStudyData = {
 
                         <h3>Where We Landed</h3>
                         <ul class="custom-list-bullet">
-                            <li>Delivered a feature in five weeks that outperformed by ~20%.</li>
+                            <li>Delivered Meetups in five weeks and outperformed by ~20%.</li>
                             <li>Expanded our UX toolkit with a methodology that fast tracked learning.</li>
                             <li>Validated a design strategy that keeps exploration costs and investment risk low.</li>
                         </ul>
@@ -188,7 +188,7 @@ const caseStudyData = {
                     <div class="style">
                         <h4>Approach</h4>
                         <ol class="custom-list">
-                            <li>Product architecture influenced the placement of personalized items. We added a "Nearby."</li>
+                            <li>Product architecture influenced the placement of personalized items. We added "Nearby."</li>
                             <li>Search logic was extended to support local item discovery.</li>
                             <li>Design system components like buttons, chips and bottom sheets, enabled control over search radius.</li>
                         </ol>
