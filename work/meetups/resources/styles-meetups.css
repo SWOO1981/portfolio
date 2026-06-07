@@ -4,6 +4,7 @@
 
 :root {
     --meetups-magenta: hsl(327, 70%, 65%);
+    --meetups-vermillion: hsl(15, 90%, 67%);
     --meetups-chrome-yellow: hsl(35, 90%, 65%);
     --meetups-aqua: hsl(175, 50%, 70%);
     --meetups-pink: hsl(345, 100%, 75%);
@@ -30,7 +31,7 @@
     --meetups-yellow-600: hsl(45, 93%, 60%);
 
     --meetups-neutral-100: hsl(0, 100%, 100%);
-    --meetups-neutral-150: hsl(45, 30%, 97%);
+    --meetups-neutral-150: hsl(45, 30%, 93%);
     --meetups-neutral-700: hsl(45, 10%, 30%);
     --meetups-neutral-900: hsl(45, 30%, 10%);
 
@@ -237,11 +238,12 @@
 }
 
 .flashcard {
-    background-color: var(--meetups-aqua);
+    background-color: var(--meetups-vermillion);
 }
 
 .pull-quote {
     border-left: 4px solid var(--meetups-magenta);
+    padding-left: 1.25rem;
 }
 
 
@@ -269,6 +271,10 @@
 
 .content h3 + .layout {
     margin-top: -7rem;
+}
+
+.pull-quote {
+    padding-left: 2rem;
 }
 
 .showcase {

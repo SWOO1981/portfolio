@@ -223,7 +223,8 @@ body {
     max-width: 45rem;   /* 720 px */
 }
 
-.content .stack{
+.content .stack,
+.content .stack-tight {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -234,6 +235,13 @@ body {
 .content .stack {
     gap: 3rem;          /* 16 px Between Sections */
     
+}
+
+.content .stack-tight {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 1.5rem;
 }
 
 .comparison {
@@ -633,17 +641,22 @@ footer {
 }
 
 .content {
-    gap: 16rem;
-    /* padding: calc(var(--unit-huge) + var(--radius-prominent)) 2rem; */
+    gap: 14rem;
 }
 
-.content .stack {
+.content .stack,
+.content .stack-tight {
     padding: 0 3rem;  /* 48 px Left and Right */
 }
 
 .content .choke,
 .content .stack {
-    gap: 5rem;          /* 80 px between elements */
+    gap: 6rem;          /* 80 px between elements WAS 5 REM*/
+}
+
+.content .stack-tight,
+.stack-tight .choke {
+    gap: 2.5rem;
 }
 
 .comparison {
@@ -763,7 +776,7 @@ footer {
 
 /* XXX Depricate ".body-content h3" */
 .canvas .band h3 {
-    font-size: 2rem;
+    font-size: 1.875rem;
     /* margin-top: 2rem; */
 }
 
@@ -837,12 +850,16 @@ footer {
 }
 
 .band .choke h3 + p {
-    margin-top: -4rem;
+    margin-top: -5.125rem;
+}
+
+.stack-tight .choke h3 + p {
+    margin-top: 0;
 }
 
 .band .choke h3+ ul,
 .band .choke h3+ ol {
-    margin-top: -3rem;
+    margin-top: -4.5rem;
 }
 
 }

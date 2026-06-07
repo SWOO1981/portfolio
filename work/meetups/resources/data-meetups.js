@@ -19,7 +19,7 @@ const caseStudyData = {
 
 
                         <h3>The Challenge</h3>
-                        <p>We estimated 13 weeks to research, design, validate and deliver. We were allotted five. Starting was critical, but where to begin was unclear without research to inform scope and guide direction. Delay risked on-time delivery.</p>
+                        <p>We estimated 13 weeks to research, design, validate and deliver. We were allotted five. We needed to move quickly, but without reserach it was unclear where to focus or how broadly to scope. Delay risked on-time delivery.</p>
 
                         <h3>What I Did</h3>
                         <p>I rallied my team behind a build-to-learn execution strategy. Evaluative research tested assumptions, validated decisions, and drove confidence in our direction. Design system components, patterns and product infrastructure kept risk low.</p>
@@ -75,7 +75,7 @@ const caseStudyData = {
                     </div>
                 </div>
 
-                <div class="stack">    
+                <div class="stack-tight">    
                     <div class="choke">    
                         <h3>Reframing The Goal</h3>
                     
@@ -88,22 +88,22 @@ const caseStudyData = {
                     <div class="layout">
                         <img src="resources/images/img-chart-okr.avif">
                     </div>
-
-                    <div class="comparison">
-                        <div class="style">
-                            <h4>Goal Before</h4>
-                            <p>Design a Meetups experience that results in a 50% DAU engagement rate.</p>
-                            <!-- <p>Indexes on the end state to drive demand.</p> -->
-                        </div>
-
-                        <div class="style-alt">
-                            <h4>Goal Reframed</h4>
-                            <p>Enable in-person transactions to evaluate demand against a 50% DAU engagement rate.</p>
-                            <!-- <p>Measures demand by enabling existing user behavior.</p> -->
-                        </div>
-                    </div>
-
+                    
                     <div class="choke">
+                        <div class="comparison">
+                            <div>
+                                <h4>Goal Before</h4>
+                                <p>Design a Meetups experience that results in a 50% DAU engagement rate.</p>
+                                <!-- <p>Indexes on the end state to drive demand.</p> -->
+                            </div>
+
+                            <div>
+                                <h4>Goal Reframed</h4>
+                                <p>Enable in-person transactions to evaluate demand against a 50% DAU engagement rate.</p>
+                                <!-- <p>Measures demand by enabling existing user behavior.</p> -->
+                            </div>
+                        </div>
+
                         <div>
                             <h4>Why It Worked</h4>
                             <p>Our original goal was too broad for the five-week timeframe. Our new goal narrowed focus on enabling in-person transactions to measure demand. That transformed Meetups from a feature delivery into a research vehicle and relieved pressure to deliver a fully-polished end state.</p>
@@ -111,7 +111,7 @@ const caseStudyData = {
                     </div>
                 </div>
             
-                <div class="stack">
+                <div class="stack-tight">
                     <div class="choke">
                         <h3>Build-to-Learn Risk Management</h3>
                         <p class="intro">I contrasted the investment risks associated with our default research-driven UX process and a build-to-learn approach.</p>
@@ -120,20 +120,20 @@ const caseStudyData = {
                     <div class="layout">
                         <img src="resources/images/img-chart-risk.avif">
                     </div>
-
-                    <div class="comparison">
-                        <div class="style">
-                            <h4>Default UX Process (Research, Design, Test)</h4>
-                            <p>Front-loads research and design investment in an untested feature. Learnings arrive late, after costs have been sunk.</p>
-                        </div>
-
-                        <div class="style-alt">
-                            <h4>Build-to-Learn (Design, Test, Repeat)</h4>
-                            <p>Regular validation points fast track learning to inform next steps. Signals arrive early, keeping direction flexible and risk low.</p>
-                        </div>
-                    </div>
-
+                    
                     <div class="choke">
+                        <div class="comparison">
+                            <div>
+                                <h4>Default UX Process<br>(Research, Design, Test)</h4>
+                                <p>Front-loads research and design investment in an untested feature. Learnings arrive late, after costs have been sunk.</p>
+                            </div>
+
+                            <div>
+                                <h4>Build-to-Learn<br>(Design, Test, Repeat)</h4>
+                                <p>Regular validation points fast track learning to inform next steps. Signals arrive early, keeping direction flexible and risk low.</p>
+                            </div>
+                        </div>
+
                         <div>
                             <h4>Why It Worked</h4>
                             <ol class="custom-list">
@@ -145,6 +145,7 @@ const caseStudyData = {
                 </div>
             </div>
         </div>
+   
 
     <div class="band">
         <div class="content">
@@ -163,17 +164,17 @@ const caseStudyData = {
                 </div>  
             </div>
 
-            <div class="stack">   
+            <div class="stack-tight">   
                 <div class="choke">
                     <h3>Initiating Design With Safe Assumptions</h3>
                     <p class="intro">Integrating location into the product experience was a hard requirement for success.</p>
-                </div>
+                
                 
                 <div class="comparison">
                     <div class="style">
                         <h4>Approach</h4>
                         <ol class="custom-list">
-                            <li>Adding a "Nearby" item category was influenced by established product architecture.</li>
+                            <li>Product architecture influenced the placement of personalized items. We added a "Nearby."</li>
                             <li>Search logic was extended to support local item discovery.</li>
                             <li>Design system components like buttons, chips and bottom sheets, enabled control over search radius.</li>
                         </ol>
@@ -184,6 +185,7 @@ const caseStudyData = {
                         <p>Speed. We enabled item discovery quickly using off-the-shelf components, patterns and infrastructure grounded in product knowledge to solve low-risk problems.</p>
                     </div>
                 </div>
+                </div>
 
                 <div class="layout showcase bento">
                     <div class="box" style="grid-area: box-1"><img src="resources/images/img-nearby.avif"></div>
@@ -193,11 +195,11 @@ const caseStudyData = {
 
             </div>
 
-            <div class="stack">
+            <div class="stack-tight">
                 <div class="choke">
                     <h3>Research Guardrails</h3>
                     <p class="intro">Debate over map functionality split the team. Insights brought us back together.</p>
-                </div>
+               
 
                 <div class="comparison">
                     <div class="style">
@@ -210,7 +212,7 @@ const caseStudyData = {
                         <p>Regular user feedback provided early signals to distinguish between high-value design solutions and low-value distractions.</p>
                     </div>
                 </div>
-
+ </div>
                 <div class="layout duo">
                     <div>
                         <img src="resources/images/img-validation-screen.avif">
@@ -221,11 +223,11 @@ const caseStudyData = {
                 </div>
             </div>
 
-            <div class="stack">
+            <div class="stack-tight">
                 <div class="choke">
                     <h3>Leveraging Product Systems</h3>
                     <p class="intro">Onboarding and meetup coordination took place in chats. Repurposed moderation frameworks let us guide the experience.</p>
-                </div>
+                
                 
                 <div class="comparison">
                     <div class="style">
@@ -238,7 +240,7 @@ const caseStudyData = {
                         <p>Chat provided insight into how users coordinate meetups in real life scenarios. Insights helped us decide what to prioritize next.</p>
                     </div>
                 </div>
-
+</div>
                 <div class="layout layout-moderation">
                     <div class="item-1">
                         <img src="resources/images/img-moderation-screens.avif">
@@ -252,11 +254,11 @@ const caseStudyData = {
                 </div>
             </div>
 
-            <div class="stack">    
+            <div class="stack-tight">    
                 <div class="choke">
                     <h3>Balancing Speed With Product Integrity</h3>
                     <p class="intro">We layered payment into the existing transaction flow to avoid sweeping changes to the core experience.</p>
-                </div>
+                
 
                 <div class="comparison">
                     <div class="style">
@@ -269,7 +271,7 @@ const caseStudyData = {
                         <p>Ensured fee collection. Payment through our system, using buyer and seller protections as incentives, maintained the core experience regardless of shipping or delivery method.</p>
                     </div>
                 </div>
-                
+</div>                
                 <div class="layout layout-integration">
                     <div class="item-1">
                         <img src="resources/images/img-integration-form.avif">
