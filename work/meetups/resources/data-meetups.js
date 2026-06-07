@@ -34,7 +34,21 @@ const caseStudyData = {
                     </div>
                 </div>
             </div>
-        </div>   
+        </div>
+        
+        <div class="band-strong">
+            <div class="content">
+                <div class="stack">
+                    <div class="choke">
+                        
+                        <h2>Find Buy Meet Rate</h2>
+
+                    </div>
+
+                    <img src="resources/images/img-screen-group.avif">
+                </div>
+            </div>
+        </div>
         
         <div class="band">
             <div class="content">

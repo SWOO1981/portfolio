@@ -345,7 +345,8 @@ body {
 }
 
 /* XXX - Depricate ".body-content h2" */
-.canvas .band h2 {
+.canvas .band h2,
+.canvas .band-strong h2 {
     font-family: "Bricolage Grotesque", sans-serif;
     font-size: 2.75rem;
     font-weight: 700;
@@ -769,7 +770,8 @@ footer {
 }
 
 /* XXX Depricate ".body-content h2" */
-.canvas .band h2 {
+.canvas .band h2,
+.canvas .band-strong h2 {
     font-size: 4.5rem;
     line-height: 4.5rem;
 }

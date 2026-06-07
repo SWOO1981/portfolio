@@ -75,15 +75,18 @@
     background-image: linear-gradient(to bottom, var(--meetups-neutral-100), var(--meetups-neutral-150));
 }
 
-/* .comparison .style {
-    background-color: var(--primary-magenta);
-    color: var(--meetups-content-standard);
+.canvas .band-strong {
+    background-color: var(--meetups-aqua);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+    align-items: center;
+    padding-top: 4rem;
+    padding-bottom: 8rem;
+    border-radius: var(--radius-prominent) var(--radius-prominent) 0 0;
+    margin-top: calc(var(--radius-prominent) * -1);
 }
-
-.comparison .style-alt {
-    background-color: var(--primary-cyan-alt);
-    color: var(--meetups-content-standard)
-} */
 
 .cs-meetups .callout,
 .cs-meetups .figure img {
@@ -263,6 +266,11 @@
     background-image: url("images/img-hero.avif");
     background-size: auto;
     height: 54rem;
+}
+
+.canvas .band-strong {
+    padding-top: 10rem;
+    padding-bottom: 16rem;
 }
 
 .body-content .graphic {
