@@ -19,15 +19,15 @@ const caseStudyData = {
 
 
                         <h3>The Challenge</h3>
-                        <p>We estimated 13 weeks to research, design, validate and deliver. We were allotted five. We needed to move quickly, but without reserach it was unclear where to focus or how broadly to scope. Delay risked on-time delivery.</p>
+                        <p>We estimated 13 weeks to research, design, validate and deliver. We were allotted five. We needed to move quickly, but without research it was unclear where to focus or how broadly to scope. Delay risked on-time delivery.</p>
 
                         <h3>What I Did</h3>
                         <p>I rallied my team behind a build-to-learn execution strategy. Evaluative research tested assumptions, validated decisions, and drove confidence in our direction. Design system components, patterns and product infrastructure kept risk low.</p>
 
                         <h3>Where We Landed</h3>
                         <ul class="custom-list-bullet">
-                            <li>Delivered Meetups in five weeks and outperformed by ~20%.</li>
-                            <li>Expanded our UX toolkit with a methodology that fast tracked learning.</li>
+                            <li>Delivered Meetups in five weeks. Outperformed engagement goal by ~20%.</li>
+                            <li>Expanded our UX toolkit with a methodology that fast-tracked learning.</li>
                             <li>Validated a design strategy that keeps exploration costs and investment risk low.</li>
                         </ul>
 
@@ -108,13 +108,11 @@ const caseStudyData = {
                             <div>
                                 <h4>Goal Before</h4>
                                 <p>Design a Meetups experience that results in a 50% DAU engagement rate.</p>
-                                <!-- <p>Indexes on the end state to drive demand.</p> -->
-                            </div>
+\                            </div>
 
                             <div>
                                 <h4>Goal Reframed</h4>
                                 <p>Enable in-person transactions to evaluate demand against a 50% DAU engagement rate.</p>
-                                <!-- <p>Measures demand by enabling existing user behavior.</p> -->
                             </div>
                         </div>
 
@@ -172,7 +170,7 @@ const caseStudyData = {
                     <ol class="custom-list">
                         <li>Initiate design with safe assumptions that must be true for the project to succeed.</li>
                         <li>Prioritize existing design system components and patterns over net new.</li>
-                        <li>Keep designs simple and light-weight to avoid sweeping infrastructure changes.</li>
+                        <li>Keep designs simple and lightweight to avoid sweeping infrastructure changes.</li>
                         <li>Gather early insights to validate ideas, bolster confidence and inform next steps.</li>
                     </ol>
                 </div>  
@@ -180,23 +178,24 @@ const caseStudyData = {
 
             <div class="stack-tight">   
                 <div class="choke">
-                    <h3>Initiating Design With Safe Assumptions</h3>
-                    <p class="intro">Integrating location into the product experience was a hard requirement for success.</p>
+                    <h3>Design Began With Safe Assumptions</h3>
+                    <p class="intro">We strarted with requirements that had to be met for Meetups to be viable.</p>
                 
                 
                 <div class="comparison">
                     <div class="style">
                         <h4>Approach</h4>
-                        <ol class="custom-list">
+                        <p>Existing design system components, architectural patterns and search logic enabled discovery of locally available items.</p>
+                        <!-- <ol class="custom-list">
                             <li>Product architecture influenced the placement of personalized items. We added "Nearby."</li>
                             <li>Search logic was extended to support local item discovery.</li>
                             <li>Design system components like buttons, chips and bottom sheets, enabled control over search radius.</li>
-                        </ol>
+                        </ol> -->
                     </div>
                         
                     <div class="style-alt">
                         <h4>Why It Mattered</h4>
-                        <p>Speed. We enabled item discovery quickly using off-the-shelf components, patterns and infrastructure grounded in product knowledge to solve low-risk problems.</p>
+                        <p>Speed. We enabled item discovery quickly using off-the-shelf product infrastructure to solve low-risk problems.</p>
                     </div>
                 </div>
                 </div>
@@ -318,7 +317,7 @@ const caseStudyData = {
                     <h3>Performance</h3>
                     <ul class="custom-list-bullet">
                         <li>Exceeded OKR engagement goal by +20%.</li>
-                        <li>Increased test market inventory by +13.</li>
+                        <li>Increased test market inventory by +13%.</li>
                         <li>Increased sell-through rate for large bulky items ~33%.</li>
                         <li>12% increase in Gross Merchandise Volume (GMV) forecasted.</li>
                     </ul>
