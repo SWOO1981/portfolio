@@ -85,7 +85,7 @@ const caseStudyData = {
                         </ol>
 
                         <h3>Where We Landed</h3>
-                        <p>Strong team support for a build-to-learn approach. Reframing shifted our perspective of the problem and predictible checkpoints meant data to drive direction.</p>
+                        <p>Strong team support for a build-to-learn approach. Reframing shifted our perspective of the problem and predictable checkpoints meant data to drive direction.</p>
                     </div>
                 </div>
 
