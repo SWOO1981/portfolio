@@ -355,8 +355,6 @@ const caseStudyData = {
                         <h3>To solve a tough problem, reframe it</h3>
                         <div class="border"></div>
                         <p>How we define a problem determines the solutions we can see. By reframing Meetups, we saw possibilities our original framing obscured and arrived at something more valuable than the brief we originally scoped.</p>
-                        <!-- <p>How we define a problem influences how we solve it. Different angles and perspectives might reveal options that hadn’t been considered. For us, reframing the problem turned Meetups into something very different and more valuable than our original framing would have achieved.</p> -->
-                        <!-- <p>How we define a problem influences how we solve it. Different angles and perspectives might reveal options that hadn’t been considered. For us, reframing the problem turned Meetups into a valuable research experiment that provided a direct way to learn from users in real scenarios. Our original framing would have missed that.</p> -->
                     </div>
 
                     <div class="flashcard">
@@ -364,7 +362,6 @@ const caseStudyData = {
                         <h3>Know when your process becomes an obstacle</h3>
                         <div class="border"></div>
                         <p>Best practices exist for good reasons. Applying them rigidly can be its own kind of failure. I helped my team recognize that our standard UX process would have slowed us down and cost us signal we could get faster by studying existing user behavior instead.</p>
-                        <!-- <p>Knowing the best practices to accomplish something is admirable, but knowing when that becomes a liability is better. For us, adhering to our rigorous UX process would have overlooked faster, cheaper and more adaptable opportunities to learn from existing user behavior.</p> -->
                     </div>
 
                     <div class="flashcard">
@@ -372,7 +369,6 @@ const caseStudyData = {
                         <h3>Prioritize the most valuable questions</h3>
                         <div class="border"></div>
                         <p>Not everything requires testing. Uncertainty falls by degrees. Knowing what you need to learn and finding the lightest way to learn it is its own design skill. We got what we needed without the overhead, and the product was better for it.</p>
-                        <!-- <p>When the right way isn't feasable, there's no substitute for experience and first principles to help you understand how to adjust effectively. We understood the value of research in our UX process and we adjusted strategically to learn what we needed when it was critical.</p> -->
                     </div>
                 </div>
             </div>
