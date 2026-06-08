@@ -62,7 +62,7 @@ const caseStudyData = {
                         <p>Transactions trended upward despite cross-posting on OfferUp and Facebook Marketplace where in-person cash sales were encouraged. Mercari lifted restrictions on face-to-face exchanges to compete. Protection incentives through our payment system ensured fee collection.</p>
                     
                         <h3>Why Now</h3>
-                        <p>Investors were hungry for a win and Meetups seemed like a strong bet. A board meeting on the horizon left a short runway to design, develop and ship in time to report meaningful performance data — about 5 weeks for UX.</p>
+                        <p>Investors were hungry for a win and Meetups seemed like a strong bet. A board meeting on the horizon left a short runway to design, develop and ship in time to report meaningful performance data. That left UX only five weeks to deliver.</p>
 
                     </div>   
                 </div> 
