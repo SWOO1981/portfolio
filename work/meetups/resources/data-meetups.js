@@ -39,11 +39,11 @@ const caseStudyData = {
         <div class="band-strong">
             <div class="content">
                 <div class="stack">
-                    <div class="choke">
+                    
                         
-                        <h2>Find Buy Meet Rate</h2>
+                        <h2>Meet Up. Save On Delivery.</h2>
 
-                    </div>
+                    
 
                     <img src="resources/images/img-screen-group.avif">
                 </div>
@@ -85,7 +85,7 @@ const caseStudyData = {
                         </ol>
 
                         <h3>Where We Landed</h3>
-                        <p>Strong team support for a build-to-learn approach. Reframing shifted our perspective of the problem and predictable checkpoints meant data to drive direction.</p>
+                        <p>Strong team support for a build-to-learn approach. Reframing shifted our perspective of the problem and predictable checkpoints meant direct insights to drive direction.</p>
                     </div>
                 </div>
 
@@ -184,8 +184,8 @@ const caseStudyData = {
                 
                 <div class="comparison">
                     <div class="style">
-                        <h4>Approach</h4>
-                        <p>Existing design system components, architectural patterns and search logic enabled discovery of locally available items.</p>
+                        <h4>What We Used</h4>
+                        <p>Design system components, architectural patterns and search logic to enable local item discovery.</p>
                         <!-- <ol class="custom-list">
                             <li>Product architecture influenced the placement of personalized items. We added "Nearby."</li>
                             <li>Search logic was extended to support local item discovery.</li>
@@ -195,7 +195,7 @@ const caseStudyData = {
                         
                     <div class="style-alt">
                         <h4>Why It Mattered</h4>
-                        <p>Speed. We enabled item discovery quickly using off-the-shelf product infrastructure to solve low-risk problems.</p>
+                        <p>Speed. We solved low-risk problems quckly with on off-the-shelf product infrastructure.</p>
                     </div>
                 </div>
                 </div>
@@ -216,13 +216,13 @@ const caseStudyData = {
 
                 <div class="comparison">
                     <div class="style">
-                        <h4>Approach</h4>
-                        <p>We tested maps in low-fidelity layouts with users. We learned functionality was a low priority in this context, so we stuck with the simple static solution.</p>
+                        <h4>How We Decided</h4>
+                        <p>We tested maps in low-fidelity layouts with users. We learned functionality was a low priority for our context, so we stuck with the simple static solution.</p>
                     </div>
 
                     <div class="style-alt">
                         <h4>Why It Mattered</h4>
-                        <p>Regular user feedback provided early signals to distinguish between high-value design solutions and low-value distractions.</p>
+                        <p>Regular user feedback provided early signals to collectively distinguish between high-value design solutions and low-value distractions.</p>
                     </div>
                 </div>
  </div>
@@ -239,18 +239,18 @@ const caseStudyData = {
             <div class="stack-tight">
                 <div class="choke">
                     <h3>Leveraging Product Systems</h3>
-                    <p class="intro">Onboarding and meetup coordination took place in chats. Repurposed moderation frameworks let us guide the experience.</p>
+                    <p class="intro">We used internal messaging to onboard users and guide their Meetup experience. Insights from real-life scenarios exposed experience gaps.</p>
                 
                 
                 <div class="comparison">
                     <div class="style">
-                        <h4>Approach</h4>
-                        <p>We redesigned moderation flows and introduced modular components into chats to learn from real life scenarios and close experience gaps.</p>
+                        <h4>What We Did</h4>
+                        <p>Redesigned moderation flows and introduced modular components into chats to guide the experience.</p>
                     </div>
                         
                     <div class="style-alt">
                         <h4>Why It Mattered</h4>
-                        <p>Chat provided insight into how users coordinate meetups in real life scenarios. Insights helped us decide what to prioritize next.</p>
+                        <p>Chat provided insight into how users actually coordinated their meetup. That helped us decide what to prioritize next.</p>
                     </div>
                 </div>
 </div>
@@ -270,18 +270,18 @@ const caseStudyData = {
             <div class="stack-tight">    
                 <div class="choke">
                     <h3>Balancing Speed With Product Integrity</h3>
-                    <p class="intro">We layered payment into the existing transaction flow to avoid sweeping changes to the core experience.</p>
+                    <p class="intro">We layered payment into the existing transaction flow to avoid changes to the core experience.</p>
                 
 
                 <div class="comparison">
                     <div class="style">
                         <h4>Approach</h4>
-                        <p>Designed a simple two-step form to funnel users through our trusted transaction flow after a meetup.</p>
+                        <p>Designed a simple two-step form to funnel users through our standard transaction flow to close the sale.</p>
                     </div>
 
                     <div class="style-alt">
                         <h4>Why It Mattered</h4>
-                        <p>Ensured fee collection. Payment through our system, using buyer and seller protections as incentives, maintained the core experience regardless of shipping or delivery method.</p>
+                        <p>Payment through our system ensured fee colleciton and maintained the core experience regardless of shipping or delivery method.</p>
                     </div>
                 </div>
 </div>                
@@ -354,22 +354,26 @@ const caseStudyData = {
                         <h4>01</h4>
                         <h3>To solve a tough problem, reframe it</h3>
                         <div class="border"></div>
-                        <p>How we define a problem influences how we solve it. Different angles and perspectives might reveal innovative solutions that hadn’t been considered. For us, reframing the problem turned Meetups into a valuable research experiment that provided a direct way to learn from users in real scenarios. Our original framing would have missed that.</p>
+                        <p>How we define a problem determines the solutions we can see. By reframing Meetups, we saw possibilities our original framing obscured and arrived at something more valuable than the brief we originally scoped.</p>
+                        <!-- <p>How we define a problem influences how we solve it. Different angles and perspectives might reveal options that hadn’t been considered. For us, reframing the problem turned Meetups into something very different and more valuable than our original framing would have achieved.</p> -->
+                        <!-- <p>How we define a problem influences how we solve it. Different angles and perspectives might reveal options that hadn’t been considered. For us, reframing the problem turned Meetups into a valuable research experiment that provided a direct way to learn from users in real scenarios. Our original framing would have missed that.</p> -->
                     </div>
 
                     <div class="flashcard">
                         <h4>02</h4>
-                        <h3>Know the right way, and the wrong time for it</h3>
+                        <h3>Know when your process becomes an obstacle</h3>
                         <div class="border"></div>
-                        <p>Knowing the best practices to accomplish something is admirable, but knowing when that becomes a liability is better. For us, adhering to our rigorous UX process would have overlooked faster, cheaper and more adaptable opportunities to learn from existing user behavior.</p>
+                        <p>Best practices exist for good reasons. Applying them rigidly can be its own kind of failure. I helped my team recognize that our standard UX process would have slowed us down and cost us signal we could get faster by studying existing user behavior instead.</p>
+                        <!-- <p>Knowing the best practices to accomplish something is admirable, but knowing when that becomes a liability is better. For us, adhering to our rigorous UX process would have overlooked faster, cheaper and more adaptable opportunities to learn from existing user behavior.</p> -->
                     </div>
 
-                    <!-- <div class="flashcard">
+                    <div class="flashcard">
                         <h4>03</h4>
-                        <h3>Know the right way, and the wrong time for it</h3>
+                        <h3>Prioritize the most valuable questions</h3>
                         <div class="border"></div>
-                        <p>Knowing the right way to achieve something is admirable, but knowing when the right way becomes a liability is better. For us, adhering to our rigorous UX process would have caused us to miss faster, cheaper and more adaptable opportunities to learn from existing user behavior.</p>
-                    </div> -->
+                        <p>Not everything requires testing. Uncertainty falls by degrees. Knowing what you need to learn and finding the lightest way to learn it is its own design skill. We got what we needed without the overhead, and the product was better for it.</p>
+                        <!-- <p>When the right way isn't feasable, there's no substitute for experience and first principles to help you understand how to adjust effectively. We understood the value of research in our UX process and we adjusted strategically to learn what we needed when it was critical.</p> -->
+                    </div>
                 </div>
             </div>
         </div>

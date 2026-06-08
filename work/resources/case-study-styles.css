@@ -345,14 +345,19 @@ body {
 }
 
 /* XXX - Depricate ".body-content h2" */
-.canvas .band h2,
-.canvas .band-strong h2 {
+.canvas .band h2 {
     font-family: "Bricolage Grotesque", sans-serif;
     font-size: 2.25rem;
     font-weight: 700;
     font-style: normal;
     line-height: 2.75rem;
     /*margin: 1rem 0 1rem 0;*/
+}
+
+.canvas .band-strong h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 2rem;
 }
 
 /* XXX - Depricate ".body-content h3" */
@@ -770,9 +775,13 @@ footer {
 }
 
 /* XXX Depricate ".body-content h2" */
-.canvas .band h2,
-.canvas .band-strong h2 {
+.canvas .band h2 {
     font-size: 4.5rem;
+    line-height: 4.5rem;
+}
+
+.canvas .band-strong h2 {
+    font-size: 3.5rem;
     line-height: 4.5rem;
 }
 
