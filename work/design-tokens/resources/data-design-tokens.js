@@ -14,7 +14,7 @@ const caseStudyData = {
                 <div class="stack">
                     <div class="choke">
                         <h2>Overview</h2>
-                        <p class="intro">As our team grew, the informal naming conventions in our design system made style inconsistencies inevitable. Time-intensive alignment efforts and surprise rework stalled projects, drained morale and added risk to release schedules.</p>
+                        <p class="intro">As our team grew, informal naming conventions in our design system made style inconsistencies inevitable. Time-intensive alignment efforts and surprise rework stalled projects, drained morale and added risk to release schedules.</p>
                         
                         <h3>The Challenge</h3>
                         <p>Attempts to automate consistency with design tokens stalled due to low commitment, first because they were conceptually ambiguous, then because decision-makers prioritized growth initiatives. That meant weak support to invest in an abstract operational enhancement that few understood to begin with.</p>
@@ -53,7 +53,7 @@ const caseStudyData = {
                         <p>I coached a Junior UX Designer through a structured design journey. We progressed from an exhaustive survey of product type styles to the development of a naming system that enabled strong alignment across UX practices.</p>
 
                         <h3>Where We Landed</h3>
-                        <p>A clear naming convention led to consistent type style alignment across design deliverables. Deeper understanding backed by practical experience turned my UX team into strong advocates for design token adoption.</p>
+                        <p>A clear naming convention that resulted in consistent use of type across design deliverables. Deeper understanding backed by practical experience turned my UX team into strong advocates for design token adoption.</p>
                     </div>
                 </div>
 
@@ -89,7 +89,7 @@ const caseStudyData = {
                         <p>I coached another UX Designer through activities that explored naming conventions with design workflows in mind. Informative naming added purpose and intention to each color style and improved consistency across design deliverables.</p>
 
                         <h3>Where We Landed</h3>
-                        <p>We established a more consistent and intentional approach to color across UX. Two systems governing styles gave us the beginnings of a recognizable product language that functioned as a powerful alignment tool.</p>
+                        <p>A more consistent and intentional approach to color across UX. Two systems governing styles gave us the beginnings of a recognizable product language that functioned as a powerful alignment tool.</p>
                     </div>
                 </div>
 
