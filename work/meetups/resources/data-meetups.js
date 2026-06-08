@@ -354,7 +354,7 @@ const caseStudyData = {
                         <h4>01</h4>
                         <h3>To solve a tough problem, reframe it</h3>
                         <div class="border"></div>
-                        <p>How we define a problem determines the solutions we can see. By reframing Meetups, we saw possibilities our original framing obscured and arrived at something more valuable than the brief we originally scoped.</p>
+                        <p>How we define a problem determines the solutions we can see. By reframing Meetups, we saw possibilities our original framing obstructed and arrived at something more valuable than the brief we originally scoped.</p>
                     </div>
 
                     <div class="flashcard">
@@ -368,7 +368,7 @@ const caseStudyData = {
                         <h4>03</h4>
                         <h3>Prioritize the most valuable questions</h3>
                         <div class="border"></div>
-                        <p>Not everything requires testing. Uncertainty falls by degrees. Knowing what you need to learn and finding the lightest way to learn it is its own design skill. We got what we needed without the overhead, and the product was better for it.</p>
+                        <p>Not everything requires testing. Uncertainty falls by degrees. Knowing what you need to learn and finding the lightest way to learn it is its own design skill. We got what we needed without the overhead, and the result was better for it.</p>
                     </div>
                 </div>
             </div>
