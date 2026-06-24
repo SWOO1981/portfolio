@@ -8,7 +8,7 @@ const caseStudyData = {
     achievements: "<ul><li>Exceeded OKR by ~20%</li><li>+13% Inventory Growth</li></ul>",
     bodyContent: `
         
-    <div class=canvas>
+    <div class="canvas">
         <div class="band">
             <div class="content">
                 <div class="stack">
@@ -108,7 +108,7 @@ const caseStudyData = {
                             <div>
                                 <h4>Goal Before</h4>
                                 <p>Design a Meetups experience that results in a 50% DAU engagement rate.</p>
-\                            </div>
+                            </div>
 
                             <div>
                                 <h4>Goal Reframed</h4>
@@ -214,18 +214,19 @@ const caseStudyData = {
                     <p class="intro">Debate over map functionality split the team. Insights brought us back together.</p>
                
 
-                <div class="comparison">
-                    <div class="style">
-                        <h4>How We Decided</h4>
-                        <p>We tested maps in low-fidelity layouts with users. We learned functionality was a low priority for our context, so we stuck with the simple static solution.</p>
-                    </div>
+                    <div class="comparison">
+                        <div class="style">
+                            <h4>How We Decided</h4>
+                            <p>We tested maps in low-fidelity layouts with users. We learned functionality was a low priority for our context, so we stuck with the simple static solution.</p>
+                        </div>
 
-                    <div class="style-alt">
-                        <h4>Why It Mattered</h4>
-                        <p>Regular user feedback provided early signals to collectively distinguish between high-value design solutions and low-value distractions.</p>
+                        <div class="style-alt">
+                            <h4>Why It Mattered</h4>
+                            <p>Regular user feedback provided early signals to collectively distinguish between high-value design solutions and low-value distractions.</p>
+                        </div>
                     </div>
                 </div>
- </div>
+                
                 <div class="layout duo">
                     <div>
                         <img src="resources/images/img-validation-screen.avif">

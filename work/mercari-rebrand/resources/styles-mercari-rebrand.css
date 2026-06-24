@@ -28,6 +28,15 @@
     border-radius: var(--radius-md);
 }
 
+.project-info {
+    background-color: var(--mercari-yellow);
+    color: var(--gray-900);
+}
+
+.canvas .band {
+    background-image: linear-gradient(to bottom, var(--mercari-highlight), var(--mercari-yellow));
+}
+
 .overview-item {
     background-color: var(--mercari-yellow);
     color: var(--gray-900);

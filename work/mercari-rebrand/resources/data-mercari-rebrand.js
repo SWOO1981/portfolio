@@ -5,27 +5,34 @@ const caseStudyData = {
     role: "UX Manager",
     platforms: "Brand Identity + Design Systems",
     timeline: "Eight weeks",
-    achievements: "<ul><li>Design token adoption</li><li>Creative staff visibility</li><li>New theming capabilities</li></ul>",
     bodyContent: `
     
-    <div class="section-block">
-        <h2>Executive Summary</h2>
-        
-        <h3>Problem</h3>
-        <p>Tasked with delivering a high-stakes rebrand under strict time constraints, I needed to turn conflicting stakeholder expectations and fragmented creative resources into a unified push. Without clear direction or scope, the biggest risk was internal resistance and a messy rollout across Product and Marketing.</p>
+    <div class="canvas">
+        <div class="band">
+            <div class="content">
+                <div class="stack">
+                    <div class="choke">
+                        <h2>Executive Summary</h2>
+                        
+                        <h3>Problem</h3>
+                        <p>Tasked with delivering a high-stakes rebrand under strict time constraints, I needed to turn conflicting stakeholder expectations and fragmented creative resources into a unified push. Without clear direction or scope, the biggest risk was internal resistance and a messy rollout across Product and Marketing.</p>
 
-        <h3>Solution</h3>
-        <p>I reframed our rebrand as a focused "brand evolution" to align stakeholders and enable immediate execution. I grounded creative direction in pragmatic implementation and used the rollout to unlock a design system initiative that had been blocked for two years. I also used this as a strategic opportunity to elevate my Creative Designer’s role and further their professional development through visible ownership.</p>
+                        <h3>Solution</h3>
+                        <p>I reframed our rebrand as a focused "brand evolution" to align stakeholders and enable immediate execution. I grounded creative direction in pragmatic implementation and used the rollout to unlock a design system initiative that had been blocked for two years. I also used this as a strategic opportunity to elevate my Creative Designer’s role and further their professional development through visible ownership.</p>
 
-        <h3>Impact</h3>
-        <ul class="custom-list-bullet">
-            <li>Reframed rebrand as "brand evolution" → aligned stakeholder expectations and drove focused execution</li>
-            <li>Unlocked design token adoption → improved cross-functional alignment + de-risked future brand rollout</li>
-            <li>Elevated Creative Designer’s visibility → charted path for professional growth and development</li>
-        </ul>
+                        <h3>Impact</h3>
+                        <ul class="custom-list-bullet">
+                            <li>Reframed rebrand as "brand evolution" → aligned stakeholder expectations and drove focused execution</li>
+                            <li>Unlocked design token adoption → improved cross-functional alignment + de-risked future brand rollout</li>
+                            <li>Elevated Creative Designer’s visibility → charted path for professional growth and development</li>
+                        </ul>
 
-        <div class="figure">
-        <img src="resources/images/img-brand-hero.png">
+                        <div class="figure">
+                        <img src="resources/images/img-brand-hero.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
