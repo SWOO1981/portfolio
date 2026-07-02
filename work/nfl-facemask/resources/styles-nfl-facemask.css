@@ -7,6 +7,9 @@
     --nfl-blue: hsl(225, 78%, 50%);
     --nfl-navy: hsl(225, 48%, 16%);
 
+    --neutral-100: hsl(0, 0%, 100%);
+    --neutral-101: hsl(0, 0%, 95%);
+
     /* Border Radius */
     --radius-sm: 0.5rem;
     --radius-md: 1.5rem;
@@ -26,6 +29,15 @@
 .cs-nfl-facemask .callout,
 .cs-nfl-facemask .figure img {
     border-radius: var(--radius-md);
+}
+
+.project-info {
+    background: var(--nfl-navy);
+    color: var(--gray-100);
+}
+
+.canvas .band {
+    background-image: linear-gradient(to bottom, var(--neutral-100), var(--neutral-101));
 }
 
 .overview-item {

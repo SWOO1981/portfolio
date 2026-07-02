@@ -7,6 +7,9 @@
     --mercari-green: hsl(145, 80%, 65%);
     --mercari-highlight: hsl(103, 100%, 92%);
 
+    --rebrand-neutral-100: hsl(0, 0%, 98%);
+    --rebrand-neutral-150: hsl(0, 0%, 94%);
+
     /* Border Radius */
     --radius-sm: 0.5rem;
     --radius-md: 1.5rem;
@@ -34,7 +37,7 @@
 }
 
 .canvas .band {
-    background-image: linear-gradient(to bottom, var(--mercari-highlight), var(--mercari-yellow));
+    background-image: linear-gradient(to bottom, var(--rebrand-neutral-100), var(--rebrand-neutral-150));
 }
 
 .overview-item {

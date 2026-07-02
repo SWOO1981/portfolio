@@ -2,7 +2,7 @@ const caseStudyData = {
     title: "Mercari Rebrand: Aligning Executive Vision, Design Systems, and Team Development",
     subtitle: "A UX Management Case Study",
     company: "Mercari, Inc.",
-    role: "UX Manager",
+    role: "UX Design Manager",
     platforms: "Brand Identity + Design Systems",
     timeline: "Eight weeks",
     bodyContent: `
@@ -12,69 +12,27 @@ const caseStudyData = {
             <div class="content">
                 <div class="stack">
                     <div class="choke">
-                        <h2>Executive Summary</h2>
+                        <h2>Overview</h2>
+                        <p class="intro">At Mercari, I led a CEO-driven brand initiative that carried a pivotal marketing campaign, unblocked a stalled design token initiative, and created growth opportunities for a Senior Visual Designer who joined my team following a recent restructuring.</p>
                         
-                        <h3>Problem</h3>
-                        <p>Tasked with delivering a high-stakes rebrand under strict time constraints, I needed to turn conflicting stakeholder expectations and fragmented creative resources into a unified push. Without clear direction or scope, the biggest risk was internal resistance and a messy rollout across Product and Marketing.</p>
+                        <h3>The Challenge</h3>
+                        <p>Conflicting stakeholder expectations, CEO-mandated assets, and fractured creative resourcing threatened alignment and follow-through. Owning the project meant clarifying scope and generating consensus on strategy to deliver a cohesive brand direction within an ambitious eight-week timeline.</p>
 
-                        <h3>Solution</h3>
-                        <p>I reframed our rebrand as a focused "brand evolution" to align stakeholders and enable immediate execution. I grounded creative direction in pragmatic implementation and used the rollout to unlock a design system initiative that had been blocked for two years. I also used this as a strategic opportunity to elevate my Creative Designer’s role and further their professional development through visible ownership.</p>
-
-                        <h3>Impact</h3>
+                        <h3>What I Did</h3>
                         <ul class="custom-list-bullet">
-                            <li>Reframed rebrand as "brand evolution" → aligned stakeholder expectations and drove focused execution</li>
-                            <li>Unlocked design token adoption → improved cross-functional alignment + de-risked future brand rollout</li>
-                            <li>Elevated Creative Designer’s visibility → charted path for professional growth and development</li>
+                            <li>Persuaded executives to take a “brand evolution” approach rather than attempt a risky full-scale rebrand in eight weeks.</li>
+                            <li>Grounded creative direction in pragmatic implementation to ensure a smooth rollout.</li>
+                            <li>Leveraged the rollout to unlock design token adoption which had been blocked for two years.</li>
+                            <li>Furthered my Senior Visual Designer’s professional development through visible brand stewardship.</li>
                         </ul>
 
-                        <div class="figure">
-                        <img src="resources/images/img-brand-hero.png">
-                        </div>
+                        <h3>Where We Landed</h3>
+                        <ol class="custom-list">
+                            <li>A fresh take on our brand identity with production-ready assets in eight weeks.</li>
+                            <li>Organizational commitment for design tokens validated through dark mode theming.</li>
+                            <li>Increased Senior Designer’s visibility through ownership of brand guidelines and review process.</li>
+                        </ol>
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="section-block">
-        <h2>Project Contribution</h2>
-
-        <div class="content-group">
-            <div class="callout callout-standard">
-                <div class="content-item">
-                    <h3>Role</h3>
-                    <p>UX Design Manager</p>
-                </div>
-            </div>
-                
-            <div class="callout callout-standard">
-                <div class="content-item">
-                    <h3>Core Team</h3>
-                    <p>Senior Creative Designer, Design Contractor</p>
-                </div>
-            </div>
-        </div>
-
-        <h3>Leadership Highlights</h3>
-
-        <div class="callout callout-standard">
-            <div class="content-group">
-                <div class="content-item">
-                    <h4>UX Design Leadership</h4>
-                    <ul class="custom-list-bullet">
-                        <li>Scoped project for fast alignment and execution</li>
-                        <li>Secured adoption of design tokens</li>
-                        <li>Elevated Creative Designer into a strategic role</li>
-                    </ul>
-                </div>
-        
-                <div class="content-item">
-                    <h4>Brand Design Management</h4>
-                    <ul class="custom-list-bullet">
-                        <li>Aligned UX and Marketing for brand scalability</li>
-                        <li>Grounded brand decisions in practical execution</li>
-                        <li>Preserved existing brand equity</li>
-                    </ul>
                 </div>
             </div>
         </div>

@@ -8,9 +8,24 @@ const caseStudyData = {
     achievements: "Built and implemented scalable product design infrastructure",
     bodyContent: `
         
-    <div class="section-block">
-        <h2>Summary</h2>
-        <p class="intro">I led a multi-year transition from siloed, platform-specific product teams to a unified system that enabled the NFL to scale design, reduce vendor dependency, and ship cohesive fan experiences across mobile, web, and connected TV.</p>
+    <div class="canvas">
+        <div class="band">
+            <div class="content">
+                <div class="choke">
+                    <h2>Overview</h2>
+                    <p class="intro">At the NFL, I designed and architected the Facemask Design System, a full suite of interconnected resources, processes and tools that unified fan experiences across web browsers, mobile devices and connected TVs for millions nation-wide.</p>
+                
+                    <h3>The Challenge</h3>
+                    <p>Beyond architecting cross-platform component libraries, I had to earn buy-in from multiple platform-specific teams of designers, developers and product mangers to adopt new processes, tools and workflows while navigating the complex environment of a legacy sports-media giant.</p>
+
+                    <h3>What I Did</h3>
+                    <p>I approached Facemask as a product for Product Design. Stakeholder interviews revealed challenges and needs of design system adoption. I paired with designers to onboard, test and iterate on component library architecture. Strategic coalition building ensured buy-in across teams and business groups.</p>
+
+                    <h3>Where We Landed</h3>
+                    <p>A multi-year transition from siloed, platform-specific product teams to a unified system that enables the NFL to scale design and technical resources, reduce vendor dependency, and deliver consistent fan experiences across the evolving digital media landscape.</p>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="section-block">
