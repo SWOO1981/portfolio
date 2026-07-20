@@ -38,7 +38,7 @@ const caseStudyData = {
         </div>
     </div>
 
-    <div class="section-block">
+    <!-- <div class="section-block">
 
         <h2>Context</h2>
 
@@ -218,6 +218,6 @@ const caseStudyData = {
         <h2>Reflections</h2>
         <h3>Going Beyond the Project Brief</h3>
         <p>Leading the Mercari rebrand offered a unique opportunity to apply my multi-disciplinary design expertise on a single, high-impact project and deliver value across multiple fronts. This project reinforced my belief that high-impact design leadership is less about directing output and more about shaping conditions for success by aligning stakeholders, defining constraints, and creating systems that scale.</p>
-    </div>
+    </div> -->
     `
 };

@@ -28,56 +28,15 @@ const caseStudyData = {
         </div>
     </div>
 
-    <div class="section-block">
-            <h2>Project Contribution</h2>
-        
-            <div class="content-group">
-                <div class="callout callout-standard">
-                    <div class="content-item">
-                        <h3>Role</h3>
-                        <p>UX Designer (contract)</p>
-                    </div>
-                </div>
-                
-                <div class="callout callout-standard">
-                    <div class="content-item">
-                        <h3>Team</h3>
-                        <p>Independent, with Design Manager oversight</p>
-                    </div>
-                </div>
-            </div>
-        
-        
-            <h3>Leadership Highlights</h3>
-        
-            <div class="callout callout-standard">
-                <div class="content-group">
-                    <div class="content-item">
-                        <h3>Organizational Impact</h3>
-                        <ul class="custom-list-bullet">
-                            <li>Drove adoption → unified siloed teams</li>
-                            <li>Buit scalable system → restored ownership</li>
-                            <li>Reusable systems → accelerated delivery</li>
-                        </ul>
-                    </div>
-        
-                    <div class="content-item">
-                        <h3>System Architecture</h3>
-                        <ul class="custom-list-bullet">
-                            <li>Architected system → cross-platform scale</li>
-                            <li>Semantic tokens → dynamic theming</li>
-                            <li>Shared standards → aligned diverse teams</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
+    <div class="band">
+        <div class="content">
             <div class="figure">
                 <img src="resources/images/img-productFamily.png">
             </div>
         </div>
+    </div>
 
-    <div class="section-block">
+    <!-- <div class="section-block">
         <h2>Overview</h2>
         <p class="intro">Long before modern tools like Figma enabled scalable component libraries, I built Facemask, the NFL’s design system, establishing a foundation for how the League creates, delivers, and captures value through digital sports-media assets.</p>
         
@@ -251,6 +210,6 @@ const caseStudyData = {
     <div class="section-block">
         <h2>Reflections</h2>
         <p>Building Facemask from the ground up shaped my approach to design systems as products for product design. They’re the operational infrastructure that connects technology, tooling, and design culture to align decision-making, scale resources, and enable product ecosystems to adapt to changing demands.</p>
-    </div>        
+    </div>         -->
     `
 };

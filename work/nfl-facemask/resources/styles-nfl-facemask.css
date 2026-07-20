@@ -36,6 +36,11 @@
     color: var(--gray-100);
 }
 
+.project-info .logo {
+    width: 2.25rem;
+    height: auto;
+}
+
 .canvas .band {
     background-image: linear-gradient(to bottom, var(--neutral-100), var(--neutral-101));
 }
