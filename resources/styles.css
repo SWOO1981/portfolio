@@ -201,14 +201,34 @@ a:visited {
 }
 
 .bg-design-tokens {
-    background-color: #D9F2F2;
-    color: var(--gray-900)
+    background-color: hsl(240, 50%, 20%);
+    color: hsl(30, 70%, 97%);
+}
+
+.bg-design-tokens .pill {
+  background-color: hsl(235, 60%, 60%);
+  color: hsl(30, 70%, 97%);
+}
+
+.bg-design-tokens button {
+  background-color: hsl(40, 90%, 70%);
+  color: hsl(240, 50%, 20%);
+
 }
 
 .bg-meetups {
-    background-color: #BFE3C9;
-    color: var(--gray-900)
-    
+    background-color: hsl(327, 60%, 55%);
+    color: hsl(237, 60, 10%);
+}
+
+.bg-meetups .pill {
+  background-color: hsl(327, 60%, 44%);
+  color: hsl(327, 80%, 94%);
+}
+
+.bg-meetups button {
+  background-color: hsl(175, 70%, 75%);
+  color: hsl(135, 30%, 15%);
 }
 
 .bg-rebrand {
@@ -721,8 +741,8 @@ button {
 
   .content-wrapper {
     margin: 0 auto;
-    padding-top: 10rem;
-    padding-bottom: 20rem;
+    padding-top: 16rem;
+    padding-bottom: 30rem;
     gap: 2.625rem;
   }
 
