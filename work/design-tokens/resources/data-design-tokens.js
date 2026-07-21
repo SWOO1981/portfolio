@@ -17,7 +17,7 @@ const caseStudyData = {
                         <p class="intro">As our team grew, informal naming conventions in our design system made style inconsistencies inevitable. Time-intensive alignment efforts and surprise rework stalled projects, drained morale and added risk to release schedules.</p>
                         
                         <h3>The Challenge</h3>
-                        <p>Attempts to automate consistency with design tokens stalled due to low commitment, first because they were conceptually ambiguous, then because decision-makers prioritized growth initiatives over all else. That meant weak investment support for an abstract operational enhancement that few understood to begin with.</p>
+                        <p>Attempts to automate consistency with design tokens stalled due to low commitment, first because they were conceptually ambiguous, then because decision-makers prioritized growth initiatives over all else. That meant weak support for an abstract operational enhancement that few understood to begin with.</p>
 
                         <h3>What I Did</h3>
                         <p>I drove design token awareness through small pilots designed to onboard and educate teammates while simultaneously addressing workflow challenges. Deeper understanding along with less friction transformed skepticism into grassroots support for a scalable tokenized style system.</p>
@@ -40,7 +40,7 @@ const caseStudyData = {
                         <h3>Grassroots Onboarding</h3>
 
                         <h2>Typography Pilot</h2>
-                        <p class="intro">I introduced design tokens with a pilot that addressed workflow pain points through typographic alignment.</p>
+                        <p class="intro">I introduced design tokens with a pilot aimed at addressing workflow pain points through typographic alignment.</p>
 
                         <h3>Goals</h3>
                         <ol class="custom-list">
@@ -238,7 +238,7 @@ const caseStudyData = {
                             <h4>01</h4>
                             <h3>Scale Your Systems, Protect Your Value</h3>
                             <div class="border"></div>
-                            <p>Design value lives in the systems that support it. When systems don’t scale, the rising cost to keep up with changing market demands eventually force decisions that prioritize spreadsheets over users. They’ll notice.</p>
+                            <p>Design value lives in the systems that support it. When systems don’t scale, the rising cost to keep up with changing market demands eventually force decisions that prioritize spreadsheets over users, and they usually notice.</p>
                         </div>
 
                         <div class="flashcard">
