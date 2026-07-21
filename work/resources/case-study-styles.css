@@ -250,6 +250,14 @@ body {
     gap: 2rem;
 }
 
+.comparison .caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2.5rem;
+    gap: 1rem;
+}
+
 
 /* --------------------------------------- */
 /* ///// END NEUE CONTENT CONTAINERS ///// */
@@ -668,6 +676,10 @@ footer {
 .comparison {
     grid-template-columns: repeat(2, 1fr);
     gap: 4rem;
+}
+
+.comparison .caption {
+    padding: 4rem;
 }
 
 .pull-quote {

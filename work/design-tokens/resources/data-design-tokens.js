@@ -17,7 +17,7 @@ const caseStudyData = {
                         <p class="intro">As our team grew, informal naming conventions in our design system made style inconsistencies inevitable. Time-intensive alignment efforts and surprise rework stalled projects, drained morale and added risk to release schedules.</p>
                         
                         <h3>The Challenge</h3>
-                        <p>Attempts to automate consistency with design tokens stalled due to low commitment, first because they were conceptually ambiguous, then because decision-makers prioritized growth initiatives. That meant weak support to invest in an abstract operational enhancement that few understood to begin with.</p>
+                        <p>Attempts to automate consistency with design tokens stalled due to low commitment, first because they were conceptually ambiguous, then because decision-makers prioritized growth initiatives over all else. That meant weak investment support for an abstract operational enhancement that few understood to begin with.</p>
 
                         <h3>What I Did</h3>
                         <p>I drove design token awareness through small pilots designed to onboard and educate teammates while simultaneously addressing workflow challenges. Deeper understanding along with less friction transformed skepticism into grassroots support for a scalable tokenized style system.</p>
@@ -53,19 +53,27 @@ const caseStudyData = {
                         <p>I coached a Junior UX Designer through a structured design journey. We progressed from an exhaustive survey of product type styles to the development of a naming system that enabled strong alignment across UX practices.</p>
 
                         <h3>Where We Landed</h3>
-                        <p>A clear naming convention that resulted in consistent use of type across design deliverables. Deeper understanding backed by practical experience turned my UX team into strong advocates for design token adoption.</p>
+                        <p>A clear naming convention that resulted in consistent use of type across design deliverables. Deeper understanding backed by practical experience turned my UX team into strong design token advocates.</p>
                     </div>
                 </div>
 
                 <div class="stack">
-                    <div class="showcase">
-                        <div class="item">
-                            <img src="resources/images/img-pilot-type-before.avif">
+                    <div class="comparison">
+                        <img src="resources/images/img-type-ramp.avif">
+                        <div class="caption">
+                            <h3>Before</h3>
+                            <p>Our type ramp enabled style interpretation. Designers relied on their best judgement which led to mixed results.</p>
                         </div>
-                    
-                        <div class="item">
-                            <img src="resources/images/img-pilot-type-after.avif">
-                        </div> 
+                    </div>
+
+                    <div class="comparison">
+                        <div class="caption">
+                            <h3>After</h3>
+                            <p>Styles organized by use case made the system intuitive with a high degree of accuracy across UX Content and Design.</p>
+                        </div>
+                        <div>
+                            <img src="resources/images/img-type-system.avif">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -94,12 +102,39 @@ const caseStudyData = {
                 </div>
 
                 <div class="stack">
+                    <div class="comparison">
+                        <img src="resources/images/img-color-inventory.avif">
+                        <div class="caption">
+                            <h3>Before</h3>
+                            <p>Achieving desired outcomes relied on product awareness and historical context. That was a challenge for new team members and creative vendors.</p>
+                        </div>
+                    </div>
+
+                    <div class="comparison">
+                        <div class="caption">
+                            <h3>Midpoint</h3>
+                            <p>We standardized a scalable naming convention organized by hue and value for each color in our system.</p>
+                        </div>
+                        <img src="resources/images/img-color-library.avif">
+                    </div>
+
+                    <div class="comparison">
+                        <img src="resources/images/img-color-system.avif">
+                        <div class="caption">
+                            <h3>After</h3>
+                            <p>New color names described their intended use and drove consistent application across UX and Engineering.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- <div class="stack">
                     <div class="showcase bento">    
                         <div class="box" style="grid-area: box-1"><img src="resources/images/img-pilot-color-screen.avif"></div>
                         <div class="box" style="grid-area: box-2"><img src="resources/images/img-pilot-color-before.avif"></div>
                         <div class="box" style="grid-area: box-3"><img src="resources/images/img-pilot-color-after.avif"></div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
 
@@ -160,8 +195,8 @@ const caseStudyData = {
 
                         <div class="bento-4">
                             <div class="box highlight" style="grid-area: box-1">
-                                <h2>6 Weeks</h2>
-                                <p class="intro">Delivered Dark Mode.<br>Gained scalable product infrastructure.</p>
+                                <h2>Six Weeks</h2>
+                                <p>Delivered Dark Mode.<br>Gained scalable product infrastructure.</p>
                             </div>
                             <div class="box" style="grid-area: box-2"><img src="resources/images/img-token-tables.avif"></div>
                             <div class="box" style="grid-area: box-3"><img src="resources/images/img-token-cloud.avif"></div>

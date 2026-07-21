@@ -44,7 +44,7 @@
 
     /* Surface Colors */
     --surface-bg: var(--red-100);
-    --surface-bg-alt: var(--indigo-900);
+    --surface-bg-alt: var(--black-900);
     --surface-bg-alt-strong: var(--indigo-600);
     --surface-highlight: var(--neutral-100);
 
@@ -90,8 +90,8 @@
 }
 
 .project-info {
-    background-color: var(--indigo-500);
-    color: var(--indigo-100);
+    background-color: var(--yellow-500);
+    color: var(--black-900);
 }
 
 .canvas {
@@ -104,8 +104,8 @@
 }
 
 .flashcard {
-    background-color: var(--aqua-100);
-    color: var(--content-standard);
+    background-color: var(--yellow-500);
+    color: var(--black-900);
 }
 
 
@@ -125,7 +125,8 @@
 .triptic img,
 .duo img,
 .bento-4 img,
-.flashcard  {
+.flashcard,
+.comparison .caption  {
     width: 100%;
     height: auto;
     border-radius: var(--radius-standard);
@@ -178,10 +179,14 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: linear-gradient(56deg, var(--indigo-900), var(--aqua-700));
-    color: var(--aqua-400);
+    background: var(--black-900);
+    color: var(--yellow-500);
     padding: 2rem;
     border-radius: var(--radius-standard);
+}
+
+.comparison .caption {
+    background: #fff;
 }
 
 
