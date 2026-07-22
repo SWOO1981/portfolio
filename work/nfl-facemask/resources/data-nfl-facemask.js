@@ -28,13 +28,13 @@ const caseStudyData = {
         </div>
     </div>
 
-    <div class="band">
+    <!-- <div class="band">
         <div class="content">
             <div class="figure">
                 <img src="resources/images/img-productFamily.png">
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- <div class="section-block">
         <h2>Overview</h2>
