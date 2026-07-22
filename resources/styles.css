@@ -251,6 +251,11 @@ a:visited {
   color: var(--gray-900)
 }
 
+.bg-facemask button {
+  background-color: #1A48CE;
+  color: #ffffff;
+}
+
 .bg-meet-steven {
   background-color: var(--secondary-cyan);
   color: var(--secondary-yellow);
