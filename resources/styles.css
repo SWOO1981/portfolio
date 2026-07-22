@@ -232,8 +232,18 @@ a:visited {
 }
 
 .bg-rebrand {
-  background-color: #C2C2F4;
-  color: var(--gray-900)
+  background-color: #4B4EC3;
+  color: #ffffff;
+}
+
+.bg-rebrand .pill {
+  background-color: #B1D1EC;
+  color: #1D1F58;
+}
+
+.bg-rebrand button {
+  background-color: #F67A51;
+  color: #1A1B4D;
 }
 
 .bg-facemask {

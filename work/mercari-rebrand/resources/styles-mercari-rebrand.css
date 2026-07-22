@@ -6,6 +6,7 @@
     --mercari-yellow: hsl(60, 100%, 75%);
     --mercari-green: hsl(145, 80%, 65%);
     --mercari-highlight: hsl(103, 100%, 92%);
+    
 
     --rebrand-neutral-100: hsl(0, 0%, 98%);
     --rebrand-neutral-150: hsl(0, 0%, 94%);
@@ -22,8 +23,8 @@
 .cs-mercari-rebrand .hero-cs,
 .cs-mercari-rebrand .overview,
 .cs-mercari-rebrand .body-content-color-carry-over {
-    background: var(--mercari-green);
-    color: var(--gray-900);
+    background: hsl(239, 50%, 53%);
+    color: hsl(0, 0%, 100%);
 }
 
 .cs-mercari-rebrand .callout,
@@ -32,12 +33,19 @@
 }
 
 .project-info {
-    background-color: var(--mercari-yellow);
+    background-color: hsl(208, 60%, 81%);
     color: var(--gray-900);
 }
 
 .canvas .band {
     background-image: linear-gradient(to bottom, var(--rebrand-neutral-100), var(--rebrand-neutral-150));
+}
+
+.hero-cs .figure {
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+    height: auto;
 }
 
 .overview-item {
