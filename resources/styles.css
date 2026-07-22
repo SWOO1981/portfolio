@@ -217,18 +217,18 @@ a:visited {
 }
 
 .bg-meetups {
-    background-color: hsl(327, 60%, 55%);
-    color: hsl(237, 60, 10%);
+    background-color: hsl(350, 60%, 55%);
+    color: hsl(15, 90%, 96%);
 }
 
 .bg-meetups .pill {
-  background-color: hsl(327, 60%, 44%);
-  color: hsl(327, 80%, 94%);
+  background-color: hsl(15, 90%, 64%);
+  color: hsl(35, 90%, 15%);
 }
 
 .bg-meetups button {
-  background-color: hsl(175, 70%, 75%);
-  color: hsl(135, 30%, 15%);
+  background-color: hsl(45, 100%, 60%);
+  color: hsl(40, 20%, 15%);
 }
 
 .bg-rebrand {
@@ -779,8 +779,8 @@ button {
     background-position: center;
     background-size: cover;
     background-color: var(--secondary-yellow);
-    width: 17.5rem;
-    height: 17.5rem;
+    width: 22rem;
+    height: 22rem;
     border-radius: 100%;
     aspect-ratio: 1 / 1;
     flex-shrink: 0;
