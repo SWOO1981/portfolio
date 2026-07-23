@@ -202,7 +202,7 @@ a:visited {
 
 .bg-design-tokens {
     background-color: hsl(240, 50%, 20%);
-    color: hsl(30, 70%, 97%);
+    color: hsl(220, 70%, 97%);
 }
 
 .bg-design-tokens .pill {
@@ -218,7 +218,7 @@ a:visited {
 
 .bg-meetups {
     background-color: hsl(350, 60%, 55%);
-    color: hsl(15, 90%, 96%);
+    color: hsl(15, 90%, 97%);
 }
 
 .bg-meetups .pill {
@@ -227,23 +227,23 @@ a:visited {
 }
 
 .bg-meetups button {
-  background-color: hsl(45, 100%, 60%);
+  background-color: hsl(45, 90%, 70%);
   color: hsl(40, 20%, 15%);
 }
 
 .bg-rebrand {
-  background-color: #4B4EC3;
-  color: #ffffff;
+  background-color: hsl(265, 60%, 20%);
+  color: hsl(280, 90%, 97%);
 }
 
 .bg-rebrand .pill {
-  background-color: #B1D1EC;
-  color: #1D1F58;
+  background-color: hsl(278, 60%, 35%);
+  color: hsl(280, 90%, 97%);
 }
 
 .bg-rebrand button {
-  background-color: #F67A51;
-  color: #1A1B4D;
+  background-color: hsl(50, 80%, 76%);
+  color: hsl(265, 40%, 15%);
 }
 
 .bg-facemask {
@@ -624,7 +624,7 @@ button {
 }
 
 .meet-steven-img {
-    background-image: url("images/img-meet-steven.png");
+    background-image: url("images/img-meet-steven.avif");
     background-position: center;
     background-size: cover;
     width: 100%;
