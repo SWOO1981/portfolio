@@ -122,7 +122,7 @@ const caseStudyData = {
                         <img src="resources/images/img-color-system.avif">
                         <div class="caption">
                             <h3>After</h3>
-                            <p>New color names described their intended use and drove consistent application across UX and Engineering.</p>
+                            <p>New color aliases described their intended use and drove consistent application across UX and Engineering.</p>
                         </div>
                     </div>
 
