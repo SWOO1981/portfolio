@@ -1,0 +1,60 @@
+:root {
+
+}
+
+.hero-cs {
+    background-image: url(images/hero-canna.avif);
+    height: 860px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #160D35;
+    color: #ffffff;
+}
+
+.project-info {
+    background-color: #4528A4;
+    color: #ffffff;
+}
+
+.canvas .band {
+    background-image: linear-gradient(to bottom, #ffffff, #F9F4F1);
+}
+
+.band-alt {
+background-color: hsla(230, 71%, 80%, 1);
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+width: 100%;
+align-items: center;
+padding-top: 4rem;
+padding-bottom: 8rem;
+border-radius: var(--radius-prominent) var(--radius-prominent) 0 0;
+margin-top: calc(var(--radius-prominent) * -1);
+}
+
+.band-alt img {
+        border-radius: var(--radius-md);
+}
+
+
+/* ----------------------------------------------------------------- */
+/* ///// ///// ///// MEDIA QUERIES (enhancements)  ///// ///// ///// */
+/* ----------------------------------------------------------------- */
+
+/* Tablet & up (≥ 760px) */
+@media (min-width: 760px) {
+
+.band-alt img {
+        border-radius: var(--radius-lg);
+}
+
+
+
+
+
+
+
+}
+    
