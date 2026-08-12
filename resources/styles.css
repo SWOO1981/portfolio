@@ -200,6 +200,22 @@ a:visited {
   background-color: var(--primary-magenta);
 }
 
+.bg-canna {
+  background-color: #4528A4;
+  color: #ffffff;
+}
+
+.bg-canna .pill {
+  background-color: hsl(235, 60%, 60%);
+  color: hsl(30, 70%, 97%);
+}
+
+.bg-canna button {
+  background-color: hsl(40, 90%, 70%);
+  color: hsl(240, 50%, 20%);
+
+}
+
 .bg-design-tokens {
     background-color: hsl(240, 50%, 20%);
     color: hsl(220, 70%, 97%);
