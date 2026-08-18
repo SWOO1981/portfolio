@@ -3,8 +3,8 @@
 }
 
 .hero-cs {
-    background-image: url(images/hero-canna.avif);
-    height: 860px;
+    background-image: url(images/img-hero-mobile.avif);
+    height: 680px;
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,7 +18,7 @@
 }
 
 .canvas .band {
-    background-image: linear-gradient(to bottom, #ffffff, #F9F4F1);
+    background-image: linear-gradient(to bottom, #ffffff, #EBEEF4);
 }
 
 .band-alt {
@@ -44,7 +44,7 @@ margin-top: calc(var(--radius-prominent) * -1);
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 4rem 4.5rem;
+    padding: 2rem 1.5rem 2.5rem 1.5rem;
     background-color: hsla(252, 66%, 60%, 1);
     width: 100%;
 }
@@ -99,6 +99,15 @@ margin-top: calc(var(--radius-prominent) * -1);
 
 /* Tablet & up (≥ 760px) */
 @media (min-width: 760px) {
+
+.hero-cs {
+    background-image: url(images/hero-canna.avif);
+    height: 860px;
+}
+
+.matte {
+    padding: 4rem 4rem 4.5rem 4rem;
+}
 
 .matte,
 .band-alt img {
