@@ -249,7 +249,7 @@ a:visited {
 
 .bg-meetups button {
   background-color: var(--gray-100);
-  color: hsl(350, 60%, 40%);
+  color: hsl(350, 40%, 30%);
 }
 
 .bg-rebrand {
@@ -471,7 +471,8 @@ button {
   border: none;
   color: var(--primary-yellow);
   padding: 0.875rem 1.5rem;
-  font-size: 1.125rem;
+  font-size: 1rem;
+  font-weight: 500;
   border-radius: 100px;
   cursor: pointer;
   align-self: flex-start;
@@ -754,7 +755,9 @@ button {
 }
 
 .label-small {
-  font-size: .56rem; /* 12 px */
+  font-size: .75rem; /* 12 px */
+  font-weight: 400;
+  letter-spacing: .02rem;
 }
 
 /* ----------------------------- */
