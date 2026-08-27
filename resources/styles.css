@@ -699,6 +699,10 @@ button {
   margin: var(--unit-standard) var(--unit-large) 12rem var(--unit-large);
 }
 
+.hero-content {
+  gap: 2.25rem;
+}
+
 .project {
   grid-template-columns: 2fr 1fr;
   padding-top: 5rem;
@@ -725,7 +729,7 @@ button {
 
 .display {
   font-size: 5.61rem; /* 89.76px */
-  line-height: 4.5rem;
+  line-height: 5rem;
   }
 
 .section-head {
@@ -736,6 +740,7 @@ button {
 .title {
   font-size: 1.78rem; /* 28.43 px */
   font-weight: 600;
+  line-height: 1.875rem;
   }
 
 .body {
