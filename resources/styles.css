@@ -176,7 +176,7 @@ a:visited {
 
 .project {
   display: grid;
-  gap: var(--gap-standard);
+  gap: 1.25rem;
   padding-top: 1.5rem;
   padding-bottom: 3rem;
 }
