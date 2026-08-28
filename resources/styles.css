@@ -178,13 +178,14 @@ a:visited {
   display: grid;
   gap: var(--gap-standard);
   padding-top: 1.5rem;
+  padding-bottom: 3rem;
 }
 
 .project-info {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: var(--gap-standard);
+  gap: var(--gap-tight);
 }
 
 .pill-group {
@@ -205,23 +206,23 @@ a:visited {
   background-color: var(--primary-magenta);
 }
 
-.bg-canna {
-  background-color: #4528A4;
-  color: #ffffff;
-}
-
-.bg-canna .pill {
-  border-color: hsl(235, 60%, 60%);
-  color: hsl(30, 70%, 97%);
-}
-
-.bg-canna button {
+.bg-work {
   background-color: var(--gray-100);
-  color: hsl(240, 50%, 20%);
+  color: var(--gray-900);
+}
+
+.bg-work .pill {
+  border-color: var(--gray-350);
+  color: var(--gray-900);
+}
+
+.bg-work button {
+  background-color: var(--gray-900);
+  color: var(--gray-100);
 
 }
 
-.bg-design-tokens {
+/* .bg-design-tokens {
     background-color: hsl(240, 50%, 20%);
     color: hsl(220, 70%, 97%);
 }
@@ -280,7 +281,7 @@ a:visited {
 .bg-facemask button {
   background-color: var(--gray-900);
   color: var(--gray-100);
-}
+} */
 
 .bg-meet-steven {
   background-color: var(--secondary-cyan);
@@ -711,6 +712,7 @@ button {
 .project {
   grid-template-columns: 2fr 1fr;
   padding-top: 5rem;
+  padding-bottom: 8rem;
   gap: 3rem;
 }
 
