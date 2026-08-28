@@ -91,7 +91,7 @@ a:visited {
 
 .display {
   font-family: "Bricolage Grotesque", sans-serif;
-  font-size: 3.25rem; /* 52px */
+  font-size: 3.16rem; /* 50.2 px */
   font-weight: 700;
   font-style: normal;
   font-variation-settings: "wdth" 100;
@@ -100,14 +100,14 @@ a:visited {
 
 .section-head {
     font-family: "Bricolage Grotesque", sans-serif;
-    font-size: 2.25rem;
+    font-size: 1.78rem; /* 28.43 */
     font-weight: 700;
     font-style: normal;
 }
 
 .title {
     font-family: "Bricolage Grotesque", sans-serif;
-    font-size: 1.875rem;
+    font-size: 1.33rem; /* 21.33 */
     line-height: 1.875rem;
     font-weight: 700;
     font-style: normal;
@@ -115,20 +115,20 @@ a:visited {
 
 .body {
     font-family: "Bricolage Grotesque", sans-serif;
-    font-size: 1.125rem; /* 18px */
+    font-size: 1rem; /* 16px */
     font-weight: 400;
     font-style: normal;
 }
 
 .body-large {
   font-family: "Bricolage Grotesque", sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.33rem; /* 21.33 px */
   font-weight: 400;
 }
 
 .body-small {
     font-family: "Bricolage Grotesque", sans-serif;
-    font-size: .875rem; /* 14px */
+    font-size: .75rem; /* 12px */
     font-weight: 400;
     font-style: normal;
 }
@@ -140,7 +140,7 @@ a:visited {
 
 .label-small {
     font-family: "Bricolage Grotesque", sans-serif;
-    font-size: .875rem; /* 14px */
+    font-size: .75rem; /* 12px */
     font-weight: 400;
     font-style: normal;
 }
@@ -674,6 +674,7 @@ button {
   gap: 1.5rem;
   margin: 2rem 0 4rem 0;
   align-self: center;
+  width: fit-content%;
 }
 
 
