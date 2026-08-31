@@ -663,6 +663,25 @@ button {
   object-fit: contain;
 }
 
+.meet-steven-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: var(--gray-100);
+  color: var(--secondary-cyan);
+  padding: 2.5rem;
+  gap: 2.5rem;
+  border-radius: var(--radius-standard);
+}
+
+.meet-steven-grid .content {
+  align-self: center;
+}
+
+.meet-steven-grid img {
+  width: 90%;
+  place-self: center;
+}
+
 .chip-email {
   display: flex;
   flex-direction: row;
@@ -898,22 +917,9 @@ button {
 }
 
 .meet-steven-grid {
-  display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: var(--gray-100);
-  color: var(--secondary-cyan);
   padding: 2rem 5rem 2rem 5rem;
   gap: 5rem;
-  border-radius: var(--radius-standard);
-}
-
-.meet-steven-grid .content {
-  align-self: center;
-}
-
-.meet-steven-grid img {
-  width: 100%;
-  place-self: center;
 }
 
 .color-grid {
