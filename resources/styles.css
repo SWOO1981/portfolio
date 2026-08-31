@@ -897,6 +897,25 @@ button {
     min-height: 300px;
 }
 
+.meet-steven-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: var(--gray-100);
+  color: var(--secondary-cyan);
+  padding: 2rem 5rem 2rem 5rem;
+  gap: 5rem;
+  border-radius: var(--radius-standard);
+}
+
+.meet-steven-grid .content {
+  align-self: center;
+}
+
+.meet-steven-grid img {
+  width: 100%;
+  place-self: center;
+}
+
 .color-grid {
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   }
